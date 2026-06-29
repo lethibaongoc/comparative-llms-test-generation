@@ -6,7 +6,7 @@
 
 \- meta-llama/llama-4-scout (OpenRouter, free)
 
-\- gemini-2.5-flash (Google AI Studio, free)
+\- gemini-3.5-flash (Google AI Studio, free tier 1500 req/day)
 
 \- deepseek-v4-flash (DeepSeek API, 5M free tokens)
 
