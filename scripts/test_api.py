@@ -2,25 +2,23 @@
 test_api.py - Gate E3: Test ket noi 4 LLM APIs
 Chay: python scripts/test_api.py
 """
-
 import os
+from dotenv import load_dotenv
 
-# ------------------------------------------------------------
-# 1. GEMINI 3.5 FLASH (Google AI Studio)
-# ------------------------------------------------------------
+load_dotenv()
+
 def test_gemini():
     try:
-        import google.generativeai as genai
-        genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-        model = genai.GenerativeModel("gemini-3.5-flash")
-        response = model.generate_content("Say: API OK")
+        from google import genai
+        client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents="Say: API OK"
+        )
         print(f"[GEMINI] OK - {response.text.strip()}")
     except Exception as e:
         print(f"[GEMINI] FAIL - {e}")
 
-# ------------------------------------------------------------
-# 2. DEEPSEEK V4 FLASH
-# ------------------------------------------------------------
 def test_deepseek():
     try:
         from openai import OpenAI
@@ -37,9 +35,6 @@ def test_deepseek():
     except Exception as e:
         print(f"[DEEPSEEK] FAIL - {e}")
 
-# ------------------------------------------------------------
-# 3. LLAMA 4 SCOUT (OpenRouter)
-# ------------------------------------------------------------
 def test_llama():
     try:
         from openai import OpenAI
@@ -56,9 +51,6 @@ def test_llama():
     except Exception as e:
         print(f"[LLAMA] FAIL - {e}")
 
-# ------------------------------------------------------------
-# 4. GPT-4O MINI (OpenAI)
-# ------------------------------------------------------------
 def test_gpt():
     try:
         from openai import OpenAI
@@ -72,7 +64,6 @@ def test_gpt():
     except Exception as e:
         print(f"[GPT] FAIL - {e}")
 
-# ------------------------------------------------------------
 if __name__ == "__main__":
     print("Testing 4 APIs...")
     test_gemini()
