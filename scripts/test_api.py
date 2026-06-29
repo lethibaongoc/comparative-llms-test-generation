@@ -6,13 +6,13 @@ Chay: python scripts/test_api.py
 import os
 
 # ------------------------------------------------------------
-# 1. GEMINI 2.5 FLASH (Google AI Studio)
+# 1. GEMINI 3.5 FLASH (Google AI Studio)
 # ------------------------------------------------------------
 def test_gemini():
     try:
         import google.generativeai as genai
         genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("gemini-3.5-flash")
         response = model.generate_content("Say: API OK")
         print(f"[GEMINI] OK - {response.text.strip()}")
     except Exception as e:
