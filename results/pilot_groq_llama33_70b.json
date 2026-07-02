@@ -1,0 +1,44 @@
+[
+  {
+    "method_id": "Lang-8",
+    "condition": "C1",
+    "status": "INVALID",
+    "output": null,
+    "error": "Connection error."
+  },
+  {
+    "method_id": "Lang-8",
+    "condition": "C2",
+    "status": "INVALID",
+    "output": null,
+    "error": "Connection error."
+  },
+  {
+    "method_id": "Math-53",
+    "condition": "C1",
+    "status": "INVALID",
+    "output": null,
+    "error": "Connection error."
+  },
+  {
+    "method_id": "Math-53",
+    "condition": "C2",
+    "status": "INVALID",
+    "output": null,
+    "error": "Connection error."
+  },
+  {
+    "method_id": "Lang-22",
+    "condition": "C1",
+    "status": "INVALID",
+    "output": null,
+    "error": "Connection error."
+  },
+  {
+    "method_id": "Lang-22",
+    "condition": "C2",
+    "status": "INVALID",
+    "output": null,
+    "error": "Connection error."
+  }
+]
