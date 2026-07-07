@@ -6,39 +6,52 @@ import static org.junit.jupiter.api.Assertions.*;
 public class FractionTest {
 
     @Test
-    public void testGreatestCommonDivisor_Zero() {
-        assertEquals(1, Fraction.greatestCommonDivisor(0, 1));
-        assertEquals(1, Fraction.greatestCommonDivisor(1, 0));
-        assertEquals(0, Fraction.greatestCommonDivisor(0, 0));
+    public void testGreatestCommonDivisor_ZeroAndZero_ThrowsArithmeticException() {
+        assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(0, 0));
     }
 
     @Test
-    public void testGreatestCommonDivisor_SimpleCases() {
+    public void testGreatestCommonDivisor_MinIntAndZero_ThrowsArithmeticException() {
+        assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, 0));
+    }
+
+    @Test
+    public void testGreatestCommonDivisor_OneAndOne_ReturnsOne() {
         assertEquals(1, Fraction.greatestCommonDivisor(1, 1));
+    }
+
+    @Test
+    public void testGreatestCommonDivisor_OneAndTwo_ReturnsOne() {
+        assertEquals(1, Fraction.greatestCommonDivisor(1, 2));
+    }
+
+    @Test
+    public void testGreatestCommonDivisor_TwoAndTwo_ReturnsTwo() {
         assertEquals(2, Fraction.greatestCommonDivisor(2, 2));
-        assertEquals(2, Fraction.greatestCommonDivisor(2, 4));
-        assertEquals(2, Fraction.greatestCommonDivisor(4, 2));
     }
 
     @Test
-    public void testGreatestCommonDivisor_MultipleCases() {
-        assertEquals(3, Fraction.greatestCommonDivisor(3, 6));
-        assertEquals(3, Fraction.greatestCommonDivisor(6, 3));
-        assertEquals(6, Fraction.greatestCommonDivisor(6, 12));
-        assertEquals(6, Fraction.greatestCommonDivisor(12, 6));
+    public void testGreatestCommonDivisor_FourAndSix_ReturnsTwo() {
+        assertEquals(2, Fraction.greatestCommonDivisor(4, 6));
     }
 
     @Test
-    public void testGreatestCommonDivisor_NegativeCases() {
+    public void testGreatestCommonDivisor_NegativeOneAndOne_ReturnsOne() {
         assertEquals(1, Fraction.greatestCommonDivisor(-1, 1));
-        assertEquals(1, Fraction.greatestCommonDivisor(1, -1));
-        assertEquals(2, Fraction.greatestCommonDivisor(-2, 2));
-        assertEquals(2, Fraction.greatestCommonDivisor(2, -2));
     }
 
     @Test
-    public void testGreatestCommonDivisor_Overflow() {
-        assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, 1));
-        assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(1, Integer.MIN_VALUE));
+    public void testGreatestCommonDivisor_NegativeTwoAndTwo_ReturnsTwo() {
+        assertEquals(2, Fraction.greatestCommonDivisor(-2, 2));
+    }
+
+    @Test
+    public void testGreatestCommonDivisor_NegativeFourAndNegativeSix_ReturnsTwo() {
+        assertEquals(2, Fraction.greatestCommonDivisor(-4, -6));
+    }
+
+    @Test
+    public void testGreatestCommonDivisor_LargeNumbers_ReturnsCorrectResult() {
+        assertEquals(1, Fraction.greatestCommonDivisor(12345, 67890));
     }
 }
