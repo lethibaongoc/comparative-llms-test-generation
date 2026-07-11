@@ -1,0 +1,62 @@
+[
+  {
+    "id": "Math-53",
+    "class": "Complex",
+    "method": "add",
+    "source": "public Complex add(Complex rhs) {\n  return new Complex(real + rhs.real, imaginary + rhs.imaginary);\n}"
+  },
+  {
+    "id": "Math-55",
+    "class": "Vector3D",
+    "method": "crossProduct",
+    "source": "public static Vector3D crossProduct(Vector3D v1, Vector3D v2) {\n  return new Vector3D(v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x);\n}"
+  },
+  {
+    "id": "Math-27",
+    "class": "Fraction",
+    "method": "percentageValue",
+    "source": "public double percentageValue() {\n  return multiply(100).doubleValue();\n}"
+  },
+  {
+    "id": "Math-9",
+    "class": "Line",
+    "method": "revert",
+    "source": "public Line revert() {\n  return new Line(zero, zero.subtract(direction));\n}"
+  },
+  {
+    "id": "Chart-10",
+    "class": "StandardToolTipTagFragmentGenerator",
+    "method": "generateToolTipFragment",
+    "source": "public String generateToolTipFragment(String toolTipText) {\n  return \" title=\" + toolTipText + \" alt=\";\n}"
+  },
+  {
+    "id": "Chart-11",
+    "class": "XYPlot",
+    "method": "equals",
+    "source": "public boolean equals(Object obj) {\n  if (obj == this) return true;\n  if (!(obj instanceof XYPlot)) return false;\n  XYPlot that = (XYPlot) obj;\n  return this.weight == that.weight && this.orientation == that.orientation;\n}"
+  },
+  {
+    "id": "Lang-8",
+    "class": "FastDateParser",
+    "method": "parse",
+    "source": "public Date parse(String source) throws ParseException {\n  ParsePosition pp = new ParsePosition(0);\n  Date date = parse(source, pp);\n  if (date == null) throw new ParseException(source, pp.getErrorIndex());\n  return date;\n}"
+  },
+  {
+    "id": "Math-2",
+    "class": "HypergeometricDistribution",
+    "method": "sample",
+    "source": "public int sample() {\n  return (int) FastMath.round(randomData.nextHypergeometric(populationSize, numberOfSuccesses, sampleSize));\n}"
+  },
+  {
+    "id": "Chart-1",
+    "class": "AbstractCategoryItemRenderer",
+    "method": "getLegendItems",
+    "source": "public LegendItemCollection getLegendItems() {\n  LegendItemCollection result = new LegendItemCollection();\n  if (this.plot == null) return result;\n  int index = this.plot.getIndexOf(this);\n  CategoryDataset dataset = this.plot.getDataset(index);\n  if (dataset == null) return result;\n  for (int i = 0; i < dataset.getRowCount(); i++) {\n    if (isSeriesVisibleInLegend(i)) result.add(getLegendItem(index, i));\n  }\n  return result;\n}"
+  },
+  {
+    "id": "Lang-10",
+    "class": "FastDateParser",
+    "method": "parsePattern",
+    "source": "public boolean parse(String source, ParsePosition pos) {\n  Matcher matcher = parsePattern.matcher(source.substring(pos.getIndex()));\n  if (!matcher.lookingAt()) return false;\n  pos.setIndex(pos.getIndex() + matcher.end());\n  return true;\n}"
+  }
+]
