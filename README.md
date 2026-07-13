@@ -24,10 +24,10 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 
 | Model | Provider | Access |
 |---|---|---|
-| `meta-llama/llama-4-scout` | OpenRouter | Free |
-| `gemini-3.5-flash` | Google AI Studio | Free tier (1500 req/day) |
+| `gemini-2.5-flash` | Google AI Studio | Free tier (1500 req/day) |
 | `deepseek-v4-flash` | DeepSeek API | Free (5M tokens) |
 | `gpt-4o-mini` | OpenAI | Billed |
+| `llama-3.3-70b-versatile` | Groq | Free |
 
 ## Dataset
 
@@ -68,14 +68,16 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   │   ├── README.md            # dataset provenance and focal method list
 │   │   └── methods/methods.json # focal method source + metadata
 │   └── generated/
-│       ├── gemini/               # Gemini outputs, {Project}-{Bug}_{C1|C2}.java
-│       └── llama/                # Llama outputs, {Project}-{Bug}_{C1|C2}.java
+│       ├── gemini/                     # gemini-2.5-flash outputs, {Project}-{Bug}_{C1|C2}.java
+│       └── llama/                      # Groq llama-3.3-70b-versatile outputs, {Project}-{Bug}_{C1|C2}.java
+│       # (llama-4-scout-openrouter/ may also appear if scripts/generate_tests.py's
+│       #  experimental OpenRouter path is ever run — not part of the 4-model lineup)
 ├── results/
 │   ├── PILOT_RESULTS.md          # pilot run report
 │   └── archive/                  # superseded/failed run artifacts
 ├── figures/                      # RQ1-4 charts (populated during analysis)
 ├── scripts/
-│   ├── generate_tests.py         # Gemini + Llama (OpenRouter) test generation
+│   ├── generate_tests.py         # Gemini test generation (+ experimental OpenRouter Llama path)
 │   ├── run_pilot_groq.py         # Groq Llama-3.3-70B pilot run
 │   └── test_api.py               # Gate E3 API connectivity check
 ├── requirements.txt

@@ -1,5 +1,7 @@
 # Status note (2026-07-13)
 
+**Model:** `gemini-2.5-flash` via Google AI Studio API (`scripts/generate_tests.py` → `generate_gemini()`).
+
 These 20 files were generated from an earlier, 10-method version of
 `data/raw/methods/methods.json` that has since been corrected (see
 `data/raw/README.md` and `results/PILOT_RESULTS.md`).

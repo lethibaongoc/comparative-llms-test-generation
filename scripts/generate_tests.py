@@ -63,6 +63,10 @@ def generate_gemini(prompt):
     return response.text.strip()
 
 def generate_llama(prompt):
+    # NOTE: this calls OpenRouter's meta-llama/llama-4-scout, which is NOT the
+    # team's actual Llama model (that's llama-3.3-70b-versatile via Groq, see
+    # results/PILOT_RESULTS.md and scripts/run_pilot_groq.py). Output below is
+    # saved under a distinct folder name so it can't collide with that data.
     from openai import OpenAI
     client = OpenAI(
         api_key=os.environ["OPENROUTER_API_KEY"],
@@ -108,7 +112,7 @@ def main():
             # Llama
             try:
                 result = generate_llama(prompt)
-                save_result(mid, "llama", condition, result)
+                save_result(mid, "llama-4-scout-openrouter", condition, result)
             except Exception as e:
                 print(f"  [LLAMA {condition}] FAIL - {e}")
 
