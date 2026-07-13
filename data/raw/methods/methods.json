@@ -3,210 +3,210 @@
     "id": "Lang-8",
     "class": "FastDatePrinter",
     "method": "appendTo",
-    "source": null,
-    "verified": false
+    "source": "public void appendTo(StringBuffer buffer, Calendar calendar) {\n    TimeZone zone = calendar.getTimeZone();\n    if (zone.useDaylightTime()\n            && calendar.get(Calendar.DST_OFFSET) != 0) {\n        buffer.append(getTimeZoneDisplay(zone, true, mStyle, mLocale));\n    } else {\n        buffer.append(getTimeZoneDisplay(zone, false, mStyle, mLocale));\n    }\n}",
+    "verified": true
   },
   {
     "id": "Lang-10",
     "class": "FastDateParser",
     "method": "escapeRegex",
-    "source": null,
-    "verified": false
+    "source": "private static StringBuilder escapeRegex(StringBuilder regex, String value, boolean unquote) {\n    for(int i= 0; i<value.length(); ++i) {\n        char c= value.charAt(i);\n        switch(c) {\n        case '\\'':\n            if(unquote) {\n                if(++i==value.length()) {\n                    return regex;\n                }\n                c= value.charAt(i);\n            }\n            break;\n        case '?':\n        case '[':\n        case ']':\n        case '(':\n        case ')':\n        case '{':\n        case '}':\n        case '\\\\':\n        case '|':\n        case '*':\n        case '+':\n        case '^':\n        case '$':\n        case '.':\n            regex.append('\\\\');\n        }\n        regex.append(c);\n    }\n    return regex;\n}",
+    "verified": true
   },
   {
     "id": "Lang-19",
     "class": "NumericEntityUnescaper",
     "method": "translate",
-    "source": null,
-    "verified": false
+    "source": "public int translate(CharSequence input, int index, Writer out) throws IOException {\n    int seqEnd = input.length();\n    // Uses -2 to ensure there is something after the &#\n    if(input.charAt(index) == '&' && index < seqEnd - 2 && input.charAt(index + 1) == '#') {\n        int start = index + 2;\n        boolean isHex = false;\n\n        char firstChar = input.charAt(start);\n        if(firstChar == 'x' || firstChar == 'X') {\n            start++;\n            isHex = true;\n\n            // Check there's more than just an x after the &#\n            if(start == seqEnd) {\n                return 0;\n            }\n        }\n\n        int end = start;\n        // Note that this supports character codes without a ; on the end\n        while(end < seqEnd && ( (input.charAt(end) >= '0' && input.charAt(end) <= '9') ||\n                                (input.charAt(end) >= 'a' && input.charAt(end) <= 'f') ||\n                                (input.charAt(end) >= 'A' && input.charAt(end) <= 'F') ) )\n        {\n            end++;\n        }\n\n        int entityValue;\n        try {\n            if(isHex) {\n                entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 16);\n            } else {\n                entityValue = Integer.parseInt(input.subSequence(start, end).toString(), 10);\n            }\n        } catch(NumberFormatException nfe) {\n        System.err.println(\"FAIL: \" + input.subSequence(start, end) + \"[\" + start +\"][\"+ end +\"]\");\n            return 0;\n        }\n\n        if(entityValue > 0xFFFF) {\n            char[] chrs = Character.toChars(entityValue);\n            out.write(chrs[0]);\n            out.write(chrs[1]);\n        } else {\n            out.write(entityValue);\n        }\n\n        boolean semiNext = (end != seqEnd) && (input.charAt(end) == ';');\n\n        return 2 + (end - start) + (isHex ? 1 : 0) + (semiNext ? 1 : 0);\n    }\n    return 0;\n}",
+    "verified": true
   },
   {
     "id": "Lang-22",
     "class": "Fraction",
     "method": "greatestCommonDivisor",
     "source": "private static int greatestCommonDivisor(int u, int v) {\n  if (u == 0 || v == 0) {\n    if (u == Integer.MIN_VALUE || v == Integer.MIN_VALUE) {\n      throw new ArithmeticException(\"overflow: gcd is 2^31\");\n    }\n    return Math.abs(u) + Math.abs(v);\n  }\n  if (u > 0) { u = -u; }\n  if (v > 0) { v = -v; }\n  int k = 0;\n  while ((u & 1) == 0 && (v & 1) == 0 && k < 31) {\n    u /= 2; v /= 2; k++;\n  }\n  if (k == 31) {\n    throw new ArithmeticException(\"overflow: gcd is 2^31\");\n  }\n  int t = ((u & 1) == 1) ? v : -u;\n  while (t != 0) {\n    while ((t & 1) == 0) { t /= 2; }\n    if (t > 0) { u = -t; } else { v = t; }\n    t = (v - u) / 2;\n  }\n  return -u * (1 << k);\n}",
-    "verified": false
+    "verified": true
   },
   {
     "id": "Lang-26",
     "class": "FastDateFormat",
     "method": "format",
-    "source": null,
-    "verified": false
+    "source": "public String format(Date date) {\n    Calendar c = new GregorianCalendar(mTimeZone, mLocale);\n    c.setTime(date);\n    return applyRules(c, new StringBuffer(mMaxLengthEstimate)).toString();\n}",
+    "verified": true
   },
   {
     "id": "Lang-30",
     "class": "StringUtils",
     "method": "containsAny",
-    "source": null,
-    "verified": false
+    "source": "public static boolean containsAny(String cs, char[] searchChars) {\n    if (isEmpty(cs) || ArrayUtils.isEmpty(searchChars)) {\n        return false;\n    }\n    int csLength = cs.length();\n    int searchLength = searchChars.length;\n    int csLast = csLength - 1;\n    int searchLast = searchLength - 1;\n    for (int i = 0; i < csLength; i++) {\n        char ch = cs.charAt(i);\n        for (int j = 0; j < searchLength; j++) {\n            if (searchChars[j] == ch) {\n                if (Character.isHighSurrogate(ch)) {\n                    if (j == searchLast) {\n                        // missing low surrogate, fine, like String.indexOf(String)\n                        return true;\n                    }\n                    if (i < csLast && searchChars[j + 1] == cs.charAt(i + 1)) {\n                        return true;\n                    }\n                } else {\n                    // ch is in the Basic Multilingual Plane\n                    return true;\n                }\n            }\n        }\n    }\n    return false;\n}",
+    "verified": true
   },
   {
     "id": "Lang-41",
     "class": "ClassUtils",
     "method": "getPackageName",
-    "source": null,
-    "verified": false
+    "source": "public static String getPackageName(String className) {\n    if (className == null || className.length() == 0) {\n        return StringUtils.EMPTY;\n    }\n\n    // Strip array encoding\n    while (className.charAt(0) == '[') {\n        className = className.substring(1);\n    }\n    // Strip Object type encoding\n    if (className.charAt(0) == 'L' && className.charAt(className.length() - 1) == ';') {\n        className = className.substring(1);\n    }\n\n    int i = className.lastIndexOf(PACKAGE_SEPARATOR_CHAR);\n    if (i == -1) {\n        return StringUtils.EMPTY;\n    }\n    return className.substring(0, i);\n}",
+    "verified": true
   },
   {
     "id": "Lang-42",
     "class": "Entities",
     "method": "escape",
-    "source": null,
-    "verified": false
+    "source": "public void escape(Writer writer, String str) throws IOException {\n    int len = str.length();\n    for (int i = 0; i < len; i++) {\n        int c = Character.codePointAt(str, i); \n        String entityName = this.entityName(c);\n        if (entityName == null) {\n            if (c >= 0x010000 && i < len - 1) {\n                writer.write(\"&#\");\n                writer.write(Integer.toString(c, 10));\n                writer.write(';');\n                i++;\n            } else if (c > 0x7F) { \n                writer.write(\"&#\");\n                writer.write(Integer.toString(c, 10));\n                writer.write(';');\n            } else {\n                writer.write(c);\n            }\n        } else {\n            writer.write('&');\n            writer.write(entityName);\n            writer.write(';');\n        }\n    }\n}",
+    "verified": true
   },
   {
     "id": "Lang-57",
     "class": "LocaleUtils",
     "method": "isAvailableLocale",
-    "source": null,
-    "verified": false
+    "source": "public static boolean isAvailableLocale(Locale locale) {\n    return availableLocaleList().contains(locale);\n}",
+    "verified": true
   },
   {
     "id": "Lang-60",
     "class": "StrBuilder",
     "method": "contains",
-    "source": null,
-    "verified": false
+    "source": "public boolean contains(char ch) {\n    char[] thisBuf = buffer;\n    for (int i = 0; i < this.size; i++) {\n        if (thisBuf[i] == ch) {\n            return true;\n        }\n    }\n    return false;\n}",
+    "verified": true
   },
   {
     "id": "Math-2",
     "class": "HypergeometricDistribution",
     "method": "getNumericalMean",
-    "source": null,
-    "verified": false
+    "source": "public double getNumericalMean() {\n    return getSampleSize() * (getNumberOfSuccesses() / (double) getPopulationSize());\n}",
+    "verified": true
   },
   {
     "id": "Math-9",
     "class": "Line",
     "method": "revert",
     "source": "public Line revert() {\n  return new Line(zero, zero.subtract(direction));\n}",
-    "verified": false
+    "verified": true
   },
   {
     "id": "Math-27",
     "class": "Fraction",
     "method": "percentageValue",
     "source": "public double percentageValue() {\n  return multiply(100).doubleValue();\n}",
-    "verified": false
+    "verified": true
   },
   {
     "id": "Math-53",
     "class": "Complex",
     "method": "add",
-    "source": null,
-    "verified": false
+    "source": "public Complex add(Complex rhs)\n    throws NullArgumentException {\n    MathUtils.checkNotNull(rhs);\n    if (isNaN || rhs.isNaN) {\n        return NaN;\n    }\n    return createComplex(real + rhs.getReal(),\n        imaginary + rhs.getImaginary());\n}",
+    "verified": true
   },
   {
     "id": "Math-55",
     "class": "Vector3D",
     "method": "crossProduct",
     "source": "public static Vector3D crossProduct(Vector3D v1, Vector3D v2) {\n  return new Vector3D(v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x);\n}",
-    "verified": false
+    "verified": true
   },
   {
     "id": "Math-59",
     "class": "FastMath",
     "method": "max",
-    "source": null,
-    "verified": false
+    "source": "public static float max(final float a, final float b) {\n    return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : a);\n}",
+    "verified": true
   },
   {
     "id": "Math-63",
     "class": "MathUtils",
     "method": "equals",
-    "source": null,
-    "verified": false
+    "source": "public static boolean equals(double x, double y) {\n    return equals(x, y, 1);\n}",
+    "verified": true
   },
   {
     "id": "Math-70",
     "class": "BisectionSolver",
     "method": "solve",
-    "source": null,
-    "verified": false
+    "source": "public double solve(final UnivariateRealFunction f, double min, double max, double initial)\n    throws MaxIterationsExceededException, FunctionEvaluationException {\n    return solve(f, min, max);\n}",
+    "verified": true
   },
   {
     "id": "Math-75",
     "class": "Frequency",
     "method": "getPct",
-    "source": null,
-    "verified": false
+    "source": "public double getPct(Object v) {\n    return getPct((Comparable<?>) v);\n}",
+    "verified": true
   },
   {
     "id": "Math-79",
     "class": "MathUtils",
     "method": "distance",
-    "source": null,
-    "verified": false
+    "source": "public static double distance(int[] p1, int[] p2) {\n  double sum = 0;\n  for (int i = 0; i < p1.length; i++) {\n      final double dp = p1[i] - p2[i];\n      sum += dp * dp;\n  }\n  return Math.sqrt(sum);\n}",
+    "verified": true
   },
   {
     "id": "Chart-1",
     "class": "AbstractCategoryItemRenderer",
     "method": "getLegendItems",
     "source": "public LegendItemCollection getLegendItems() {\n  LegendItemCollection result = new LegendItemCollection();\n  if (this.plot == null) return result;\n  int index = this.plot.getIndexOf(this);\n  CategoryDataset dataset = this.plot.getDataset(index);\n  if (dataset == null) return result;\n  for (int i = 0; i < dataset.getRowCount(); i++) {\n    if (isSeriesVisibleInLegend(i)) result.add(getLegendItem(index, i));\n  }\n  return result;\n}",
-    "verified": false
+    "verified": true
   },
   {
     "id": "Chart-10",
     "class": "StandardToolTipTagFragmentGenerator",
     "method": "generateToolTipFragment",
-    "source": "public String generateToolTipFragment(String toolTipText) {\n  return \" title=\" + toolTipText + \" alt=\";\n}",
-    "verified": false
+    "source": "public String generateToolTipFragment(String toolTipText) {\n    return \" title=\\\"\" + ImageMapUtilities.htmlEscape(toolTipText)\n        + \"\\\" alt=\\\"\\\"\";\n}",
+    "verified": true
   },
   {
     "id": "Chart-11",
     "class": "ShapeUtilities",
     "method": "equal",
-    "source": null,
-    "verified": false
+    "source": "public static boolean equal(final GeneralPath p1, final GeneralPath p2) {\n    if (p1 == null) {\n        return (p2 == null);\n    }\n    if (p2 == null) {\n        return false;\n    }\n    if (p1.getWindingRule() != p2.getWindingRule()) {\n        return false;\n    }\n    PathIterator iterator1 = p1.getPathIterator(null);\n    PathIterator iterator2 = p2.getPathIterator(null);\n    double[] d1 = new double[6];\n    double[] d2 = new double[6];\n    boolean done = iterator1.isDone() && iterator2.isDone();\n    while (!done) {\n        if (iterator1.isDone() != iterator2.isDone()) {\n            return false;\n        }\n        int seg1 = iterator1.currentSegment(d1);\n        int seg2 = iterator2.currentSegment(d2);\n        if (seg1 != seg2) {\n            return false;\n        }\n        if (!Arrays.equals(d1, d2)) {\n            return false;\n        }\n        iterator1.next();\n        iterator2.next();\n        done = iterator1.isDone() && iterator2.isDone();\n    }\n    return true;\n}",
+    "verified": true
   },
   {
     "id": "Chart-15",
     "class": "PiePlot",
     "method": "getMaximumExplodePercent",
-    "source": null,
-    "verified": false
+    "source": "public double getMaximumExplodePercent() {\n    if (this.dataset == null) {\n        return 0.0;\n    }\n    double result = 0.0;\n    Iterator iterator = this.dataset.getKeys().iterator();\n    while (iterator.hasNext()) {\n        Comparable key = (Comparable) iterator.next();\n        Number explode = (Number) this.explodePercentages.get(key);\n        if (explode != null) {\n            result = Math.max(result, explode.doubleValue());   \n        }\n    }\n    return result;\n}",
+    "verified": true
   },
   {
     "id": "Chart-17",
     "class": "TimeSeries",
     "method": "clone",
-    "source": null,
-    "verified": false
+    "source": "public Object clone() throws CloneNotSupportedException {\n    TimeSeries clone = (TimeSeries) super.clone();\n    clone.data = (List) ObjectUtilities.deepClone(this.data);\n    return clone;\n}",
+    "verified": true
   },
   {
     "id": "Chart-19",
     "class": "CategoryPlot",
     "method": "getDomainAxisIndex",
-    "source": null,
-    "verified": false
+    "source": "public int getDomainAxisIndex(CategoryAxis axis) {\n    if (axis == null) {\n        throw new IllegalArgumentException(\"Null 'axis' argument.\");\n    }\n    return this.domainAxes.indexOf(axis);\n}",
+    "verified": true
   },
   {
     "id": "Chart-21",
     "class": "DefaultBoxAndWhiskerCategoryDataset",
     "method": "updateBounds",
-    "source": null,
-    "verified": false
+    "source": "private void updateBounds() {\n    this.minimumRangeValue = Double.NaN;\n    this.minimumRangeValueRow = -1;\n    this.minimumRangeValueColumn = -1;\n    this.maximumRangeValue = Double.NaN;\n    this.maximumRangeValueRow = -1;\n    this.maximumRangeValueColumn = -1;\n    int rowCount = getRowCount();\n    int columnCount = getColumnCount();\n    for (int r = 0; r < rowCount; r++) {\n        for (int c = 0; c < columnCount; c++) {\n            BoxAndWhiskerItem item = getItem(r, c);\n            if (item != null) {\n                Number min = item.getMinOutlier();\n                if (min != null) {\n                    double minv = min.doubleValue();\n                    if (!Double.isNaN(minv)) {\n                        if (minv < this.minimumRangeValue || Double.isNaN(\n                                this.minimumRangeValue)) {\n                            this.minimumRangeValue = minv;\n                            this.minimumRangeValueRow = r;\n                            this.minimumRangeValueColumn = c;\n                        }\n                    }\n                }\n                Number max = item.getMaxOutlier();\n                if (max != null) {\n                    double maxv = max.doubleValue();\n                    if (!Double.isNaN(maxv)) {\n                        if (maxv > this.maximumRangeValue || Double.isNaN(\n                                this.maximumRangeValue)) {\n                            this.maximumRangeValue = maxv;\n                            this.maximumRangeValueRow = r;\n                            this.maximumRangeValueColumn = c;\n                        }\n                    }\n                }\n            }\n        }\n    }\n}",
+    "verified": true
   },
   {
     "id": "Chart-22",
     "class": "KeyedObjects2D",
     "method": "removeRow",
-    "source": null,
-    "verified": false
+    "source": "public void removeRow(Comparable rowKey) {\n    int index = getRowIndex(rowKey);\n    if (index < 0) {\n        throw new UnknownKeyException(\"Row key (\" + rowKey\n                + \") not recognised.\");\n    }\n    removeRow(index);\n}",
+    "verified": true
   },
   {
     "id": "Chart-23",
     "class": "MinMaxCategoryRenderer",
     "method": "equals",
-    "source": null,
-    "verified": false
+    "source": "public boolean equals(Object obj) {\n    if (obj == this) {\n        return true;\n    }\n    if (!(obj instanceof MinMaxCategoryRenderer)) {\n        return false;\n    }\n    MinMaxCategoryRenderer that = (MinMaxCategoryRenderer) obj;\n    if (this.plotLines != that.plotLines) {\n        return false;\n    }\n    if (!PaintUtilities.equal(this.groupPaint, that.groupPaint)) {\n        return false;\n    }\n    if (!this.groupStroke.equals(that.groupStroke)) {\n        return false;\n    }\n    return super.equals(obj);\n}",
+    "verified": true
   },
   {
     "id": "Chart-24",
     "class": "GrayPaintScale",
     "method": "getPaint",
-    "source": null,
-    "verified": false
+    "source": "public Paint getPaint(double value) {\n    double v = Math.max(value, this.lowerBound);\n    v = Math.min(v, this.upperBound);\n    int g = (int) ((v - this.lowerBound) / (this.upperBound\n            - this.lowerBound) * 255.0);\n    return new Color(g, g, g);\n}",
+    "verified": true
   }
 ]
