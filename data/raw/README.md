@@ -18,3 +18,31 @@
 
 \- License: Defects4J is available for research use
 
+
+
+\## methods.json status (2026-07-13)
+
+\- `methods/methods.json` now lists all 30 approved IDs with the class/method
+
+  names verified in `results/PILOT_RESULTS.md`'s methodology (real Defects4J
+
+  source pulled via `git show`/pickaxe search against `apache/commons-lang`,
+
+  `apache/commons-math`, `jfree/jfreechart`).
+
+\- Most `source` fields are intentionally `null` (`"verified": false`) — the
+
+  actual verified Java source was never saved as structured data and must be
+
+  re-fetched from the real commits before `scripts/generate_tests.py` is run
+
+  for those IDs. A handful of simple methods kept a plausible placeholder
+
+  source carried over from an earlier draft, but those are also marked
+
+  `"verified": false` since they were never checked against the real commit
+
+  either — do not treat any entry here as ground truth until `verified: true`.
+
+\- See `results/PILOT_RESULTS.md` for the verification methodology to reuse.
+

@@ -1,62 +1,212 @@
 [
   {
-    "id": "Math-53",
-    "class": "Complex",
-    "method": "add",
-    "source": "public Complex add(Complex rhs) {\n  return new Complex(real + rhs.real, imaginary + rhs.imaginary);\n}"
+    "id": "Lang-8",
+    "class": "FastDatePrinter",
+    "method": "appendTo",
+    "source": null,
+    "verified": false
   },
   {
-    "id": "Math-55",
-    "class": "Vector3D",
-    "method": "crossProduct",
-    "source": "public static Vector3D crossProduct(Vector3D v1, Vector3D v2) {\n  return new Vector3D(v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x);\n}"
+    "id": "Lang-10",
+    "class": "FastDateParser",
+    "method": "escapeRegex",
+    "source": null,
+    "verified": false
   },
   {
-    "id": "Math-27",
+    "id": "Lang-19",
+    "class": "NumericEntityUnescaper",
+    "method": "translate",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Lang-22",
     "class": "Fraction",
-    "method": "percentageValue",
-    "source": "public double percentageValue() {\n  return multiply(100).doubleValue();\n}"
+    "method": "greatestCommonDivisor",
+    "source": "private static int greatestCommonDivisor(int u, int v) {\n  if (u == 0 || v == 0) {\n    if (u == Integer.MIN_VALUE || v == Integer.MIN_VALUE) {\n      throw new ArithmeticException(\"overflow: gcd is 2^31\");\n    }\n    return Math.abs(u) + Math.abs(v);\n  }\n  if (u > 0) { u = -u; }\n  if (v > 0) { v = -v; }\n  int k = 0;\n  while ((u & 1) == 0 && (v & 1) == 0 && k < 31) {\n    u /= 2; v /= 2; k++;\n  }\n  if (k == 31) {\n    throw new ArithmeticException(\"overflow: gcd is 2^31\");\n  }\n  int t = ((u & 1) == 1) ? v : -u;\n  while (t != 0) {\n    while ((t & 1) == 0) { t /= 2; }\n    if (t > 0) { u = -t; } else { v = t; }\n    t = (v - u) / 2;\n  }\n  return -u * (1 << k);\n}",
+    "verified": false
+  },
+  {
+    "id": "Lang-26",
+    "class": "FastDateFormat",
+    "method": "format",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Lang-30",
+    "class": "StringUtils",
+    "method": "containsAny",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Lang-41",
+    "class": "ClassUtils",
+    "method": "getPackageName",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Lang-42",
+    "class": "Entities",
+    "method": "escape",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Lang-57",
+    "class": "LocaleUtils",
+    "method": "isAvailableLocale",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Lang-60",
+    "class": "StrBuilder",
+    "method": "contains",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Math-2",
+    "class": "HypergeometricDistribution",
+    "method": "getNumericalMean",
+    "source": null,
+    "verified": false
   },
   {
     "id": "Math-9",
     "class": "Line",
     "method": "revert",
-    "source": "public Line revert() {\n  return new Line(zero, zero.subtract(direction));\n}"
+    "source": "public Line revert() {\n  return new Line(zero, zero.subtract(direction));\n}",
+    "verified": false
   },
   {
-    "id": "Chart-10",
-    "class": "StandardToolTipTagFragmentGenerator",
-    "method": "generateToolTipFragment",
-    "source": "public String generateToolTipFragment(String toolTipText) {\n  return \" title=\" + toolTipText + \" alt=\";\n}"
+    "id": "Math-27",
+    "class": "Fraction",
+    "method": "percentageValue",
+    "source": "public double percentageValue() {\n  return multiply(100).doubleValue();\n}",
+    "verified": false
   },
   {
-    "id": "Chart-11",
-    "class": "XYPlot",
+    "id": "Math-53",
+    "class": "Complex",
+    "method": "add",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Math-55",
+    "class": "Vector3D",
+    "method": "crossProduct",
+    "source": "public static Vector3D crossProduct(Vector3D v1, Vector3D v2) {\n  return new Vector3D(v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x);\n}",
+    "verified": false
+  },
+  {
+    "id": "Math-59",
+    "class": "FastMath",
+    "method": "max",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Math-63",
+    "class": "MathUtils",
     "method": "equals",
-    "source": "public boolean equals(Object obj) {\n  if (obj == this) return true;\n  if (!(obj instanceof XYPlot)) return false;\n  XYPlot that = (XYPlot) obj;\n  return this.weight == that.weight && this.orientation == that.orientation;\n}"
+    "source": null,
+    "verified": false
   },
   {
-    "id": "Lang-8",
-    "class": "FastDateParser",
-    "method": "parse",
-    "source": "public Date parse(String source) throws ParseException {\n  ParsePosition pp = new ParsePosition(0);\n  Date date = parse(source, pp);\n  if (date == null) throw new ParseException(source, pp.getErrorIndex());\n  return date;\n}"
+    "id": "Math-70",
+    "class": "BisectionSolver",
+    "method": "solve",
+    "source": null,
+    "verified": false
   },
   {
-    "id": "Math-2",
-    "class": "HypergeometricDistribution",
-    "method": "sample",
-    "source": "public int sample() {\n  return (int) FastMath.round(randomData.nextHypergeometric(populationSize, numberOfSuccesses, sampleSize));\n}"
+    "id": "Math-75",
+    "class": "Frequency",
+    "method": "getPct",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Math-79",
+    "class": "MathUtils",
+    "method": "distance",
+    "source": null,
+    "verified": false
   },
   {
     "id": "Chart-1",
     "class": "AbstractCategoryItemRenderer",
     "method": "getLegendItems",
-    "source": "public LegendItemCollection getLegendItems() {\n  LegendItemCollection result = new LegendItemCollection();\n  if (this.plot == null) return result;\n  int index = this.plot.getIndexOf(this);\n  CategoryDataset dataset = this.plot.getDataset(index);\n  if (dataset == null) return result;\n  for (int i = 0; i < dataset.getRowCount(); i++) {\n    if (isSeriesVisibleInLegend(i)) result.add(getLegendItem(index, i));\n  }\n  return result;\n}"
+    "source": "public LegendItemCollection getLegendItems() {\n  LegendItemCollection result = new LegendItemCollection();\n  if (this.plot == null) return result;\n  int index = this.plot.getIndexOf(this);\n  CategoryDataset dataset = this.plot.getDataset(index);\n  if (dataset == null) return result;\n  for (int i = 0; i < dataset.getRowCount(); i++) {\n    if (isSeriesVisibleInLegend(i)) result.add(getLegendItem(index, i));\n  }\n  return result;\n}",
+    "verified": false
   },
   {
-    "id": "Lang-10",
-    "class": "FastDateParser",
-    "method": "parsePattern",
-    "source": "public boolean parse(String source, ParsePosition pos) {\n  Matcher matcher = parsePattern.matcher(source.substring(pos.getIndex()));\n  if (!matcher.lookingAt()) return false;\n  pos.setIndex(pos.getIndex() + matcher.end());\n  return true;\n}"
+    "id": "Chart-10",
+    "class": "StandardToolTipTagFragmentGenerator",
+    "method": "generateToolTipFragment",
+    "source": "public String generateToolTipFragment(String toolTipText) {\n  return \" title=\" + toolTipText + \" alt=\";\n}",
+    "verified": false
+  },
+  {
+    "id": "Chart-11",
+    "class": "ShapeUtilities",
+    "method": "equal",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Chart-15",
+    "class": "PiePlot",
+    "method": "getMaximumExplodePercent",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Chart-17",
+    "class": "TimeSeries",
+    "method": "clone",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Chart-19",
+    "class": "CategoryPlot",
+    "method": "getDomainAxisIndex",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Chart-21",
+    "class": "DefaultBoxAndWhiskerCategoryDataset",
+    "method": "updateBounds",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Chart-22",
+    "class": "KeyedObjects2D",
+    "method": "removeRow",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Chart-23",
+    "class": "MinMaxCategoryRenderer",
+    "method": "equals",
+    "source": null,
+    "verified": false
+  },
+  {
+    "id": "Chart-24",
+    "class": "GrayPaintScale",
+    "method": "getPaint",
+    "source": null,
+    "verified": false
   }
 ]

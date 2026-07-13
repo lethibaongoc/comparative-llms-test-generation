@@ -63,9 +63,24 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 ## Project Structure
 
 ```
-├── data/raw/README.md   # dataset provenance and focal method list
-├── scripts/test_api.py  # Gate E3 API connectivity check
-├── notes.md             # model config, seeds, prompt conditions, decisions log
+├── data/
+│   ├── raw/
+│   │   ├── README.md            # dataset provenance and focal method list
+│   │   └── methods/methods.json # focal method source + metadata
+│   └── generated/
+│       ├── gemini/               # Gemini outputs, {Project}-{Bug}_{C1|C2}.java
+│       └── llama/                # Llama outputs, {Project}-{Bug}_{C1|C2}.java
+├── results/
+│   ├── PILOT_RESULTS.md          # pilot run report
+│   └── archive/                  # superseded/failed run artifacts
+├── figures/                      # RQ1-4 charts (populated during analysis)
+├── scripts/
+│   ├── generate_tests.py         # Gemini + Llama (OpenRouter) test generation
+│   ├── run_pilot_groq.py         # Groq Llama-3.3-70B pilot run
+│   └── test_api.py               # Gate E3 API connectivity check
+├── requirements.txt
+├── .env.example
+├── notes.md                      # model config, seeds, prompt conditions, decisions log
 └── README.md
 ```
 
