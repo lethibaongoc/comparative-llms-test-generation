@@ -1,60 +1,69 @@
 @Test
 void testFormatWithDate() {
     FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd");
-    Date date = new Date(0); // 1970-01-01
-    String result = formatter.format(date);
-    assertNotNull(result);
-    assertTrue(result.startsWith("1970-01-"));
+    Date date = new Date(2023 - 1900, 5, 15);
+    assertEquals("2023-06-15", formatter.format(date));
 }
 
 @Test
-void testFormatWithTimeZone() {
-    FastDateFormat formatter = FastDateFormat.getInstance("HH:mm:ss", TimeZone.getTimeZone("GMT"));
-    Date date = new Date(0);
-    String result = formatter.format(date);
-    assertEquals("00:00:00", result);
+void testFormatWithSpecificTimeZone() {
+    TimeZone tz = TimeZone.getTimeZone("America/New_York");
+    FastDateFormat formatter = FastDateFormat.getInstance("HH:mm", tz);
+    Date date = new Date(2023 - 1900, 5, 15, 14, 30);
+    assertEquals("14:30", formatter.format(date));
 }
 
 @Test
 void testFormatWithLocale() {
-    FastDateFormat formatter = FastDateFormat.getInstance("EEEE", Locale.FRANCE);
-    Date date = new Date(0);
-    String result = formatter.format(date);
-    assertEquals("jeudi", result);
-}
-
-@Test
-void testFormatWithCustomPattern() {
-    FastDateFormat formatter = FastDateFormat.getInstance("MM/dd/yyyy HH:mm");
-    Date date = new Date(0);
-    String result = formatter.format(date);
-    assertNotNull(result);
-    assertTrue(result.matches("\\d{2}/\\d{2}/\\d{4} \\d{2}:\\d{2}"));
+    Locale locale = Locale.GERMANY;
+    FastDateFormat formatter = FastDateFormat.getInstance("EEEE", locale);
+    Date date = new Date(2023 - 1900, 5, 15);
+    assertEquals("Donnerstag", formatter.format(date));
 }
 
 @Test
 void testFormatWithNullDate() {
     FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd");
-    assertThrows(NullPointerException.class, () -> formatter.format((Date) null));
+    assertThrows(NullPointerException.class, () -> formatter.format(null));
 }
 
 @Test
-void testFormatMultipleTimes() {
-    FastDateFormat formatter = FastDateFormat.getInstance("yyyy");
-    Date date1 = new Date(0);
-    Date date2 = new Date(1000000000000L);
-    String result1 = formatter.format(date1);
-    String result2 = formatter.format(date2);
-    assertNotEquals(result1, result2);
-    assertEquals("1970", result1);
-    assertEquals("2001", result2);
+void testFormatWithComplexPattern() {
+    FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss.SSS");
+    Date date = new Date(2023 - 1900, 5, 15, 10, 30, 45);
+    String result = formatter.format(date);
+    assertTrue(result.matches("2023-06-15 10:30:45\\.\\d{3}"));
 }
 
 @Test
-void testFormatWithTimeZoneConversion() {
-    FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss", TimeZone.getTimeZone("America/New_York"));
+void testFormatWithEpochDate() {
+    FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd");
     Date date = new Date(0);
+    assertEquals("1970-01-01", formatter.format(date));
+}
+
+@Test
+void testFormatWithLeapYear() {
+    FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd");
+    Date date = new Date(2020 - 1900, 1, 29);
+    assertEquals("2020-02-29", formatter.format(date));
+}
+
+@Test
+void testFormatWithDifferentTimeZones() {
+    TimeZone utc = TimeZone.getTimeZone("UTC");
+    TimeZone est = TimeZone.getTimeZone("America/New_York");
+    FastDateFormat formatterUtc = FastDateFormat.getInstance("yyyy-MM-dd HH:mm", utc);
+    FastDateFormat formatterEst = FastDateFormat.getInstance("yyyy-MM-dd HH:mm", est);
+    Date date = new Date(2023 - 1900, 5, 15, 12, 0);
+    assertNotEquals(formatterUtc.format(date), formatterEst.format(date));
+}
+
+@Test
+void testFormatWithMaxLengthEstimate() {
+    FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss.SSSZ");
+    Date date = new Date(2023 - 1900, 5, 15, 10, 30, 45);
     String result = formatter.format(date);
     assertNotNull(result);
-    assertFalse(result.contains("1970-01-01 00:00:00"));
+    assertFalse(result.isEmpty());
 }
