@@ -1,64 +1,69 @@
 @Test
 void testGetPackageNameWithNull() {
-    assertEquals(StringUtils.EMPTY, ClassUtils.getPackageName(null));
+    assertEquals(StringUtils.EMPTY, getPackageName(null));
 }
 
 @Test
 void testGetPackageNameWithEmptyString() {
-    assertEquals(StringUtils.EMPTY, ClassUtils.getPackageName(""));
+    assertEquals(StringUtils.EMPTY, getPackageName(""));
 }
 
 @Test
 void testGetPackageNameWithSimpleClassName() {
-    assertEquals(StringUtils.EMPTY, ClassUtils.getPackageName("MyClass"));
+    assertEquals(StringUtils.EMPTY, getPackageName("MyClass"));
 }
 
 @Test
 void testGetPackageNameWithFullyQualifiedName() {
-    assertEquals("com.example", ClassUtils.getPackageName("com.example.MyClass"));
+    assertEquals("com.example", getPackageName("com.example.MyClass"));
 }
 
 @Test
 void testGetPackageNameWithNestedPackage() {
-    assertEquals("com.example.test", ClassUtils.getPackageName("com.example.test.MyClass"));
-}
-
-@Test
-void testGetPackageNameWithArrayType() {
-    assertEquals("java.lang", ClassUtils.getPackageName("[Ljava.lang.String;"));
-}
-
-@Test
-void testGetPackageNameWithMultiDimensionalArray() {
-    assertEquals("java.util", ClassUtils.getPackageName("[[Ljava.util.ArrayList;"));
-}
-
-@Test
-void testGetPackageNameWithPrimitiveArray() {
-    assertEquals(StringUtils.EMPTY, ClassUtils.getPackageName("[I"));
-}
-
-@Test
-void testGetPackageNameWithObjectTypeEncoding() {
-    assertEquals("com.example", ClassUtils.getPackageName("Lcom.example.MyClass;"));
-}
-
-@Test
-void testGetPackageNameWithArrayOfObjectType() {
-    assertEquals("com.example", ClassUtils.getPackageName("[Lcom.example.MyClass;"));
+    assertEquals("com.example.util", getPackageName("com.example.util.StringHelper"));
 }
 
 @Test
 void testGetPackageNameWithClassInDefaultPackage() {
-    assertEquals(StringUtils.EMPTY, ClassUtils.getPackageName("DefaultClass"));
+    assertEquals(StringUtils.EMPTY, getPackageName("DefaultClass"));
 }
 
 @Test
-void testGetPackageNameWithPackageSeparatorAtEnd() {
-    assertEquals("com.example.", ClassUtils.getPackageName("com.example.MyClass"));
+void testGetPackageNameWithArrayType() {
+    assertEquals("java.util", getPackageName("[Ljava.util.List;"));
 }
 
 @Test
-void testGetPackageNameWithOnlyPackageSeparator() {
-    assertEquals(StringUtils.EMPTY, ClassUtils.getPackageName("."));
+void testGetPackageNameWithMultiDimensionalArray() {
+    assertEquals("java.lang", getPackageName("[[Ljava.lang.String;"));
+}
+
+@Test
+void testGetPackageNameWithPrimitiveArray() {
+    assertEquals(StringUtils.EMPTY, getPackageName("[I"));
+}
+
+@Test
+void testGetPackageNameWithObjectTypeEncoding() {
+    assertEquals("com.test", getPackageName("Lcom.test.MyClass;"));
+}
+
+@Test
+void testGetPackageNameWithArrayAndObjectEncoding() {
+    assertEquals("org.example", getPackageName("[Lorg.example.Data;"));
+}
+
+@Test
+void testGetPackageNameWithClassNameContainingDots() {
+    assertEquals("com.foo.bar", getPackageName("com.foo.bar.MyClass"));
+}
+
+@Test
+void testGetPackageNameWithNoPackageSeparator() {
+    assertEquals(StringUtils.EMPTY, getPackageName("SingleClass"));
+}
+
+@Test
+void testGetPackageNameWithPackageSeparatorAtStart() {
+    assertEquals(StringUtils.EMPTY, getPackageName(".HiddenClass"));
 }
