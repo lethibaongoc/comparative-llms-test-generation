@@ -192,3 +192,41 @@
 
   that happens.
 
+\- 2026-07-14: **Checked assignment requirement 8.2 ("Chạy LLM toàn bộ") —
+
+  not yet satisfied.** Spec requires \`results/full\_api\_log.txt\` (timestamp,
+
+  \`response.model\`, cost, errors) and \`results/full\_llm\_output.csv\`;
+
+  neither exists yet — data is currently stored as one \`.java\` file per
+
+  method per condition per model (\`data/generated/{model}/{ID}\_{C1|C2}.java\`),
+
+  not as a consolidated CSV/log. Decided: log/CSV will cover all 4 models
+
+  (gemini-2.5-flash, deepseek-v4-flash, Groq Llama-3.3-70B, GPT-5.5
+
+  Instant), cost = \$0 for all four (free tiers / manual web-UI runs, no
+
+  billed API calls); for the 3 manually-run models (llama, deepseek,
+
+  gpt-5.5-instant) there is no real \`response.model\` object, so the CSV's
+
+  "model" field will just be the label used for the output folder, not an
+
+  API response field. Building the actual files is DEFERRED until
+
+  deepseek and gemini are both fully filled in (30/30), to avoid building
+
+  it twice — will do it in one pass once dataset generation is complete.
+
+  Per-file \`git commit\` after each generated \`.java\` file (already the
+
+  standing convention for this project) already satisfies the spec's
+
+  "commit after every large batch, don't lose data" requirement, and all
+
+  data lives in this git repo (no Colab/Kaggle/Drive dependency), so no
+
+  separate sync step is needed once the CSV/log exist.
+
