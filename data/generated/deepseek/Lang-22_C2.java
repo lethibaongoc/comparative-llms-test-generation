@@ -1,78 +1,83 @@
 @Test
-void testGreatestCommonDivisorWithZeroAndPositive() {
+void testGreatestCommonDivisorWithZeroAndNonZero() {
     assertEquals(5, Fraction.greatestCommonDivisor(0, 5));
     assertEquals(5, Fraction.greatestCommonDivisor(5, 0));
-    assertEquals(1, Fraction.greatestCommonDivisor(1, 0));
-    assertEquals(1, Fraction.greatestCommonDivisor(0, 1));
-}
-
-@Test
-void testGreatestCommonDivisorWithZeroAndNegative() {
-    assertEquals(5, Fraction.greatestCommonDivisor(0, -5));
-    assertEquals(5, Fraction.greatestCommonDivisor(-5, 0));
-    assertEquals(1, Fraction.greatestCommonDivisor(-1, 0));
-    assertEquals(1, Fraction.greatestCommonDivisor(0, -1));
-}
-
-@Test
-void testGreatestCommonDivisorWithZeroAndMinValue() {
-    assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(0, Integer.MIN_VALUE));
-    assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, 0));
+    assertEquals(0, Fraction.greatestCommonDivisor(0, 0));
+    assertEquals(10, Fraction.greatestCommonDivisor(0, -10));
+    assertEquals(10, Fraction.greatestCommonDivisor(-10, 0));
 }
 
 @Test
 void testGreatestCommonDivisorWithPositiveNumbers() {
-    assertEquals(6, Fraction.greatestCommonDivisor(12, 18));
-    assertEquals(1, Fraction.greatestCommonDivisor(7, 13));
-    assertEquals(4, Fraction.greatestCommonDivisor(8, 12));
     assertEquals(1, Fraction.greatestCommonDivisor(1, 1));
+    assertEquals(2, Fraction.greatestCommonDivisor(2, 4));
+    assertEquals(3, Fraction.greatestCommonDivisor(6, 9));
+    assertEquals(5, Fraction.greatestCommonDivisor(10, 15));
+    assertEquals(7, Fraction.greatestCommonDivisor(14, 21));
 }
 
 @Test
 void testGreatestCommonDivisorWithNegativeNumbers() {
-    assertEquals(6, Fraction.greatestCommonDivisor(-12, -18));
-    assertEquals(1, Fraction.greatestCommonDivisor(-7, -13));
-    assertEquals(4, Fraction.greatestCommonDivisor(-8, -12));
-}
-
-@Test
-void testGreatestCommonDivisorWithMixedSigns() {
-    assertEquals(6, Fraction.greatestCommonDivisor(-12, 18));
-    assertEquals(6, Fraction.greatestCommonDivisor(12, -18));
-    assertEquals(1, Fraction.greatestCommonDivisor(-7, 13));
-}
-
-@Test
-void testGreatestCommonDivisorWithPowersOfTwo() {
-    assertEquals(8, Fraction.greatestCommonDivisor(16, 24));
-    assertEquals(16, Fraction.greatestCommonDivisor(32, 48));
-    assertEquals(2, Fraction.greatestCommonDivisor(2, 4));
+    assertEquals(1, Fraction.greatestCommonDivisor(-1, 1));
+    assertEquals(2, Fraction.greatestCommonDivisor(-2, 4));
+    assertEquals(3, Fraction.greatestCommonDivisor(6, -9));
+    assertEquals(5, Fraction.greatestCommonDivisor(-10, -15));
 }
 
 @Test
 void testGreatestCommonDivisorWithLargeNumbers() {
-    assertEquals(1000, Fraction.greatestCommonDivisor(100000, 1000));
-    assertEquals(7, Fraction.greatestCommonDivisor(49, 21));
-    assertEquals(12, Fraction.greatestCommonDivisor(144, 60));
-}
-
-@Test
-void testGreatestCommonDivisorWithOverflowCase() {
-    assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, Integer.MIN_VALUE));
-    assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(1, Integer.MIN_VALUE));
-    assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, 1));
+    assertEquals(1, Fraction.greatestCommonDivisor(1000000, 999999));
+    assertEquals(100, Fraction.greatestCommonDivisor(1000, 10000));
+    assertEquals(1024, Fraction.greatestCommonDivisor(1024, 2048));
 }
 
 @Test
 void testGreatestCommonDivisorWithEqualNumbers() {
-    assertEquals(5, Fraction.greatestCommonDivisor(5, 5));
-    assertEquals(7, Fraction.greatestCommonDivisor(-7, -7));
-    assertEquals(3, Fraction.greatestCommonDivisor(3, -3));
+    assertEquals(10, Fraction.greatestCommonDivisor(10, 10));
+    assertEquals(1, Fraction.greatestCommonDivisor(1, 1));
+    assertEquals(42, Fraction.greatestCommonDivisor(42, 42));
 }
 
 @Test
-void testGreatestCommonDivisorWithPrimitiveGcd() {
+void testGreatestCommonDivisorWithOverflowThrowsException() {
+    assertThrows(ArithmeticException.class,
+        () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, 0));
+    assertThrows(ArithmeticException.class,
+        () -> Fraction.greatestCommonDivisor(0, Integer.MIN_VALUE));
+    assertThrows(ArithmeticException.class,
+        () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, Integer.MIN_VALUE));
+    assertThrows(ArithmeticException.class,
+        () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, 1));
+    assertThrows(ArithmeticException.class,
+        () -> Fraction.greatestCommonDivisor(1, Integer.MIN_VALUE));
+}
+
+@Test
+void testGreatestCommonDivisorWithOverflowAtKEquals31() {
+    assertThrows(ArithmeticException.class,
+        () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE / 2, Integer.MIN_VALUE / 2));
+}
+
+@Test
+void testGreatestCommonDivisorWithPrimeNumbers() {
     assertEquals(1, Fraction.greatestCommonDivisor(17, 19));
-    assertEquals(11, Fraction.greatestCommonDivisor(121, 11));
-    assertEquals(13, Fraction.greatestCommonDivisor(169, 13));
+    assertEquals(1, Fraction.greatestCommonDivisor(31, 37));
+    assertEquals(1, Fraction.greatestCommonDivisor(2, 3));
+}
+
+@Test
+void testGreatestCommonDivisorWithPowersOfTwo() {
+    assertEquals(1, Fraction.greatestCommonDivisor(1, 2));
+    assertEquals(2, Fraction.greatestCommonDivisor(2, 4));
+    assertEquals(4, Fraction.greatestCommonDivisor(4, 8));
+    assertEquals(8, Fraction.greatestCommonDivisor(8, 16));
+    assertEquals(16, Fraction.greatestCommonDivisor(16, 32));
+}
+
+@Test
+void testGreatestCommonDivisorWithMixedSignsAndZero() {
+    assertEquals(7, Fraction.greatestCommonDivisor(-7, 0));
+    assertEquals(7, Fraction.greatestCommonDivisor(0, -7));
+    assertEquals(13, Fraction.greatestCommonDivisor(0, 13));
+    assertEquals(13, Fraction.greatestCommonDivisor(-13, 0));
 }
