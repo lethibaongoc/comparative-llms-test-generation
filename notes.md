@@ -132,7 +132,7 @@
 
 \- 2026-07-14: **gpt-4o-mini is no longer selectable anywhere in the ChatGPT
 
-  product** (checked both a free-tier account and a ChatGPT Plus account —
+  product** (checked on a free-tier ChatGPT account —
 
   OpenAI has fully retired it from the web UI; the model picker only goes
 
@@ -142,7 +142,7 @@
 
   substituted **GPT-5.5 (Instant reasoning effort)** run manually through
 
-  ChatGPT Plus instead. Output is saved under \`data/generated/gpt-5.5-instant/\`
+  ChatGPT (free tier) instead. Output is saved under \`data/generated/gpt-5.5-instant/\`
 
   (NOT \`data/generated/gpt-4o-mini/\`) to make the substitution obvious and
 

@@ -26,7 +26,7 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 |---|---|---|
 | `gemini-2.5-flash` | Google AI Studio | Free tier (1500 req/day) |
 | `deepseek-v4-flash` | DeepSeek API | Free (5M tokens) |
-| `gpt-5.5` (Instant) *(substitutes `gpt-4o-mini`, retired by OpenAI — see `notes.md` 2026-07-14)* | ChatGPT Plus (manual, web UI) | Plus subscription |
+| `gpt-5.5` (Instant) *(substitutes `gpt-4o-mini`, retired by OpenAI — see `notes.md` 2026-07-14)* | ChatGPT (free, manual, web UI) | Free |
 | `llama-3.3-70b-versatile` | Groq | Free |
 
 ## Dataset

@@ -13,7 +13,7 @@ convention.
 function, but it targets a *different* model — `meta-llama/llama-4-scout` via
 OpenRouter — which is not part of the team's actual 4-model lineup (real
 models in use: `gemini-2.5-flash`, `deepseek-v4-flash`, `gpt-5.5` Instant via
-ChatGPT Plus (substitutes `gpt-4o-mini`, retired by OpenAI — see
+ChatGPT (free tier, substitutes `gpt-4o-mini`, retired by OpenAI — see
 `notes.md` 2026-07-14), and `llama-3.3-70b-versatile` via Groq). That function's output path was changed
 to `data/generated/llama-4-scout-openrouter/` so a rerun of
 `generate_tests.py` cannot silently overwrite/mix into this folder's Groq
