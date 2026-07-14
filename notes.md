@@ -156,3 +156,39 @@
 
   report is written.
 
+\- 2026-07-14: **Found a C2 (few-shot) exemplar mismatch across models.**
+
+  \`scripts/run_pilot_groq.py\`'s \`FEW_SHOT_BLOCK\` (stripLeadingHyphens +
+
+  FieldUtils.safeAdd, k=2) was used for the real Llama-3.3-70B pilot, but
+
+  \`scripts/generate_tests.py\`'s \`FEW_SHOT_EXAMPLE\` (a trivial \`add(a,b)\`)
+
+  was used for gemini/deepseek/gpt-5.5-instant instead — a real confound
+
+  for any RQ1–RQ3 cross-model comparison **under the C2 condition**
+
+  specifically (RQ4's within-model C1-vs-C2 pairing and any C1 cross-model
+
+  comparison are unaffected, since C1 has no exemplar and each model's own
+
+  C2 runs were at least internally consistent). Standardized on llama's
+
+  exact \`FEW_SHOT_BLOCK\` for all models going forward — updated
+
+  \`generate_tests.py\`'s \`FEW_SHOT_EXAMPLE\` to match verbatim. All C2 data
+
+  generated before this date for gemini, deepseek, and gpt-5.5-instant
+
+  used the old \`add()\` exemplar and needs regenerating; gpt-5.5-instant's
+
+  full 30/30 C2 set is being redone, deepseek's C2 set (in progress at the
+
+  time of this fix) is being redone from this point forward, and gemini's
+
+  regen was already pending for the unrelated wrong-source-method issue
+
+  (see the 2026-07-13 entries above) — will pick up the new exemplar when
+
+  that happens.
+

@@ -12,16 +12,49 @@ load_dotenv()
 ZERO_SHOT = "C1"
 FEW_SHOT = "C2"
 
+# Standardized on the same k=2 few-shot exemplar used for the Llama pilot
+# (scripts/run_pilot_groq.py FEW_SHOT_BLOCK) so C2 is comparable across all
+# 4 models — see notes.md 2026-07-14 for why this replaced the old add()
+# example.
 FEW_SHOT_EXAMPLE = '''
-// Example test for a simple add method:
-// public int add(int a, int b) { return a + b; }
-@Test
-public void testAdd_positive() {
-    assertEquals(5, obj.add(2, 3));
+[EXAMPLE 1]
+[FOCAL METHOD] (Apache Commons CLI, Util.stripLeadingHyphens, commit 22d985c)
+static String stripLeadingHyphens(final String str) {
+    if (str == null) {
+        return null;
+    }
+    if (str.startsWith("--")) {
+        return str.substring(2);
+    }
+    if (str.startsWith("-")) {
+        return str.substring(1);
+    }
+    return str;
 }
+
+[TEST]
 @Test
-public void testAdd_negative() {
-    assertEquals(-1, obj.add(2, -3));
+void testStripLeadingHyphens() {
+    assertEquals("foo", Util.stripLeadingHyphens("-foo"));
+    assertEquals("foo", Util.stripLeadingHyphens("--foo"));
+    assertEquals("--", Util.stripLeadingHyphens("--"));
+}
+
+[EXAMPLE 2]
+[FOCAL METHOD] (Joda-Time, FieldUtils.safeAdd, commit d6ba4f0, adapted JUnit3 -> JUnit5)
+public static int safeAdd(int val1, int val2) {
+    int sum = val1 + val2;
+    if ((val1 ^ sum) < 0 && (val2 ^ sum) < 0) {
+        throw new ArithmeticException("The calculation caused an overflow: " + val1 + " + " + val2);
+    }
+    return sum;
+}
+
+[TEST]
+@Test
+void testSafeAdd() {
+    assertEquals(5, FieldUtils.safeAdd(2, 3));
+    assertThrows(ArithmeticException.class, () -> FieldUtils.safeAdd(Integer.MAX_VALUE, 1));
 }
 '''
 
