@@ -1,75 +1,52 @@
 @Test
-void testContainsAnyWithNullString() {
-    assertFalse(StringUtils.containsAny(null, new char[]{'a'}));
+void testContainsAny_ShouldReturnFalse_WhenStringIsNull() {
+    assertFalse(StringUtils.containsAny(null, new char[]{'a', 'b'}));
 }
 
 @Test
-void testContainsAnyWithEmptyString() {
-    assertFalse(StringUtils.containsAny("", new char[]{'a'}));
+void testContainsAny_ShouldReturnFalse_WhenStringIsEmpty() {
+    assertFalse(StringUtils.containsAny("", new char[]{'a', 'b'}));
 }
 
 @Test
-void testContainsAnyWithNullSearchChars() {
-    assertFalse(StringUtils.containsAny("test", null));
+void testContainsAny_ShouldReturnFalse_WhenSearchCharsIsNull() {
+    assertFalse(StringUtils.containsAny("abc", null));
 }
 
 @Test
-void testContainsAnyWithEmptySearchChars() {
-    assertFalse(StringUtils.containsAny("test", new char[]{}));
+void testContainsAny_ShouldReturnFalse_WhenSearchCharsIsEmpty() {
+    assertFalse(StringUtils.containsAny("abc", new char[]{}));
 }
 
 @Test
-void testContainsAnyWithSingleCharMatch() {
-    assertTrue(StringUtils.containsAny("hello", new char[]{'e'}));
+void testContainsAny_ShouldReturnTrue_WhenSingleCharMatches() {
+    assertTrue(StringUtils.containsAny("abc", new char[]{'b'}));
 }
 
 @Test
-void testContainsAnyWithSingleCharNoMatch() {
-    assertFalse(StringUtils.containsAny("hello", new char[]{'z'}));
+void testContainsAny_ShouldReturnFalse_WhenNoCharMatches() {
+    assertFalse(StringUtils.containsAny("abc", new char[]{'x', 'y', 'z'}));
 }
 
 @Test
-void testContainsAnyWithMultipleCharsMatch() {
-    assertTrue(StringUtils.containsAny("hello", new char[]{'a', 'e', 'i'}));
+void testContainsAny_ShouldReturnTrue_WhenMultipleCharsAndOneMatches() {
+    assertTrue(StringUtils.containsAny("hello", new char[]{'x', 'e', 'z'}));
 }
 
 @Test
-void testContainsAnyWithMultipleCharsNoMatch() {
-    assertFalse(StringUtils.containsAny("hello", new char[]{'a', 'b', 'c'}));
+void testContainsAny_ShouldReturnTrue_WhenHighSurrogateMatchesWithLowSurrogate() {
+    String surrogateString = "𐀀";
+    assertTrue(StringUtils.containsAny(surrogateString, new char[]{'\uD800', '\uDC00'}));
 }
 
 @Test
-void testContainsAnyWithBasicMultilingualPlaneCharacters() {
-    assertTrue(StringUtils.containsAny("abc123", new char[]{'1', '2', '3'}));
-    assertTrue(StringUtils.containsAny("abc123", new char[]{'a', 'b', 'c'}));
+void testContainsAny_ShouldReturnTrue_WhenHighSurrogateMatchesWithoutLowSurrogate() {
+    String surrogateString = "\uD800X";
+    assertTrue(StringUtils.containsAny(surrogateString, new char[]{'\uD800'}));
 }
 
 @Test
-void testContainsAnyWithSurrogatePairMatch() {
-    String surrogateString = "a😀b";
-    assertTrue(StringUtils.containsAny(surrogateString, new char[]{'\uD83D', '\uDE00'}));
-}
-
-@Test
-void testContainsAnyWithHighSurrogateOnly() {
-    String stringWithHighSurrogate = "a\uD83Db";
-    assertTrue(StringUtils.containsAny(stringWithHighSurrogate, new char[]{'\uD83D'}));
-}
-
-@Test
-void testContainsAnyWithHighSurrogateAndMissingLowSurrogate() {
-    String stringWithHighSurrogate = "a\uD83Db";
-    assertTrue(StringUtils.containsAny(stringWithHighSurrogate, new char[]{'\uD83D', 'x'}));
-}
-
-@Test
-void testContainsAnyWithSurrogatePairAndSearchCharMatchAtEnd() {
-    String surrogateString = "a😀";
-    assertTrue(StringUtils.containsAny(surrogateString, new char[]{'\uD83D', '\uDE00'}));
-}
-
-@Test
-void testContainsAnyWithIncompleteSurrogatePairAtEnd() {
-    String incompleteSurrogateString = "a\uD83D";
-    assertTrue(StringUtils.containsAny(incompleteSurrogateString, new char[]{'\uD83D'}));
+void testContainsAny_ShouldReturnFalse_WhenHighSurrogateInSearchButNotInString() {
+    String surrogateString = "𐀀";
+    assertFalse(StringUtils.containsAny(surrogateString, new char[]{'\uD801'}));
 }
