@@ -230,3 +230,63 @@
 
   separate sync step is needed once the CSV/log exist.
 
+\- 2026-07-15: **gemini regenerated to full 30/30 (60/60 files).** Ran
+
+  manually via gemini.google.com web UI (no \`GEMINI_API_KEY\` configured),
+
+  using the same prompt template and the standardized C2 exemplar from the
+
+  2026-07-14 fix. This also resolved the 5 wrong-source-method files
+
+  (Lang-8, Lang-10, Math-2, Math-53, Chart-11) and the 5
+
+  provisional/unverified files (Math-9, Math-27, Math-55, Chart-1,
+
+  Chart-10) flagged earlier — all 30 methods now sourced from
+
+  \`methods.json\`'s fully verified set. \`data/generated/gemini/README.md\`
+
+  updated to drop the stale wrong-source/provisional notes.
+
+\- 2026-07-15: **Audited which deepseek/gpt-5.5-instant C2 files still use
+
+  the pre-2026-07-14 stale exemplar**, using each file's git commit
+
+  timestamp relative to \`d58fdc1\` (the exemplar-standardization commit,
+
+  2026-07-14 10:23:43 +07) as a proxy — there is no per-call prompt log to
+
+  check directly (this is exactly the \`full_api_log.txt\` gap noted above).
+
+  Findings: **all 30/30 gpt-5.5-instant C2 files** were committed before
+
+  \`d58fdc1\`, so — contrary to what this log optimistically said above
+
+  ("gpt-5.5-instant's full 30/30 C2 set is being redone") — none were
+
+  actually redone; and **10/30 deepseek C2 files** (the original batch —
+
+  Lang-8, Lang-10, Math-2, Math-9, Math-27, Math-53, Math-55, Chart-1,
+
+  Chart-10, Chart-11, commit \`6f80a8b\`) also predate the fix, while the
+
+  other 20 deepseek C2 files were generated/redone after it and are fine.
+
+  **Decision: NOT regenerating these 40 files for now** — treating them as
+
+  correct/accepted as-is rather than spending another manual-paste round
+
+  (both models are manual web-UI runs with no reproducible prompt trail).
+
+  This is a known, documented limitation: any RQ1–RQ3 cross-model
+
+  comparison under the **C2 condition specifically** involving
+
+  gpt-5.5-instant, or deepseek's original-10-method subset, should note
+
+  this exemplar inconsistency as a threat to validity in the final report.
+
+  C1 and RQ4 (within-model C1-vs-C2 pairing) are unaffected, same reasoning
+
+  as the 2026-07-14 entry above.
+
