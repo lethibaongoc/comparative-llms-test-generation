@@ -1,29 +1,16 @@
-# Status note (2026-07-13)
+# Status note (2026-07-15)
 
-**Model:** `gemini-2.5-flash` via Google AI Studio API (`scripts/generate_tests.py` → `generate_gemini()`).
+**Model:** `gemini-2.5-flash` via manual web UI (gemini.google.com) — no
+`GEMINI_API_KEY` configured, so `scripts/generate_tests.py::generate_gemini()`
+was not used for this batch.
 
-These 20 files were generated from an earlier, 10-method version of
-`data/raw/methods/methods.json` that has since been corrected (see
-`data/raw/README.md` and `results/PILOT_RESULTS.md`).
+All 30/30 methods × 2 conditions (C1 zero-shot, C2 few-shot k=2) = 60 files
+are now present, regenerated in full from the corrected, fully verified
+`data/raw/methods/methods.json` (all 30 entries `"verified": true`). This
+replaces the previous partial set (10/30 methods, 5 of which were generated
+against the wrong Defects4J source and 5 of which were unverified/provisional
+— see git history prior to 2026-07-15 for details).
 
-**5 of the 10 method IDs below were generated against the wrong focal
-method** — the source used at generation time did not match the real
-Defects4J-verified method for that ID:
-
-| ID | Generated against (wrong) | Should be (verified) |
-|---|---|---|
-| `Lang-8`  | `FastDateParser.parse`            | `FastDatePrinter.appendTo` |
-| `Lang-10` | `FastDateParser.parsePattern`-ish | `FastDateParser.escapeRegex` |
-| `Math-2`  | `HypergeometricDistribution.sample` | `HypergeometricDistribution.getNumericalMean` |
-| `Math-53` | `Complex.add` (missing NaN check) | `Complex.add` (corrected body) |
-| `Chart-11`| `XYPlot.equals`                   | `ShapeUtilities.equal(GeneralPath,GeneralPath)` |
-
-`Lang-8_C1/C2.java`, `Lang-10_C1/C2.java`, `Math-2_C1/C2.java`,
-`Math-53_C1/C2.java`, and `Chart-11_C1/C2.java` (10 files) should be
-**regenerated** once real verified source is filled into `methods.json` for
-these IDs — do not use them as valid study data until then.
-
-The other 10 files (`Math-9`, `Math-27`, `Math-55`, `Chart-1`, `Chart-10` ×
-C1/C2) matched the verified method name, but their source was still never
-checked against the real commit (`verified: false` in `methods.json`) —
-treat them as provisional, not confirmed-correct, until verified.
+Prompts used the same template and standardized C2 few-shot exemplar
+(`stripLeadingHyphens` / `safeAdd`) as `scripts/generate_tests.py`, to stay
+consistent with the deepseek, llama, and gpt-5.5-instant batches.

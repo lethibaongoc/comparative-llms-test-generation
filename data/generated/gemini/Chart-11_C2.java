@@ -1,85 +1,74 @@
-```java
-// Assumes XYPlot class has a constructor like:
-// public XYPlot(int weight, int orientation) {
-//     this.weight = weight;
-//     this.orientation = orientation;
-// }
-// where 'weight' and 'orientation' are fields of type 'int'.
-
 @Test
-void testEquals_sameObjectReference() {
-    XYPlot plot = new XYPlot(10, 1);
-    assertTrue(plot.equals(plot));
+void testEqualWithNulls() {
+    assertTrue(ShapeUtilities.equal((GeneralPath) null, (GeneralPath) null));
+    assertFalse(ShapeUtilities.equal(new GeneralPath(), (GeneralPath) null));
+    assertFalse(ShapeUtilities.equal((GeneralPath) null, new GeneralPath()));
 }
 
 @Test
-void testEquals_nullObject() {
-    XYPlot plot = new XYPlot(10, 1);
-    assertFalse(plot.equals(null));
+void testEqualDifferentWindingRules() {
+    GeneralPath p1 = new GeneralPath(GeneralPath.WIND_EVEN_ODD);
+    GeneralPath p2 = new GeneralPath(GeneralPath.WIND_NON_ZERO);
+    assertFalse(ShapeUtilities.equal(p1, p2));
 }
 
 @Test
-void testEquals_differentClass() {
-    XYPlot plot = new XYPlot(10, 1);
-    Object differentClassObj = new Object();
-    assertFalse(plot.equals(differentClassObj));
+void testEqualEmptyPaths() {
+    GeneralPath p1 = new GeneralPath();
+    GeneralPath p2 = new GeneralPath();
+    assertTrue(ShapeUtilities.equal(p1, p2));
 }
 
 @Test
-void testEquals_equalValues() {
-    XYPlot plot1 = new XYPlot(10, 1);
-    XYPlot plot2 = new XYPlot(10, 1);
-    assertTrue(plot1.equals(plot2));
+void testEqualIdenticalPaths() {
+    GeneralPath p1 = new GeneralPath();
+    p1.moveTo(0.0f, 0.0f);
+    p1.lineTo(10.0f, 10.0f);
+    p1.closePath();
+
+    GeneralPath p2 = new GeneralPath();
+    p2.moveTo(0.0f, 0.0f);
+    p2.lineTo(10.0f, 10.0f);
+    p2.closePath();
+
+    assertTrue(ShapeUtilities.equal(p1, p2));
 }
 
 @Test
-void testEquals_differentWeight() {
-    XYPlot plot1 = new XYPlot(10, 1);
-    XYPlot plot2 = new XYPlot(20, 1); // Weight differs
-    assertFalse(plot1.equals(plot2));
+void testEqualDifferentSegmentCounts() {
+    GeneralPath p1 = new GeneralPath();
+    p1.moveTo(0.0f, 0.0f);
+    p1.lineTo(10.0f, 10.0f);
+
+    GeneralPath p2 = new GeneralPath();
+    p2.moveTo(0.0f, 0.0f);
+
+    assertFalse(ShapeUtilities.equal(p1, p2));
+    assertFalse(ShapeUtilities.equal(p2, p1));
 }
 
 @Test
-void testEquals_differentOrientation() {
-    XYPlot plot1 = new XYPlot(10, 1);
-    XYPlot plot2 = new XYPlot(10, 2); // Orientation differs
-    assertFalse(plot1.equals(plot2));
+void testEqualDifferentSegmentTypes() {
+    GeneralPath p1 = new GeneralPath();
+    p1.moveTo(0.0f, 0.0f);
+    p1.lineTo(10.0f, 10.0f);
+
+    GeneralPath p2 = new GeneralPath();
+    p2.moveTo(0.0f, 0.0f);
+    p2.quadTo(5.0f, 5.0f, 10.0f, 10.0f);
+
+    assertFalse(ShapeUtilities.equal(p1, p2));
 }
 
 @Test
-void testEquals_differentWeightAndOrientation() {
-    XYPlot plot1 = new XYPlot(10, 1);
-    XYPlot plot2 = new XYPlot(20, 2); // Both differ
-    assertFalse(plot1.equals(plot2));
-}
+void testEqualDifferentCoordinates() {
+    GeneralPath p1 = new GeneralPath();
+    p1.moveTo(0.0f, 0.0f);
+    p1.lineTo(10.0f, 10.0f);
 
-@Test
-void testEquals_symmetryProperty() {
-    XYPlot plot1 = new XYPlot(10, 1);
-    XYPlot plot2 = new XYPlot(10, 1);
-    assertTrue(plot1.equals(plot2));
-    assertTrue(plot2.equals(plot1));
-}
+    GeneralPath p2 = new GeneralPath();
+    p2.moveTo(0.0f, 0.0f);
+    p2.lineTo(10.0f, 20.0f);
 
-@Test
-void testEquals_transitivityProperty() {
-    XYPlot plot1 = new XYPlot(10, 1);
-    XYPlot plot2 = new XYPlot(10, 1);
-    XYPlot plot3 = new XYPlot(10, 1);
-    assertTrue(plot1.equals(plot2));
-    assertTrue(plot2.equals(plot3));
-    assertTrue(plot1.equals(plot3));
+    assertFalse(ShapeUtilities.equal(p1, p2));
 }
-
-@Test
-void testEquals_consistencyProperty() {
-    XYPlot plot1 = new XYPlot(10, 1);
-    XYPlot plot2 = new XYPlot(10, 1);
-    XYPlot plot3 = new XYPlot(20, 1);
-
-    assertTrue(plot1.equals(plot2));
-    assertTrue(plot1.equals(plot2)); // Repeated call
-    assertFalse(plot1.equals(plot3));
-    assertFalse(plot1.equals(plot3)); // Repeated call
-}
-```
