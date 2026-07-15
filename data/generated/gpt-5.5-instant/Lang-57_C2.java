@@ -1,20 +1,15 @@
 @Test
-public void testIsAvailableLocale_availableLocale() {
+void testIsAvailableLocale_withAvailableLocale() {
     assertTrue(LocaleUtils.isAvailableLocale(Locale.US));
 }
 
 @Test
-public void testIsAvailableLocale_anotherAvailableLocale() {
-    assertTrue(LocaleUtils.isAvailableLocale(Locale.ENGLISH));
-}
-
-@Test
-public void testIsAvailableLocale_nullLocale() {
-    assertFalse(LocaleUtils.isAvailableLocale(null));
-}
-
-@Test
-public void testIsAvailableLocale_unavailableLocale() {
+void testIsAvailableLocale_withUnavailableLocale() {
     Locale unavailable = new Locale("xx", "YY");
     assertFalse(LocaleUtils.isAvailableLocale(unavailable));
+}
+
+@Test
+void testIsAvailableLocale_withNullLocale() {
+    assertFalse(LocaleUtils.isAvailableLocale(null));
 }

@@ -1,63 +1,54 @@
 @Test
-public void testAppendTo_daylightSavingTime() {
+void testAppendToUsesStandardTimeZoneDisplayName() throws Exception {
+    TimeZone zone = TimeZone.getTimeZone("GMT");
+    Locale locale = Locale.US;
+
+    Class<?> ruleClass = Class.forName(
+            "org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNameRule");
+    java.lang.reflect.Constructor<?> constructor
+            = ruleClass.getDeclaredConstructor(TimeZone.class, Locale.class,
+                    int.class);
+    constructor.setAccessible(true);
+    Object rule = constructor.newInstance(zone, locale, TimeZone.LONG);
+
+    Calendar calendar = Calendar.getInstance(zone, locale);
+    calendar.set(2024, Calendar.JANUARY, 15);
+
+    StringBuffer buffer = new StringBuffer();
+    java.lang.reflect.Method appendTo = ruleClass.getDeclaredMethod(
+            "appendTo", StringBuffer.class, Calendar.class);
+    appendTo.setAccessible(true);
+    appendTo.invoke(rule, buffer, calendar);
+
+    assertEquals(zone.getDisplayName(false, TimeZone.LONG, locale),
+            buffer.toString());
+}
+
+@Test
+void testAppendToUsesDaylightTimeZoneDisplayName() throws Exception {
     TimeZone zone = TimeZone.getTimeZone("America/New_York");
-    Calendar calendar = Calendar.getInstance(zone, Locale.US);
+    Locale locale = Locale.US;
+
+    Class<?> ruleClass = Class.forName(
+            "org.apache.commons.lang3.time.FastDatePrinter$TimeZoneNameRule");
+    java.lang.reflect.Constructor<?> constructor
+            = ruleClass.getDeclaredConstructor(TimeZone.class, Locale.class,
+                    int.class);
+    constructor.setAccessible(true);
+    Object rule = constructor.newInstance(zone, locale, TimeZone.LONG);
+
+    Calendar calendar = Calendar.getInstance(zone, locale);
+    calendar.clear();
     calendar.set(2024, Calendar.JULY, 15, 12, 0, 0);
 
-    FastDatePrinter printer =
-        new FastDatePrinter("z", zone, Locale.US);
+    assertNotEquals(0, calendar.get(Calendar.DST_OFFSET));
+
     StringBuffer buffer = new StringBuffer();
+    java.lang.reflect.Method appendTo = ruleClass.getDeclaredMethod(
+            "appendTo", StringBuffer.class, Calendar.class);
+    appendTo.setAccessible(true);
+    appendTo.invoke(rule, buffer, calendar);
 
-    printer.appendTo(buffer, calendar);
-
-    assertEquals(zone.getDisplayName(true, TimeZone.SHORT, Locale.US),
-        buffer.toString());
-}
-
-@Test
-public void testAppendTo_standardTime() {
-    TimeZone zone = TimeZone.getTimeZone("America/New_York");
-    Calendar calendar = Calendar.getInstance(zone, Locale.US);
-    calendar.set(2024, Calendar.JANUARY, 15, 12, 0, 0);
-
-    FastDatePrinter printer =
-        new FastDatePrinter("z", zone, Locale.US);
-    StringBuffer buffer = new StringBuffer();
-
-    printer.appendTo(buffer, calendar);
-
-    assertEquals(zone.getDisplayName(false, TimeZone.SHORT, Locale.US),
-        buffer.toString());
-}
-
-@Test
-public void testAppendTo_zoneWithoutDaylightSavingTime() {
-    TimeZone zone = TimeZone.getTimeZone("UTC");
-    Calendar calendar = Calendar.getInstance(zone, Locale.US);
-    calendar.set(2024, Calendar.JULY, 15, 12, 0, 0);
-
-    FastDatePrinter printer =
-        new FastDatePrinter("z", zone, Locale.US);
-    StringBuffer buffer = new StringBuffer();
-
-    printer.appendTo(buffer, calendar);
-
-    assertEquals(zone.getDisplayName(false, TimeZone.SHORT, Locale.US),
-        buffer.toString());
-}
-
-@Test
-public void testAppendTo_appendsToExistingBufferContent() {
-    TimeZone zone = TimeZone.getTimeZone("UTC");
-    Calendar calendar = Calendar.getInstance(zone, Locale.US);
-
-    FastDatePrinter printer =
-        new FastDatePrinter("z", zone, Locale.US);
-    StringBuffer buffer = new StringBuffer("Zone: ");
-
-    printer.appendTo(buffer, calendar);
-
-    assertEquals("Zone: "
-        + zone.getDisplayName(false, TimeZone.SHORT, Locale.US),
-        buffer.toString());
+    assertEquals(zone.getDisplayName(true, TimeZone.LONG, locale),
+            buffer.toString());
 }

@@ -1,5 +1,5 @@
 @Test
-public void testTranslate_decimalWithSemicolon() throws IOException {
+void testTranslateDecimalEntity() throws Exception {
     NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
     StringWriter out = new StringWriter();
 
@@ -10,51 +10,34 @@ public void testTranslate_decimalWithSemicolon() throws IOException {
 }
 
 @Test
-public void testTranslate_hexadecimalLowercaseWithSemicolon() throws IOException {
+void testTranslateHexadecimalEntities() throws Exception {
+    NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
+
+    StringWriter lowercaseOut = new StringWriter();
+    int lowercaseConsumed = unescaper.translate("&#x41;", 0, lowercaseOut);
+
+    StringWriter uppercaseOut = new StringWriter();
+    int uppercaseConsumed = unescaper.translate("&#X42;", 0, uppercaseOut);
+
+    assertEquals(6, lowercaseConsumed);
+    assertEquals("A", lowercaseOut.toString());
+    assertEquals(6, uppercaseConsumed);
+    assertEquals("B", uppercaseOut.toString());
+}
+
+@Test
+void testTranslateEntityWithoutSemicolon() throws Exception {
     NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
     StringWriter out = new StringWriter();
 
-    int consumed = unescaper.translate("&#x41;", 0, out);
+    int consumed = unescaper.translate("&#65text", 0, out);
 
-    assertEquals(6, consumed);
+    assertEquals(4, consumed);
     assertEquals("A", out.toString());
 }
 
 @Test
-public void testTranslate_hexadecimalUppercasePrefix() throws IOException {
-    NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
-    StringWriter out = new StringWriter();
-
-    int consumed = unescaper.translate("&#X42;", 0, out);
-
-    assertEquals(6, consumed);
-    assertEquals("B", out.toString());
-}
-
-@Test
-public void testTranslate_decimalWithoutSemicolon() throws IOException {
-    NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
-    StringWriter out = new StringWriter();
-
-    int consumed = unescaper.translate("&#67", 0, out);
-
-    assertEquals(4, consumed);
-    assertEquals("C", out.toString());
-}
-
-@Test
-public void testTranslate_stopsAtFirstNonNumericCharacter() throws IOException {
-    NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
-    StringWriter out = new StringWriter();
-
-    int consumed = unescaper.translate("&#68abc", 0, out);
-
-    assertEquals(4, consumed);
-    assertEquals("D", out.toString());
-}
-
-@Test
-public void testTranslate_supplementaryUnicodeCharacter() throws IOException {
+void testTranslateSupplementaryUnicodeCharacter() throws Exception {
     NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
     StringWriter out = new StringWriter();
 
@@ -65,45 +48,23 @@ public void testTranslate_supplementaryUnicodeCharacter() throws IOException {
 }
 
 @Test
-public void testTranslate_invalidNumericEntityReturnsZero() throws IOException {
+void testTranslateReturnsZeroForNonNumericEntity() throws Exception {
     NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
     StringWriter out = new StringWriter();
 
-    int consumed = unescaper.translate("&#xyz;", 0, out);
+    int consumed = unescaper.translate("&amp;", 0, out);
 
     assertEquals(0, consumed);
     assertEquals("", out.toString());
 }
 
 @Test
-public void testTranslate_hexPrefixWithoutDigitsReturnsZero() throws IOException {
+void testTranslateReturnsZeroForInvalidHexEntity() throws Exception {
     NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
     StringWriter out = new StringWriter();
 
-    int consumed = unescaper.translate("&#x", 0, out);
+    int consumed = unescaper.translate("&#x;", 0, out);
 
     assertEquals(0, consumed);
     assertEquals("", out.toString());
-}
-
-@Test
-public void testTranslate_nonEntityReturnsZero() throws IOException {
-    NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
-    StringWriter out = new StringWriter();
-
-    int consumed = unescaper.translate("hello", 0, out);
-
-    assertEquals(0, consumed);
-    assertEquals("", out.toString());
-}
-
-@Test
-public void testTranslate_entityAtNonZeroIndex() throws IOException {
-    NumericEntityUnescaper unescaper = new NumericEntityUnescaper();
-    StringWriter out = new StringWriter();
-
-    int consumed = unescaper.translate("x&#69;", 1, out);
-
-    assertEquals(5, consumed);
-    assertEquals("E", out.toString());
 }

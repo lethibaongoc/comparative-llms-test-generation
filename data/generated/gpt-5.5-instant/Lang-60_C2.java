@@ -1,35 +1,33 @@
 @Test
-public void testContains_existingCharacter() {
-    StrBuilder obj = new StrBuilder("abcdef");
-    assertTrue(obj.contains('c'));
+void testContainsCharacterPresent() {
+    StrBuilder builder = new StrBuilder();
+    builder.append("hello");
+
+    assertTrue(builder.contains('h'));
+    assertTrue(builder.contains('e'));
+    assertTrue(builder.contains('o'));
 }
 
 @Test
-public void testContains_firstCharacter() {
-    StrBuilder obj = new StrBuilder("abcdef");
-    assertTrue(obj.contains('a'));
+void testContainsCharacterAbsent() {
+    StrBuilder builder = new StrBuilder();
+    builder.append("hello");
+
+    assertFalse(builder.contains('x'));
 }
 
 @Test
-public void testContains_lastCharacter() {
-    StrBuilder obj = new StrBuilder("abcdef");
-    assertTrue(obj.contains('f'));
+void testContainsOnEmptyBuilder() {
+    StrBuilder builder = new StrBuilder();
+
+    assertFalse(builder.contains('a'));
 }
 
 @Test
-public void testContains_missingCharacter() {
-    StrBuilder obj = new StrBuilder("abcdef");
-    assertFalse(obj.contains('x'));
-}
+void testContainsDuplicateCharacter() {
+    StrBuilder builder = new StrBuilder();
+    builder.append("banana");
 
-@Test
-public void testContains_emptyBuilder() {
-    StrBuilder obj = new StrBuilder();
-    assertFalse(obj.contains('a'));
-}
-
-@Test
-public void testContains_duplicateCharacter() {
-    StrBuilder obj = new StrBuilder("aabbcc");
-    assertTrue(obj.contains('b'));
+    assertTrue(builder.contains('a'));
+    assertTrue(builder.contains('n'));
 }

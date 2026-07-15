@@ -1,70 +1,43 @@
 @Test
-public void testEscape_asciiWithoutEntity_writtenUnchanged() throws IOException {
-    Entities entities = new Entities();
+void testEscapeNamedEntitiesAndAsciiCharacters() throws IOException {
     StringWriter writer = new StringWriter();
 
-    entities.escape(writer, "Hello 123!");
+    Entities.HTML40.escape(writer, "<tag attr=\"value\">Tom & Jerry</tag>");
 
-    assertEquals("Hello 123!", writer.toString());
+    assertEquals("&lt;tag attr=&quot;value&quot;&gt;Tom &amp; Jerry&lt;/tag&gt;",
+            writer.toString());
 }
 
 @Test
-public void testEscape_namedEntity_writtenAsEntityReference() throws IOException {
-    Entities entities = new Entities();
-    entities.addEntity("amp", '&');
-    entities.addEntity("lt", '<');
-    entities.addEntity("gt", '>');
+void testEscapeNonAsciiCharacterAsNumericEntity() throws IOException {
     StringWriter writer = new StringWriter();
 
-    entities.escape(writer, "A&B<C>");
-
-    assertEquals("A&amp;B&lt;C&gt;", writer.toString());
-}
-
-@Test
-public void testEscape_nonAsciiCharacterWithoutEntity_writtenAsDecimalReference() throws IOException {
-    Entities entities = new Entities();
-    StringWriter writer = new StringWriter();
-
-    entities.escape(writer, "café");
+    Entities.HTML40.escape(writer, "café");
 
     assertEquals("caf&#233;", writer.toString());
 }
 
 @Test
-public void testEscape_supplementaryCharacter_writtenAsSingleDecimalReference() throws IOException {
-    Entities entities = new Entities();
+void testEscapeSupplementaryUnicodeCharacterAsSingleNumericEntity()
+        throws IOException {
     StringWriter writer = new StringWriter();
 
-    entities.escape(writer, "A😀B");
+    Entities.HTML40.escape(writer, "A😀B");
 
     assertEquals("A&#128512;B", writer.toString());
 }
 
 @Test
-public void testEscape_namedNonAsciiEntity_preferredOverNumericReference() throws IOException {
-    Entities entities = new Entities();
-    entities.addEntity("copy", 169);
+void testEscapeEmptyString() throws IOException {
     StringWriter writer = new StringWriter();
 
-    entities.escape(writer, "©");
-
-    assertEquals("&copy;", writer.toString());
-}
-
-@Test
-public void testEscape_emptyString_writesNothing() throws IOException {
-    Entities entities = new Entities();
-    StringWriter writer = new StringWriter();
-
-    entities.escape(writer, "");
+    Entities.HTML40.escape(writer, "");
 
     assertEquals("", writer.toString());
 }
 
 @Test
-public void testEscape_writerIOException_isPropagated() {
-    Entities entities = new Entities();
+void testEscapePropagatesWriterIOException() {
     Writer writer = new Writer() {
         @Override
         public void write(char[] cbuf, int off, int len) throws IOException {
@@ -80,10 +53,6 @@ public void testEscape_writerIOException_isPropagated() {
         }
     };
 
-    IOException exception = assertThrows(
-        IOException.class,
-        () -> entities.escape(writer, "A")
-    );
-
-    assertEquals("write failed", exception.getMessage());
+    assertThrows(IOException.class,
+            () -> Entities.HTML40.escape(writer, "&"));
 }

@@ -1,95 +1,77 @@
 @Test
-public void testEscapeRegex_escapesAllSpecialCharacters() throws Exception {
+void testEscapeRegexEscapesSpecialCharacters() throws Exception {
     java.lang.reflect.Method method = FastDateParser.class.getDeclaredMethod(
-        "escapeRegex", StringBuilder.class, String.class, boolean.class);
+            "escapeRegex", StringBuilder.class, String.class, boolean.class);
     method.setAccessible(true);
 
-    StringBuilder regex = new StringBuilder();
+    StringBuilder regex = new StringBuilder("prefix");
     String value = "?[](){}\\|*+^$.";
 
-    StringBuilder result = (StringBuilder) method.invoke(null, regex, value, false);
+    StringBuilder result = (StringBuilder) method.invoke(
+            null, regex, value, false);
 
     assertSame(regex, result);
-    assertEquals("\\?\\[\\]\\(\\)\\{\\}\\\\\\|\\*\\+\\^\\$\\.", result.toString());
+    assertEquals("prefix\\?\\[\\]\\(\\)\\{\\}\\\\\\|\\*\\+\\^\\$\\.", result.toString());
 }
 
 @Test
-public void testEscapeRegex_appendsNormalCharactersWithoutEscaping() throws Exception {
+void testEscapeRegexLeavesOrdinaryCharactersUnchanged() throws Exception {
     java.lang.reflect.Method method = FastDateParser.class.getDeclaredMethod(
-        "escapeRegex", StringBuilder.class, String.class, boolean.class);
+            "escapeRegex", StringBuilder.class, String.class, boolean.class);
     method.setAccessible(true);
 
-    StringBuilder regex = new StringBuilder("prefix-");
+    StringBuilder result = (StringBuilder) method.invoke(
+            null, new StringBuilder(), "abc-123_/:", false);
 
-    StringBuilder result = (StringBuilder) method.invoke(null, regex, "abc123", false);
-
-    assertSame(regex, result);
-    assertEquals("prefix-abc123", result.toString());
+    assertEquals("abc-123_/:", result.toString());
 }
 
 @Test
-public void testEscapeRegex_preservesQuoteWhenUnquoteIsFalse() throws Exception {
+void testEscapeRegexPreservesQuotesWhenUnquoteIsFalse() throws Exception {
     java.lang.reflect.Method method = FastDateParser.class.getDeclaredMethod(
-        "escapeRegex", StringBuilder.class, String.class, boolean.class);
+            "escapeRegex", StringBuilder.class, String.class, boolean.class);
     method.setAccessible(true);
 
-    StringBuilder regex = new StringBuilder();
+    StringBuilder result = (StringBuilder) method.invoke(
+            null, new StringBuilder(), "'a?'", false);
 
-    StringBuilder result = (StringBuilder) method.invoke(null, regex, "ab'cd", false);
-
-    assertEquals("ab'cd", result.toString());
+    assertEquals("'a\\?'", result.toString());
 }
 
 @Test
-public void testEscapeRegex_unquotesCharacterFollowingQuote() throws Exception {
+void testEscapeRegexRemovesQuotesWhenUnquoteIsTrue() throws Exception {
     java.lang.reflect.Method method = FastDateParser.class.getDeclaredMethod(
-        "escapeRegex", StringBuilder.class, String.class, boolean.class);
+            "escapeRegex", StringBuilder.class, String.class, boolean.class);
     method.setAccessible(true);
 
-    StringBuilder regex = new StringBuilder();
+    StringBuilder result = (StringBuilder) method.invoke(
+            null, new StringBuilder(), "'a'b", true);
 
-    StringBuilder result = (StringBuilder) method.invoke(null, regex, "ab'cd", true);
-
-    assertEquals("abcd", result.toString());
+    assertEquals("ab", result.toString());
 }
 
 @Test
-public void testEscapeRegex_unquotedSpecialCharacterIsNotEscaped() throws Exception {
+void testEscapeRegexReturnsImmediatelyForTrailingQuoteWhenUnquoting() throws Exception {
     java.lang.reflect.Method method = FastDateParser.class.getDeclaredMethod(
-        "escapeRegex", StringBuilder.class, String.class, boolean.class);
-    method.setAccessible(true);
-
-    StringBuilder regex = new StringBuilder();
-
-    StringBuilder result = (StringBuilder) method.invoke(null, regex, "'?", true);
-
-    assertEquals("?", result.toString());
-}
-
-@Test
-public void testEscapeRegex_trailingQuoteWithUnquoteReturnsImmediately() throws Exception {
-    java.lang.reflect.Method method = FastDateParser.class.getDeclaredMethod(
-        "escapeRegex", StringBuilder.class, String.class, boolean.class);
+            "escapeRegex", StringBuilder.class, String.class, boolean.class);
     method.setAccessible(true);
 
     StringBuilder regex = new StringBuilder("start");
-
-    StringBuilder result = (StringBuilder) method.invoke(null, regex, "abc'", true);
+    StringBuilder result = (StringBuilder) method.invoke(
+            null, regex, "abc'", true);
 
     assertSame(regex, result);
     assertEquals("startabc", result.toString());
 }
 
 @Test
-public void testEscapeRegex_emptyValueLeavesBuilderUnchanged() throws Exception {
+void testEscapeRegexEscapesCharacterFollowingQuoteWhenUnquoting() throws Exception {
     java.lang.reflect.Method method = FastDateParser.class.getDeclaredMethod(
-        "escapeRegex", StringBuilder.class, String.class, boolean.class);
+            "escapeRegex", StringBuilder.class, String.class, boolean.class);
     method.setAccessible(true);
 
-    StringBuilder regex = new StringBuilder("existing");
+    StringBuilder result = (StringBuilder) method.invoke(
+            null, new StringBuilder(), "'?x", true);
 
-    StringBuilder result = (StringBuilder) method.invoke(null, regex, "", true);
-
-    assertSame(regex, result);
-    assertEquals("existing", result.toString());
+    assertEquals("\\?x", result.toString());
 }

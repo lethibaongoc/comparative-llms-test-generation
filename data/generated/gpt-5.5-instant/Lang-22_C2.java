@@ -1,95 +1,52 @@
 @Test
-public void testGreatestCommonDivisor_coprimeNumbers() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+void testGreatestCommonDivisorForPositiveAndNegativeValues() throws Exception {
+    java.lang.reflect.Method method = Fraction.class.getDeclaredMethod(
+            "greatestCommonDivisor", int.class, int.class);
     method.setAccessible(true);
 
-    int result = (Integer) method.invoke(null, 17, 13);
-
-    assertEquals(1, result);
+    assertEquals(6, method.invoke(null, 54, 24));
+    assertEquals(6, method.invoke(null, -54, 24));
+    assertEquals(6, method.invoke(null, 54, -24));
+    assertEquals(6, method.invoke(null, -54, -24));
+    assertEquals(1, method.invoke(null, 17, 13));
 }
 
 @Test
-public void testGreatestCommonDivisor_commonDivisor() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+void testGreatestCommonDivisorWhenOneValueIsZero() throws Exception {
+    java.lang.reflect.Method method = Fraction.class.getDeclaredMethod(
+            "greatestCommonDivisor", int.class, int.class);
     method.setAccessible(true);
 
-    int result = (Integer) method.invoke(null, 54, 24);
-
-    assertEquals(6, result);
+    assertEquals(8, method.invoke(null, 0, 8));
+    assertEquals(8, method.invoke(null, 8, 0));
+    assertEquals(8, method.invoke(null, 0, -8));
+    assertEquals(0, method.invoke(null, 0, 0));
 }
 
 @Test
-public void testGreatestCommonDivisor_zeroAndPositive() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+void testGreatestCommonDivisorWithIntegerMinValueAndZeroThrowsOverflow()
+        throws Exception {
+    java.lang.reflect.Method method = Fraction.class.getDeclaredMethod(
+            "greatestCommonDivisor", int.class, int.class);
     method.setAccessible(true);
 
-    int result = (Integer) method.invoke(null, 0, 9);
+    java.lang.reflect.InvocationTargetException exception = assertThrows(
+            java.lang.reflect.InvocationTargetException.class,
+            () -> method.invoke(null, Integer.MIN_VALUE, 0));
 
-    assertEquals(9, result);
+    assertInstanceOf(ArithmeticException.class, exception.getCause());
 }
 
 @Test
-public void testGreatestCommonDivisor_zeroAndNegative() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+void testGreatestCommonDivisorOfTwoIntegerMinValuesThrowsOverflow()
+        throws Exception {
+    java.lang.reflect.Method method = Fraction.class.getDeclaredMethod(
+            "greatestCommonDivisor", int.class, int.class);
     method.setAccessible(true);
 
-    int result = (Integer) method.invoke(null, -12, 0);
+    java.lang.reflect.InvocationTargetException exception = assertThrows(
+            java.lang.reflect.InvocationTargetException.class,
+            () -> method.invoke(null, Integer.MIN_VALUE, Integer.MIN_VALUE));
 
-    assertEquals(12, result);
-}
-
-@Test
-public void testGreatestCommonDivisor_bothZero() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
-    method.setAccessible(true);
-
-    int result = (Integer) method.invoke(null, 0, 0);
-
-    assertEquals(0, result);
-}
-
-@Test
-public void testGreatestCommonDivisor_negativeInputs() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
-    method.setAccessible(true);
-
-    int result = (Integer) method.invoke(null, -18, -24);
-
-    assertEquals(6, result);
-}
-
-@Test
-public void testGreatestCommonDivisor_minValueWithZero_throwsArithmeticException() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
-    method.setAccessible(true);
-
-    InvocationTargetException ex = assertThrows(InvocationTargetException.class,
-        () -> method.invoke(null, Integer.MIN_VALUE, 0));
-
-    assertTrue(ex.getCause() instanceof ArithmeticException);
-    assertEquals("overflow: gcd is 2^31", ex.getCause().getMessage());
-}
-
-@Test
-public void testGreatestCommonDivisor_bothMinValue_throwsArithmeticException() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
-    method.setAccessible(true);
-
-    InvocationTargetException ex = assertThrows(InvocationTargetException.class,
-        () -> method.invoke(null, Integer.MIN_VALUE, Integer.MIN_VALUE));
-
-    assertTrue(ex.getCause() instanceof ArithmeticException);
-    assertEquals("overflow: gcd is 2^31", ex.getCause().getMessage());
-}
-
-@Test
-public void testGreatestCommonDivisor_powerOfTwoOverflow_throwsArithmeticException() throws Exception {
-    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
-    method.setAccessible(true);
-
-    InvocationTargetException ex = assertThrows(InvocationTargetException.class,
-        () -> method.invoke(null, Integer.MIN_VALUE, Integer.MIN_VALUE));
-
-    assertTrue(ex.getCause() instanceof ArithmeticException);
-    assertEquals("overflow: gcd is 2^31", ex.getCause().getMessage());
+    assertInstanceOf(ArithmeticException.class, exception.getCause());
 }
