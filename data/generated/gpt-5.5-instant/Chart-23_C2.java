@@ -1,23 +1,14 @@
 @Test
-public void testEquals_sameInstance() {
+void testEqualsSameInstanceAndDifferentType() {
     MinMaxCategoryRenderer renderer = new MinMaxCategoryRenderer();
+
     assertTrue(renderer.equals(renderer));
-}
-
-@Test
-public void testEquals_null() {
-    MinMaxCategoryRenderer renderer = new MinMaxCategoryRenderer();
     assertFalse(renderer.equals(null));
+    assertFalse(renderer.equals("renderer"));
 }
 
 @Test
-public void testEquals_differentType() {
-    MinMaxCategoryRenderer renderer = new MinMaxCategoryRenderer();
-    assertFalse(renderer.equals("not a renderer"));
-}
-
-@Test
-public void testEquals_identicalRenderers() {
+void testEqualsWithEquivalentRenderer() {
     MinMaxCategoryRenderer renderer1 = new MinMaxCategoryRenderer();
     MinMaxCategoryRenderer renderer2 = new MinMaxCategoryRenderer();
 
@@ -26,55 +17,28 @@ public void testEquals_identicalRenderers() {
 }
 
 @Test
-public void testEquals_differentPlotLines() {
+void testEqualsDetectsDifferentRendererProperties() {
     MinMaxCategoryRenderer renderer1 = new MinMaxCategoryRenderer();
     MinMaxCategoryRenderer renderer2 = new MinMaxCategoryRenderer();
 
-    renderer2.setPlotLines(!renderer1.isPlotLines());
+    renderer2.setDrawLines(!renderer1.isDrawLines());
+    assertFalse(renderer1.equals(renderer2));
 
+    renderer2.setDrawLines(renderer1.isDrawLines());
+    renderer2.setGroupPaint(java.awt.Color.RED);
+    assertFalse(renderer1.equals(renderer2));
+
+    renderer1.setGroupPaint(java.awt.Color.RED);
+    renderer2.setGroupStroke(new java.awt.BasicStroke(2.0f));
     assertFalse(renderer1.equals(renderer2));
 }
 
 @Test
-public void testEquals_differentGroupPaint() {
+void testEqualsDelegatesToSuperclassProperties() {
     MinMaxCategoryRenderer renderer1 = new MinMaxCategoryRenderer();
     MinMaxCategoryRenderer renderer2 = new MinMaxCategoryRenderer();
 
-    renderer1.setGroupPaint(Color.RED);
-    renderer2.setGroupPaint(Color.BLUE);
-
-    assertFalse(renderer1.equals(renderer2));
-}
-
-@Test
-public void testEquals_equalGroupPaintInstances() {
-    MinMaxCategoryRenderer renderer1 = new MinMaxCategoryRenderer();
-    MinMaxCategoryRenderer renderer2 = new MinMaxCategoryRenderer();
-
-    renderer1.setGroupPaint(new Color(10, 20, 30));
-    renderer2.setGroupPaint(new Color(10, 20, 30));
-
-    assertTrue(renderer1.equals(renderer2));
-}
-
-@Test
-public void testEquals_differentGroupStroke() {
-    MinMaxCategoryRenderer renderer1 = new MinMaxCategoryRenderer();
-    MinMaxCategoryRenderer renderer2 = new MinMaxCategoryRenderer();
-
-    renderer1.setGroupStroke(new BasicStroke(1.0f));
-    renderer2.setGroupStroke(new BasicStroke(2.0f));
-
-    assertFalse(renderer1.equals(renderer2));
-}
-
-@Test
-public void testEquals_inheritedPropertyDifferent() {
-    MinMaxCategoryRenderer renderer1 = new MinMaxCategoryRenderer();
-    MinMaxCategoryRenderer renderer2 = new MinMaxCategoryRenderer();
-
-    renderer1.setBaseSeriesVisible(true);
-    renderer2.setBaseSeriesVisible(false);
+    renderer2.setSeriesVisible(0, Boolean.FALSE);
 
     assertFalse(renderer1.equals(renderer2));
 }

@@ -1,7 +1,6 @@
 @Test
-public void testGetDomainAxisIndex_existingAxis() {
+void testGetDomainAxisIndexReturnsCorrectIndex() {
     CategoryPlot plot = new CategoryPlot();
-
     CategoryAxis axis1 = new CategoryAxis("Axis 1");
     CategoryAxis axis2 = new CategoryAxis("Axis 2");
 
@@ -13,24 +12,20 @@ public void testGetDomainAxisIndex_existingAxis() {
 }
 
 @Test
-public void testGetDomainAxisIndex_axisNotPresent() {
+void testGetDomainAxisIndexReturnsMinusOneForUnknownAxis() {
     CategoryPlot plot = new CategoryPlot();
-
     CategoryAxis axis1 = new CategoryAxis("Axis 1");
     CategoryAxis axis2 = new CategoryAxis("Axis 2");
 
-    plot.setDomainAxis(axis1);
+    plot.setDomainAxis(0, axis1);
 
     assertEquals(-1, plot.getDomainAxisIndex(axis2));
 }
 
 @Test
-public void testGetDomainAxisIndex_nullAxis() {
+void testGetDomainAxisIndexThrowsExceptionForNullAxis() {
     CategoryPlot plot = new CategoryPlot();
 
-    IllegalArgumentException exception = assertThrows(
-        IllegalArgumentException.class,
-        () -> plot.getDomainAxisIndex(null));
-
-    assertEquals("Null 'axis' argument.", exception.getMessage());
+    assertThrows(IllegalArgumentException.class,
+            () -> plot.getDomainAxisIndex(null));
 }

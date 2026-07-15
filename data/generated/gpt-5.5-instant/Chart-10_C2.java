@@ -1,35 +1,29 @@
 @Test
-public void testGenerateToolTipFragment_plainText() {
-    StandardToolTipTagFragmentGenerator generator = new StandardToolTipTagFragmentGenerator();
+void testGenerateToolTipFragmentWithPlainText() {
+    StandardToolTipTagFragmentGenerator generator =
+            new StandardToolTipTagFragmentGenerator();
 
-    String result = generator.generateToolTipFragment("Sample Tooltip");
+    String result = generator.generateToolTipFragment("Simple Tooltip");
 
-    assertEquals(" title=\"Sample Tooltip\" alt=\"\"", result);
+    assertEquals(" title=\"Simple Tooltip\" alt=\"\"", result);
 }
 
 @Test
-public void testGenerateToolTipFragment_htmlSpecialCharacters() {
-    StandardToolTipTagFragmentGenerator generator = new StandardToolTipTagFragmentGenerator();
+void testGenerateToolTipFragmentWithHtmlSpecialCharacters() {
+    StandardToolTipTagFragmentGenerator generator =
+            new StandardToolTipTagFragmentGenerator();
 
-    String result = generator.generateToolTipFragment("<tag> & \"text\"");
+    String result = generator.generateToolTipFragment("<tag> & \"quote\"");
 
-    assertEquals(" title=\"&lt;tag&gt; &amp; &quot;text&quot;\" alt=\"\"", result);
+    assertEquals(" title=\"&lt;tag&gt; &amp; &quot;quote&quot;\" alt=\"\"", result);
 }
 
 @Test
-public void testGenerateToolTipFragment_emptyString() {
-    StandardToolTipTagFragmentGenerator generator = new StandardToolTipTagFragmentGenerator();
+void testGenerateToolTipFragmentWithEmptyString() {
+    StandardToolTipTagFragmentGenerator generator =
+            new StandardToolTipTagFragmentGenerator();
 
     String result = generator.generateToolTipFragment("");
-
-    assertEquals(" title=\"\" alt=\"\"", result);
-}
-
-@Test
-public void testGenerateToolTipFragment_nullInput() {
-    StandardToolTipTagFragmentGenerator generator = new StandardToolTipTagFragmentGenerator();
-
-    String result = generator.generateToolTipFragment(null);
 
     assertEquals(" title=\"\" alt=\"\"", result);
 }
