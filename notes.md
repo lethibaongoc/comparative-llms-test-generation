@@ -290,3 +290,27 @@
 
   as the 2026-07-14 entry above.
 
+- 2026-07-15: **Reversed the "not regenerating" decision above for
+
+  gpt-5.5-instant.** Regenerated all 30/30 gpt-5.5-instant C2 files
+
+  (manual web UI, chatgpt.com) using the standardized exemplar — commits
+
+  \`b1ae0ff\` (Lang), \`7514a46\` (Math), \`aed8b52\` (Chart). The
+
+  gpt-5.5-instant portion of the C2-exemplar limitation is now closed;
+
+  **only the 10 original deepseek C2 files remain a known limitation**
+
+  (Lang-8, Lang-10, Math-2, Math-9, Math-27, Math-53, Math-55, Chart-1,
+
+  Chart-10, Chart-11 — see 2026-07-15 entry above for why those weren't
+
+  regenerated too). Note: ChatGPT's paste output repeatedly split code
+
+  into markdown fences mid-method (an artifact of the web UI, not the
+
+  model's actual output) — each file was manually reformatted back to
+
+  plain Java before saving; content/logic was not altered.
+
