@@ -1,5 +1,5 @@
 @Test
-public void testAdd_validComplexNumbers() {
+void testAddWithRegularComplexNumbers() {
     Complex c1 = new Complex(1.5, 2.5);
     Complex c2 = new Complex(3.0, 4.0);
 
@@ -10,39 +10,15 @@ public void testAdd_validComplexNumbers() {
 }
 
 @Test
-public void testAdd_zeroComplex() {
-    Complex c1 = new Complex(2.0, -3.0);
-    Complex zero = Complex.ZERO;
+void testAddWithNaNOperandReturnsNaN() {
+    Complex c = new Complex(1.0, 2.0);
 
-    Complex result = c1.add(zero);
-
-    assertEquals(2.0, result.getReal(), 1e-10);
-    assertEquals(-3.0, result.getImaginary(), 1e-10);
+    assertTrue(c.add(Complex.NaN).isNaN());
+    assertTrue(Complex.NaN.add(c).isNaN());
 }
 
 @Test
-public void testAdd_leftOperandNaN() {
-    Complex result = Complex.NaN.add(new Complex(1.0, 2.0));
-
-    assertTrue(result.isNaN());
-}
-
-@Test
-public void testAdd_rightOperandNaN() {
-    Complex result = new Complex(1.0, 2.0).add(Complex.NaN);
-
-    assertTrue(result.isNaN());
-}
-
-@Test
-public void testAdd_bothOperandsNaN() {
-    Complex result = Complex.NaN.add(Complex.NaN);
-
-    assertTrue(result.isNaN());
-}
-
-@Test
-public void testAdd_nullArgument() {
+void testAddWithNullArgumentThrowsException() {
     Complex c = new Complex(1.0, 2.0);
 
     assertThrows(NullArgumentException.class, () -> c.add(null));

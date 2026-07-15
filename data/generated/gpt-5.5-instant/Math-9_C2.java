@@ -1,23 +1,23 @@
 @Test
-public void testRevert_reversesDirection() {
-    Vector2D zero = new Vector2D(1.0, 2.0);
-    Vector2D direction = new Vector2D(3.0, 4.0);
-    Line line = new Line(zero, direction);
+void testRevertCreatesLineWithNegatedDirection() {
+    Vector3D zero = new Vector3D(1.0, 2.0, 3.0);
+    Vector3D directionPoint = new Vector3D(4.0, 6.0, 8.0);
+    Line line = new Line(zero, directionPoint);
 
     Line reverted = line.revert();
 
-    assertEquals(zero, reverted.getZero());
-    assertEquals(zero.subtract(direction), reverted.getDirection());
+    assertEquals(zero, reverted.getOrigin());
+    assertEquals(line.getDirection().negate(), reverted.getDirection());
 }
 
 @Test
-public void testRevert_twiceReturnsOriginalLine() {
-    Vector2D zero = new Vector2D(-2.0, 5.0);
-    Vector2D direction = new Vector2D(7.0, -1.0);
-    Line line = new Line(zero, direction);
+void testRevertTwiceReturnsEquivalentDirection() {
+    Vector3D zero = new Vector3D(1.0, 0.0, 0.0);
+    Vector3D directionPoint = new Vector3D(2.0, 1.0, 0.0);
+    Line line = new Line(zero, directionPoint);
 
     Line revertedTwice = line.revert().revert();
 
-    assertEquals(line.getZero(), revertedTwice.getZero());
+    assertEquals(line.getOrigin(), revertedTwice.getOrigin());
     assertEquals(line.getDirection(), revertedTwice.getDirection());
 }

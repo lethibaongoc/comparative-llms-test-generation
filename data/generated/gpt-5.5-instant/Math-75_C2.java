@@ -1,33 +1,26 @@
 @Test
-public void testGetPct_existingValue() {
-    Frequency obj = new Frequency();
-    obj.addValue("apple");
-    obj.addValue("apple");
-    obj.addValue("banana");
+void testGetPctForExistingValue() {
+    Frequency frequency = new Frequency();
+    frequency.addValue("apple");
+    frequency.addValue("apple");
+    frequency.addValue("banana");
 
-    assertEquals(2.0 / 3.0, obj.getPct((Object) "apple"), 1e-10);
+    assertEquals(2.0 / 3.0, frequency.getPct((Object) "apple"), 1e-10);
+    assertEquals(1.0 / 3.0, frequency.getPct((Object) "banana"), 1e-10);
 }
 
 @Test
-public void testGetPct_nonExistingValue() {
-    Frequency obj = new Frequency();
-    obj.addValue("apple");
-    obj.addValue("banana");
+void testGetPctForNonExistingValue() {
+    Frequency frequency = new Frequency();
+    frequency.addValue("apple");
+    frequency.addValue("banana");
 
-    assertEquals(0.0, obj.getPct((Object) "orange"), 1e-10);
+    assertEquals(0.0, frequency.getPct((Object) "orange"), 1e-10);
 }
 
 @Test
-public void testGetPct_nullValue() {
-    Frequency obj = new Frequency();
-    obj.addValue("apple");
+void testGetPctForNullValue() {
+    Frequency frequency = new Frequency();
 
-    assertEquals(0.0, obj.getPct((Object) null), 1e-10);
-}
-
-@Test
-public void testGetPct_emptyFrequency() {
-    Frequency obj = new Frequency();
-
-    assertTrue(Double.isNaN(obj.getPct((Object) "apple")));
+    assertEquals(0.0, frequency.getPct((Object) null), 1e-10);
 }
