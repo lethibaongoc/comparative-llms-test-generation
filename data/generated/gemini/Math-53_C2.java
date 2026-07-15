@@ -1,81 +1,22 @@
-```java
 @Test
-void testAdd_positiveNumbers() {
-    Complex obj = new Complex(2.0, 3.0);
-    Complex rhs = new Complex(1.0, 4.0);
-    Complex expected = new Complex(3.0, 7.0);
-    assertEquals(expected, obj.add(rhs));
+void testAddSuccess() {
+    Complex c1 = new Complex(1.0, 2.0);
+    Complex c2 = new Complex(3.0, 4.0);
+    Complex result = c1.add(c2);
+    assertEquals(4.0, result.getReal(), 1e-15);
+    assertEquals(6.0, result.getImaginary(), 1e-15);
 }
 
 @Test
-void testAdd_negativeNumbers() {
-    Complex obj = new Complex(-2.0, -3.0);
-    Complex rhs = new Complex(-1.0, -4.0);
-    Complex expected = new Complex(-3.0, -7.0);
-    assertEquals(expected, obj.add(rhs));
+void testAddNaN() {
+    Complex c1 = new Complex(1.0, 2.0);
+    Complex c2 = Complex.NaN;
+    assertTrue(c1.add(c2).isNaN());
+    assertTrue(c2.add(c1).isNaN());
 }
 
 @Test
-void testAdd_mixedSigns() {
-    Complex obj = new Complex(2.0, -3.0);
-    Complex rhs = new Complex(-1.0, 4.0);
-    Complex expected = new Complex(1.0, 1.0);
-    assertEquals(expected, obj.add(rhs));
+void testAddNullThrowsException() {
+    Complex c = new Complex(1.0, 2.0);
+    assertThrows(NullArgumentException.class, () -> c.add(null));
 }
-
-@Test
-void testAdd_withZeroRhs() {
-    Complex obj = new Complex(5.0, -2.0);
-    Complex rhs = new Complex(0.0, 0.0);
-    Complex expected = new Complex(5.0, -2.0);
-    assertEquals(expected, obj.add(rhs));
-}
-
-@Test
-void testAdd_zeroObj() {
-    Complex obj = new Complex(0.0, 0.0);
-    Complex rhs = new Complex(5.0, -2.0);
-    Complex expected = new Complex(5.0, -2.0);
-    assertEquals(expected, obj.add(rhs));
-}
-
-@Test
-void testAdd_purelyRealNumbers() {
-    Complex obj = new Complex(5.0, 0.0);
-    Complex rhs = new Complex(3.0, 0.0);
-    Complex expected = new Complex(8.0, 0.0);
-    assertEquals(expected, obj.add(rhs));
-}
-
-@Test
-void testAdd_purelyImaginaryNumbers() {
-    Complex obj = new Complex(0.0, 5.0);
-    Complex rhs = new Complex(0.0, -3.0);
-    Complex expected = new Complex(0.0, 2.0);
-    assertEquals(expected, obj.add(rhs));
-}
-
-@Test
-void testAdd_resultsInZero() {
-    Complex obj = new Complex(2.5, -3.5);
-    Complex rhs = new Complex(-2.5, 3.5);
-    Complex expected = new Complex(0.0, 0.0);
-    assertEquals(expected, obj.add(rhs));
-}
-
-@Test
-void testAdd_largeNumbers() {
-    Complex obj = new Complex(1e100, 2e100);
-    Complex rhs = new Complex(3e100, 4e100);
-    Complex expected = new Complex(4e100, 6e100);
-    assertEquals(expected, obj.add(rhs));
-}
-
-@Test
-void testAdd_smallNumbers() {
-    Complex obj = new Complex(1e-10, 2e-10);
-    Complex rhs = new Complex(3e-10, 4e-10);
-    Complex expected = new Complex(4e-10, 6e-10);
-    assertEquals(expected, obj.add(rhs));
-}
-```

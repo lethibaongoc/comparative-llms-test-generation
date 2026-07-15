@@ -1,117 +1,54 @@
-```java
 @Test
-void sample_returnsExactIntegerWhenNextHypergeometricIsExact() {
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return 5.0
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.0);
+void testGetNumericalMeanStandardCase() {
+    HypergeometricDistribution dist = Mockito.spy(new HypergeometricDistribution(100, 30, 20));
+    Mockito.doReturn(20).when(dist).getSampleSize();
+    Mockito.doReturn(30).when(dist).getNumberOfSuccesses();
+    Mockito.doReturn(100).when(dist).getPopulationSize();
 
-    // Create HypergeometricDistribution instance with mocked dependency
-    // Using arbitrary valid parameters for the distribution itself
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(5, result, "sample() should return the exact integer value.");
+    // Mean = 20 * (30 / 100.0) = 6.0
+    assertEquals(6.0, dist.getNumericalMean(), 1e-9);
 }
 
 @Test
-void sample_roundsHalfUpWhenNextHypergeometricHasPointFive() {
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return 5.5
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.5);
+void testGetNumericalMeanWithZeroSuccesses() {
+    HypergeometricDistribution dist = Mockito.spy(new HypergeometricDistribution(100, 0, 20));
+    Mockito.doReturn(20).when(dist).getSampleSize();
+    Mockito.doReturn(0).when(dist).getNumberOfSuccesses();
+    Mockito.doReturn(100).when(dist).getPopulationSize();
 
-    // Create HypergeometricDistribution instance with mocked dependency
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(6, result, "sample() should round .5 up (Math.round behavior).");
+    // Mean = 20 * (0 / 100.0) = 0.0
+    assertEquals(0.0, dist.getNumericalMean(), 1e-9);
 }
 
 @Test
-void sample_roundsDownWhenNextHypergeometricIsPointFourNine() {
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return 5.49
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.49);
+void testGetNumericalMeanWithZeroSampleSize() {
+    HypergeometricDistribution dist = Mockito.spy(new HypergeometricDistribution(100, 30, 0));
+    Mockito.doReturn(0).when(dist).getSampleSize();
+    Mockito.doReturn(30).when(dist).getNumberOfSuccesses();
+    Mockito.doReturn(100).when(dist).getPopulationSize();
 
-    // Create HypergeometricDistribution instance with mocked dependency
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(5, result, "sample() should round .49 down.");
+    // Mean = 0 * (30 / 100.0) = 0.0
+    assertEquals(0.0, dist.getNumericalMean(), 1e-9);
 }
 
 @Test
-void sample_roundsUpWhenNextHypergeometricIsPointNine() {
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return 5.9
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.9);
+void testGetNumericalMeanAllSuccesses() {
+    HypergeometricDistribution dist = Mockito.spy(new HypergeometricDistribution(50, 50, 10));
+    Mockito.doReturn(10).when(dist).getSampleSize();
+    Mockito.doReturn(50).when(dist).getNumberOfSuccesses();
+    Mockito.doReturn(50).when(dist).getPopulationSize();
 
-    // Create HypergeometricDistribution instance with mocked dependency
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(6, result, "sample() should round .9 up.");
+    // Mean = 10 * (50 / 50.0) = 10.0
+    assertEquals(10.0, dist.getNumericalMean(), 1e-9);
 }
 
 @Test
-void sample_returnsZeroWhenNextHypergeometricIsZero() {
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return 0.0
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(0.0);
+void testGetNumericalMeanLargeValues() {
+    HypergeometricDistribution dist = Mockito.spy(new HypergeometricDistribution(1000000, 300000, 50000));
+    Mockito.doReturn(50000).when(dist).getSampleSize();
+    Mockito.doReturn(300000).when(dist).getNumberOfSuccesses();
+    Mockito.doReturn(1000000).when(dist).getPopulationSize();
 
-    // Create HypergeometricDistribution instance with mocked dependency
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(0, result, "sample() should return 0 when nextHypergeometric is 0.0.");
+    // Mean = 50000 * (300000 / 1000000.0) = 15000.0
+    assertEquals(15000.0, dist.getNumericalMean(), 1e-9);
 }
-
-@Test
-void sample_handlesNegativeValueRoundingAwayFromZeroForPointFive() {
-    // FastMath.round(double) uses Math.round(double), which rounds -X.5 to -X (e.g., -2.5 to -2).
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return -2.5
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(-2.5);
-
-    // Create HypergeometricDistribution instance with mocked dependency
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(-2, result, "sample() should correctly round negative .5 value (-2.5 to -2).");
-}
-
-@Test
-void sample_handlesNegativeValueRoundingDown() {
-    // Math.round(-2.6) -> -3
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return -2.6
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(-2.6);
-
-    // Create HypergeometricDistribution instance with mocked dependency
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(-3, result, "sample() should correctly round negative value down (-2.6 to -3).");
-}
-
-@Test
-void sample_handlesNegativeValueRoundingUp() {
-    // Math.round(-2.3) -> -2
-    // Mock RandomDataGenerator
-    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
-    // When nextHypergeometric is called with any int arguments, return -2.3
-    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(-2.3);
-
-    // Create HypergeometricDistribution instance with mocked dependency
-    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
-
-    int result = distribution.sample();
-    assertEquals(-2, result, "sample() should correctly round negative value up (-2.3 to -2).");
-}
-```
