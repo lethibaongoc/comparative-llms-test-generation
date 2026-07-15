@@ -314,3 +314,31 @@
 
   plain Java before saving; content/logic was not altered.
 
+\- 2026-07-15: **Built the assignment 8.2 deliverables.** Added
+
+  \`scripts/build_full_log.py\`, which produces \`results/full_llm_output.csv\`
+
+  (240 rows = 30 methods × 2 conditions × 4 models, one row per generated
+
+  \`.java\` file, with method/class/condition/model/test-method-count/
+
+  char-count/git-commit) and \`results/full_api_log.txt\` (same 240 entries
+
+  as a chronological log). Since all 4 models were run manually via free
+
+  web UI (no billed API calls, cost = \$0.00 for every entry), there is no
+
+  real per-call timestamp, \`response.model\` object, or token count to
+
+  report — the log uses each file's most recent git commit time as a
+
+  documented, reproducible proxy for "when it was generated" (the project's
+
+  standing convention is to commit immediately after generating/
+
+  regenerating a file), and \`model\` is the output-folder label rather than
+
+  an API response field. Both files' header text says this explicitly so
+
+  it isn't mistaken for real API telemetry.
+
