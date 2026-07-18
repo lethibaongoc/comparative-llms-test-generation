@@ -498,3 +498,43 @@
   the Stage-1 numbers). The script checkpoints its CSV per file and resumes,
 
   so the long sweep survives the environment killing background runs.
+
+- 2026-07-19: **Stage 3 — JaCoCo line (RQ1) and branch (RQ2) coverage** of the
+
+  focal class, on the Defects4J fixed trees. New harness
+
+  `scripts/measure_coverage.py` + `run_coverage.sh` reuses the compile/exec
+
+  builders, checkouts, classpath/package caches and resume/checkpoint logic;
+
+  per file it compiles the test on the fixed tree, runs it under
+
+  `-javaagent:jacocoagent.jar` (JaCoCo 0.8.11, Jupiter engine, headless, 90s
+
+  timeout), builds a JaCoCo XML report over the project classes, and reads the
+
+  focal class LINE and BRANCH counters. Coverage is averaged over the tests
+
+  that actually ran (a test that fails assertions still counts the code it
+
+  exercised before failing).
+
+  Lenient means: gpt-5.5-instant line 27.5% / branch 16.7% (46 ran), llama
+
+  26.5% / 13.8% (35), gemini 25.2% / 14.8% (38), deepseek 22.1% / 9.7% (25).
+
+  The "ran" counts equal the Stage-1/2 compile counts exactly (25/38/46/35),
+
+  the key cross-check. Coverage is modest because the focal classes are often
+
+  large and a single generated test touches a small slice. Unlike bug
+
+  detection, few-shot (C2) generally *raised* coverage (deepseek line
+
+  18.3%->25.1%, branch 5.4%->13.1%; gemini and llama up; gpt roughly flat).
+
+  Results in `results/coverage/` and `results/coverage-strict/` (per-file CSV +
+
+  summary + raw JaCoCo XML). Next: RQ3 test smells (tsDetect) and the RQ1-4
+
+  statistics + figures.

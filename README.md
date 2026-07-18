@@ -51,7 +51,8 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 - ✅ **Generation complete** — all 240 tests (30 methods × 2 prompts × 4 LLMs) in `data/generated/`
 - ✅ **Stage 1 — compilability** measured against real Defects4J v2.0.0 (`results/compilability/`)
 - ✅ **Stage 2 — execution + bug detection** measured on fixed and buggy trees (`results/execution/`, `results/execution-strict/`)
-- ⏳ RQ1–RQ3 coverage (JaCoCo) and test-smell (tsDetect) analysis — next
+- ✅ **Stage 3 — coverage (JaCoCo)** — RQ1 line + RQ2 branch coverage of the focal class (`results/coverage/`, `results/coverage-strict/`)
+- ⏳ RQ3 test-smell (tsDetect) analysis and RQ1–4 statistics/figures — next
 
 ## Results so far
 
@@ -88,6 +89,26 @@ on buggy). Lenient import mode shown as headline; strict in parentheses.
 
 Detail: `results/execution/` and `results/execution-strict/`
 (`execution_summary.md` + per-file CSV + per-run logs).
+
+### Stage 3 — Coverage of the focal class (RQ1 line, RQ2 branch)
+
+JaCoCo, on the fixed program, mean over the tests that actually ran
+(compiled + executed); a test that fails assertions still counts the code it
+exercised. Lenient headline (strict in parentheses).
+
+| Model | Tests run | Mean line cov (RQ1) | Mean branch cov (RQ2) |
+|---|---|---|---|
+| gpt-5.5-instant | 46 | **27.5%** (28.8%) | **16.7%** (15.5%) |
+| llama | 35 | 26.5% (26.5%) | 13.8% (13.8%) |
+| gemini | 38 | 25.2% (28.4%) | 14.8% (15.7%) |
+| deepseek | 25 | 22.1% (23.5%) | 9.7% (10.3%) |
+
+Coverage is modest across the board — the tests exercise a small slice of
+often-large focal classes (e.g. `FastDatePrinter`), and the denominators
+differ because weaker models compile fewer runnable tests. For coverage, few-shot
+(C2) *did* help most models (e.g. deepseek line 18.3%→25.1%, branch 5.4%→13.1%),
+unlike its mixed effect on bug detection. Detail: `results/coverage/` and
+`results/coverage-strict/`.
 
 ### RQ4 preview — few-shot (C2) vs zero-shot (C1)
 
@@ -128,6 +149,8 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── compilability/            # Stage 1: summary + per-file CSV + per-failure logs
 │   ├── execution/                # Stage 2 (lenient): summary + CSV + per-run logs
 │   ├── execution-strict/         # Stage 2 (strict import mode)
+│   ├── coverage/                 # Stage 3 (lenient): JaCoCo line/branch + XML
+│   ├── coverage-strict/          # Stage 3 (strict import mode)
 │   ├── PILOT_RESULTS.md          # Llama pilot report (per-method oracle notes)
 │   └── archive/                  # superseded/failed run artifacts
 ├── figures/                      # RQ1-4 charts (populated during analysis)
@@ -136,8 +159,10 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── run_pilot_groq.py         # Groq Llama-3.3-70B pilot run
 │   ├── measure_compilability.py  # Stage 1: compile against Defects4J, classify failures
 │   ├── measure_execution.py      # Stage 2: run on fixed+buggy, score valid/detected
+│   ├── measure_coverage.py       # Stage 3: JaCoCo line/branch of the focal class
 │   ├── run_compile.sh            # one-command wrapper for Stage 1 (WSL)
 │   ├── run_execution.sh          # one-command wrapper for Stage 2 (WSL)
+│   ├── run_coverage.sh           # one-command wrapper for Stage 3 (WSL)
 │   └── test_api.py               # Gate E3 API connectivity check
 ├── requirements.txt
 ├── .env.example
