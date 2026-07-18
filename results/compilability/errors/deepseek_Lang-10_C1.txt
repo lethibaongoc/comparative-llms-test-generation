@@ -1,0 +1,138 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:28: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:28: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:33: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:41: error: cannot find symbol
+    Pattern pattern = Pattern.compile("xyz");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:41: error: cannot find symbol
+    Pattern pattern = Pattern.compile("xyz");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:46: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:54: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:54: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:59: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:67: error: cannot find symbol
+    Pattern pattern = Pattern.compile("def");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:67: error: cannot find symbol
+    Pattern pattern = Pattern.compile("def");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:72: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:80: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:80: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:85: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:93: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:93: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abc");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:98: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:106: error: cannot find symbol
+    Pattern pattern = Pattern.compile("");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:106: error: cannot find symbol
+    Pattern pattern = Pattern.compile("");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:111: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:119: error: cannot find symbol
+    Pattern pattern = Pattern.compile("a+b");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:119: error: cannot find symbol
+    Pattern pattern = Pattern.compile("a+b");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:124: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:132: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abcde");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:132: error: cannot find symbol
+    Pattern pattern = Pattern.compile("abcde");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:137: error: incompatible types: Date cannot be converted to boolean
+    boolean result = parser.parse(source, pos);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:145: error: cannot find symbol
+    Pattern pattern = Pattern.compile("test");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:145: error: cannot find symbol
+    Pattern pattern = Pattern.compile("test");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:158: error: cannot find symbol
+    Pattern pattern = Pattern.compile("test");
+    ^
+  symbol:   class Pattern
+  location: class deepseek_Lang_10_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:158: error: cannot find symbol
+    Pattern pattern = Pattern.compile("test");
+                      ^
+  symbol:   variable Pattern
+  location: class deepseek_Lang_10_C1_Test
+31 errors

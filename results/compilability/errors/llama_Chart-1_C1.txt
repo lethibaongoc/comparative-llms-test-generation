@@ -1,0 +1,24 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-1_C1/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:86: error: <anonymous org.jfree.chart.renderer.category.AbstractCategoryItemRendererTest$1> is not abstract and does not override abstract method drawItem(Graphics2D,CategoryItemRendererState,Rectangle2D,CategoryPlot,CategoryAxis,ValueAxis,CategoryDataset,int,int,boolean,int) in CategoryItemRenderer
+        renderer = new AbstractCategoryItemRenderer() {
+                                                      ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-1_C1/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:126: error: cannot find symbol
+        assertEquals("Series 1", legendItems.getItem(0).getLabel());
+                                            ^
+  symbol:   method getItem(int)
+  location: variable legendItems of type LegendItemCollection
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-1_C1/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:127: error: cannot find symbol
+        assertEquals("Series 2", legendItems.getItem(1).getLabel());
+                                            ^
+  symbol:   method getItem(int)
+  location: variable legendItems of type LegendItemCollection
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-1_C1/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:146: error: cannot find symbol
+        assertEquals("Series 2", legendItems.getItem(0).getLabel());
+                                            ^
+  symbol:   method getItem(int)
+  location: variable legendItems of type LegendItemCollection
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-1_C1/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:147: error: cannot find symbol
+        assertEquals("Series 1", legendItems.getItem(1).getLabel());
+                                            ^
+  symbol:   method getItem(int)
+  location: variable legendItems of type LegendItemCollection
+5 errors

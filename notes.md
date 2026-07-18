@@ -342,3 +342,107 @@
 
   it isn't mistaken for real API telemetry.
 
+- 2026-07-17: **Installed Defects4J v2.0.0 for real and fixed two bugs in
+
+  `scripts/measure_compilability.py` that made its output meaningless.**
+
+  Setup: `results/COMPILABILITY_SETUP.md` claimed Defects4J was already
+
+  extracted under `D:\semester5\swt301\research\` per this log — **that was
+
+  false**; it was not installed anywhere, on Windows or in WSL. Now cloned
+
+  at tag `v2.0.0` to `~/defects4j` inside WSL's native filesystem (not
+
+  `/mnt/d` — checkouts across drvfs are slow and hit permission/symlink
+
+  trouble). Verified end-to-end: `defects4j checkout/compile/export` on
+
+  Lang-8f all OK. `run_compile.sh` only needs `defects4j` on PATH, so the
+
+  install location is free.
+
+  Bug 1 (**would have been published as a model result**): the script
+
+  assumed all 240 files are bare method fragments and wrapped every one in
+
+  a scaffold class. But 63 files are complete compilation units the model
+
+  wrote itself — all 60 llama, plus deepseek Lang-8_C1/C2 and Math-2_C2.
+
+  Wrapping those nests a class inside a class, failing all 63 on syntax
+
+  alone: **llama would have scored 0% compilable**, purely as a harness
+
+  artifact. Added `detect_shape()` (a top-level type declaration sits at
+
+  column 0; fragments' own nested/anonymous classes are always indented —
+
+  verified: 0 false positives across all 240) and a `build_full_unit()`
+
+  path that compiles such files as-is. The `file_shape` CSV column records
+
+  which path each file took so the 177/63 split stays auditable.
+
+  Bug 2: `javac -d <dir>` requires the output dir to exist and the script
+
+  never created it, so **every file failed with `error_category=unknown`**
+
+  — meaning this script had never once produced a valid number. Any
+
+  compilability figure predating this entry is invalid and must not be
+
+  reused.
+
+  Method decisions: (a) **javac 8**, not the javac 21 the setup doc named —
+
+  the classpath is Java-8-compiled project code and one compiler avoids
+
+  cross-version noise; override via `JAVAC=`. (b) **Mockito jars
+
+  (mockito-core 4.11.0 + byte-buddy + objenesis) are on `--extra-cp` by
+
+  default** — 16 files use Mockito, which is not a Lang/Math/Chart
+
+  dependency, so without them those fail on a missing jar rather than on
+
+  test quality. Report that this was done. Also fixed the scaffold to add
+
+  `import org.mockito.*` alongside the static import, without which the 5
+
+  files using qualified `Mockito.mock(...)` failed on the harness, not on
+
+  their own merit. (c) In lenient mode, `full_class` files also get the
+
+  project wildcard imports injected, so they are treated the same as
+
+  fragments; Java resolves single-type imports ahead of wildcards, so a
+
+  model's own explicit imports still win. Added an `ambiguous_reference`
+
+  error bucket to catch any case where that assumption breaks — it is a
+
+  harness artifact, not a model error, and should read 0.
+
+  Finding worth reporting (not a bug): `methods.json` labels Lang-8 as
+
+  `FastDatePrinter.appendTo`, but `FastDatePrinter` declares no top-level
+
+  `appendTo` — the method lives in `private static class TimeZoneNameRule`
+
+  (line 1095), and the `source` snippet stored for it is that inner class's
+
+  body. The label is imprecise rather than wrong for harness purposes (the
+
+  `class` field is only used to resolve the package, and `FastDatePrinter`
+
+  resolves fine), but it makes Lang-8 unusually hard: the focal method is
+
+  unreachable through the public API. Only deepseek compiles, by using
+
+  reflection (`Constructor.setAccessible(true)` + `invoke`); llama fails on
+
+  private access and gemini/gpt-5.5 hallucinate `appendTo` onto
+
+  `FastDatePrinter`. Worth a line in the report rather than a fix.
+

@@ -1,0 +1,446 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:83: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+                                  ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:87: error: cannot find symbol
+    verifyNoInteractions(mockPlot);
+                         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:92: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+                     ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:92: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+    ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:93: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(0);
+                             ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:93: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(0);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:94: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(null);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:96: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+                                  ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:100: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+                                ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:100: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:101: error: cannot find symbol
+    verify(mockPlot).getDataset(anyInt());
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:102: error: cannot find symbol
+    verifyNoMoreInteractions(mockPlot);
+                             ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:103: error: cannot find symbol
+    verifyNoInteractions(mockDataset);
+                         ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:109: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+                     ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:109: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+    ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:110: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(0);
+                             ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:110: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(0);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:111: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+                                                   ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:111: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:112: error: cannot find symbol
+    when(mockDataset.getRowCount()).thenReturn(rowCount);
+         ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:114: error: cannot find symbol
+    doReturn(false).when(renderer).isSeriesVisibleInLegend(anyInt());
+                         ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:116: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+                                  ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:120: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+                                ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:120: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:121: error: cannot find symbol
+    verify(mockPlot).getDataset(anyInt());
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:122: error: cannot find symbol
+    verify(mockDataset).getRowCount();
+           ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:123: error: cannot find symbol
+    verify(renderer, times(rowCount)).isSeriesVisibleInLegend(anyInt());
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:124: error: cannot find symbol
+    verify(renderer, never()).getLegendItem(anyInt(), anyInt());
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:131: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+                     ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:131: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+    ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:132: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(datasetIndex);
+                             ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:132: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(datasetIndex);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:133: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+                                                   ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:133: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:134: error: cannot find symbol
+    when(mockDataset.getRowCount()).thenReturn(rowCount);
+         ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:136: error: cannot find symbol
+    doReturn(true).when(renderer).isSeriesVisibleInLegend(anyInt());
+                        ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:142: error: cannot find symbol
+    doReturn(item0).when(renderer).getLegendItem(datasetIndex, 0);
+                         ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:143: error: cannot find symbol
+    doReturn(item1).when(renderer).getLegendItem(datasetIndex, 1);
+                         ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:144: error: cannot find symbol
+    doReturn(item2).when(renderer).getLegendItem(datasetIndex, 2);
+                         ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:146: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+                                  ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:150: error: cannot find symbol
+    assertTrue(result.getItems().containsAll(java.util.Arrays.asList(item0, item1, item2)));
+                     ^
+  symbol:   method getItems()
+  location: variable result of type LegendItemCollection
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:152: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+                                ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:152: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:153: error: cannot find symbol
+    verify(mockPlot).getDataset(datasetIndex);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:154: error: cannot find symbol
+    verify(mockDataset).getRowCount();
+           ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:155: error: cannot find symbol
+    verify(renderer, times(rowCount)).isSeriesVisibleInLegend(anyInt());
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:156: error: cannot find symbol
+    verify(renderer).getLegendItem(datasetIndex, 0);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:157: error: cannot find symbol
+    verify(renderer).getLegendItem(datasetIndex, 1);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:158: error: cannot find symbol
+    verify(renderer).getLegendItem(datasetIndex, 2);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:165: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+                     ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:165: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+    ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:166: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(datasetIndex);
+                             ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:166: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(datasetIndex);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:167: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+                                                   ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:167: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:168: error: cannot find symbol
+    when(mockDataset.getRowCount()).thenReturn(rowCount);
+         ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:170: error: cannot find symbol
+    doReturn(true).when(renderer).isSeriesVisibleInLegend(0);
+                        ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:171: error: cannot find symbol
+    doReturn(false).when(renderer).isSeriesVisibleInLegend(1);
+                         ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:172: error: cannot find symbol
+    doReturn(true).when(renderer).isSeriesVisibleInLegend(2);
+                        ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:177: error: cannot find symbol
+    doReturn(item0).when(renderer).getLegendItem(datasetIndex, 0);
+                         ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:178: error: cannot find symbol
+    doReturn(item2).when(renderer).getLegendItem(datasetIndex, 2);
+                         ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:180: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+                                  ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:184: error: cannot find symbol
+    assertTrue(result.getItems().contains(item0));
+                     ^
+  symbol:   method getItems()
+  location: variable result of type LegendItemCollection
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:185: error: cannot find symbol
+    assertFalse(result.getItems().contains(new LegendItem("Series 1", "", "", "", null, null)));
+                      ^
+  symbol:   method getItems()
+  location: variable result of type LegendItemCollection
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:186: error: cannot find symbol
+    assertTrue(result.getItems().contains(item2));
+                     ^
+  symbol:   method getItems()
+  location: variable result of type LegendItemCollection
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:188: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+                                ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:188: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:189: error: cannot find symbol
+    verify(mockPlot).getDataset(datasetIndex);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:190: error: cannot find symbol
+    verify(mockDataset).getRowCount();
+           ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:191: error: cannot find symbol
+    verify(renderer).isSeriesVisibleInLegend(0);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:192: error: cannot find symbol
+    verify(renderer).isSeriesVisibleInLegend(1);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:193: error: cannot find symbol
+    verify(renderer).isSeriesVisibleInLegend(2);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:194: error: cannot find symbol
+    verify(renderer, times(1)).getLegendItem(datasetIndex, 0);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:195: error: cannot find symbol
+    verify(renderer, never()).getLegendItem(datasetIndex, 1);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:196: error: cannot find symbol
+    verify(renderer, times(1)).getLegendItem(datasetIndex, 2);
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:203: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+                     ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:203: error: cannot find symbol
+    renderer.setPlot(mockPlot);
+    ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:204: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(datasetIndex);
+                             ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:204: error: cannot find symbol
+    when(mockPlot.getIndexOf(renderer)).thenReturn(datasetIndex);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:205: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+                                                   ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:205: error: cannot find symbol
+    when(mockPlot.getDataset(anyInt())).thenReturn(mockDataset);
+         ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:206: error: cannot find symbol
+    when(mockDataset.getRowCount()).thenReturn(rowCount);
+         ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:208: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+                                  ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:213: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+                                ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:213: error: cannot find symbol
+    verify(mockPlot).getIndexOf(renderer);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:214: error: cannot find symbol
+    verify(mockPlot).getDataset(datasetIndex);
+           ^
+  symbol:   variable mockPlot
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:215: error: cannot find symbol
+    verify(mockDataset).getRowCount();
+           ^
+  symbol:   variable mockDataset
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:216: error: cannot find symbol
+    verify(renderer, never()).isSeriesVisibleInLegend(anyInt());
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:217: error: cannot find symbol
+    verify(renderer, never()).getLegendItem(anyInt(), anyInt());
+           ^
+  symbol:   variable renderer
+  location: class deepseek_Chart_1_C1_Test
+89 errors

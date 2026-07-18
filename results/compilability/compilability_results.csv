@@ -1,0 +1,241 @@
+model,bug,condition,compiles,error_category,detail,file_shape
+llama,Chart-10,C1,True,,,full_class
+llama,Chart-10,C2,True,,,full_class
+llama,Chart-11,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:76: error: reference to equal is ambiguous,full_class
+llama,Chart-11,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-11_C2/org/jfree/util/ShapeUtilitiesTest.java:76: error: reference to equal is ambiguous,full_class
+llama,Chart-15,C1,True,,,full_class
+llama,Chart-15,C2,True,,,full_class
+llama,Chart-17,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-17_C1/org/jfree/data/time/TimeSeriesTest.java:91: error: cannot find symbol,full_class
+llama,Chart-17,C2,False,abstract_instantiation,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-17_C2/org/jfree/data/time/TimeSeriesTest.java:76: error: RegularTimePeriod is abstract; cannot be instantiated,full_class
+llama,Chart-19,C1,True,,,full_class
+llama,Chart-19,C2,True,,,full_class
+llama,Chart-1,C1,False,cannot_find_symbol,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-1_C1/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:86: error: <anonymous org.jfree.chart.renderer.category.AbstractCategoryItemRendererTest$1> is not abstract and does not override abstract method drawItem(Graphics2D,CategoryItemRendererState,Rectangle2D,CategoryPlot,CategoryAxis,ValueAxis,CategoryDataset,int,int,boolean,int) in CategoryItemRenderer",full_class
+llama,Chart-1,C2,False,other_compile_error,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-1_C2/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:85: error: <anonymous org.jfree.chart.renderer.category.AbstractCategoryItemRendererTest$1> is not abstract and does not override abstract method drawItem(Graphics2D,CategoryItemRendererState,Rectangle2D,CategoryPlot,CategoryAxis,ValueAxis,CategoryDataset,int,int,boolean,int) in CategoryItemRenderer",full_class
+llama,Chart-21,C1,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-21_C1/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:77: error: cannot find symbol,full_class
+llama,Chart-21,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:76: error: cannot find symbol,full_class
+llama,Chart-22,C1,True,,,full_class
+llama,Chart-22,C2,True,,,full_class
+llama,Chart-23,C1,True,,,full_class
+llama,Chart-23,C2,True,,,full_class
+llama,Chart-24,C1,True,,,full_class
+llama,Chart-24,C2,True,,,full_class
+llama,Lang-10,C1,False,illegal_escape_character,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-10_C1/org/apache/commons/lang3/time/FastDateParserTest.java:46: error: illegal escape character,full_class
+llama,Lang-10,C2,False,illegal_escape_character,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-10_C2/org/apache/commons/lang3/time/FastDateParserTest.java:31: error: illegal escape character,full_class
+llama,Lang-19,C1,True,,,full_class
+llama,Lang-19,C2,True,,,full_class
+llama,Lang-22,C1,False,private_method_access,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:23: error: greatestCommonDivisor(int,int) has private access in Fraction",full_class
+llama,Lang-22,C2,False,private_method_access,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-22_C2/org/apache/commons/lang3/math/FractionTest.java:23: error: greatestCommonDivisor(int,int) has private access in Fraction",full_class
+llama,Lang-26,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-26_C1/org/apache/commons/lang3/time/FastDateFormatTest.java:42: error: reference to format is ambiguous,full_class
+llama,Lang-26,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-26_C2/org/apache/commons/lang3/time/FastDateFormatTest.java:26: error: constructor FastDateFormat in class FastDateFormat cannot be applied to given types;,full_class
+llama,Lang-30,C1,True,,,full_class
+llama,Lang-30,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-30_C2/org/apache/commons/lang3/StringUtilsTest.java:44: error: reference to containsAny is ambiguous,full_class
+llama,Lang-41,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-41_C1/org/apache/commons/lang/ClassUtilsTest.java:24: error: reference to getPackageName is ambiguous,full_class
+llama,Lang-41,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-41_C2/org/apache/commons/lang/ClassUtilsTest.java:26: error: reference to getPackageName is ambiguous,full_class
+llama,Lang-42,C1,True,,,full_class
+llama,Lang-42,C2,True,,,full_class
+llama,Lang-57,C1,True,,,full_class
+llama,Lang-57,C2,True,,,full_class
+llama,Lang-60,C1,True,,,full_class
+llama,Lang-60,C2,True,,,full_class
+llama,Lang-8,C1,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-8_C1/org/apache/commons/lang3/time/FastDatePrinterTest.java:36: error: TimeZoneNameRule has private access in FastDatePrinter,full_class
+llama,Lang-8,C2,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Lang-8_C2/org/apache/commons/lang3/time/FastDatePrinterTest.java:38: error: TimeZoneNameRule has private access in FastDatePrinter,full_class
+llama,Math-27,C1,True,,,full_class
+llama,Math-27,C2,True,,,full_class
+llama,Math-2,C1,True,,,full_class
+llama,Math-2,C2,True,,,full_class
+llama,Math-53,C1,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Math-53_C1/org/apache/commons/math/complex/ComplexTest.java:70: error: isNaN has private access in Complex,full_class
+llama,Math-53,C2,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Math-53_C2/org/apache/commons/math/complex/ComplexTest.java:70: error: isNaN has private access in Complex,full_class
+llama,Math-55,C1,True,,,full_class
+llama,Math-55,C2,True,,,full_class
+llama,Math-59,C1,True,,,full_class
+llama,Math-59,C2,True,,,full_class
+llama,Math-63,C1,True,,,full_class
+llama,Math-63,C2,True,,,full_class
+llama,Math-70,C1,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:85: error: no suitable constructor found for FunctionEvaluationException(String),full_class
+llama,Math-70,C2,False,unreported_checked_exception,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Math-70_C2/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:53: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown,full_class
+llama,Math-75,C1,True,,,full_class
+llama,Math-75,C2,True,,,full_class
+llama,Math-79,C1,True,,,full_class
+llama,Math-79,C2,True,,,full_class
+llama,Math-9,C1,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/LineTest.java:75: error: no suitable constructor found for Line(no arguments),full_class
+llama,Math-9,C2,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/LineTest.java:71: error: no suitable constructor found for Line(no arguments),full_class
+gemini,Chart-10,C1,True,,,fragment
+gemini,Chart-10,C2,True,,,fragment
+gemini,Chart-11,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-11_C1/org/jfree/chart/util/gemini_Chart_11_C1_Test.java:79: error: reference to equal is ambiguous,fragment
+gemini,Chart-11,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:79: error: cannot find symbol,fragment
+gemini,Chart-15,C1,True,,,fragment
+gemini,Chart-15,C2,True,,,fragment
+gemini,Chart-17,C1,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-17_C1/org/jfree/data/time/gemini_Chart_17_C1_Test.java:79: error: no suitable constructor found for TimeSeries(no arguments),fragment
+gemini,Chart-17,C2,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-17_C2/org/jfree/data/time/gemini_Chart_17_C2_Test.java:79: error: no suitable constructor found for TimeSeries(no arguments),fragment
+gemini,Chart-19,C1,True,,,fragment
+gemini,Chart-19,C2,True,,,fragment
+gemini,Chart-1,C1,True,,,fragment
+gemini,Chart-1,C2,True,,,fragment
+gemini,Chart-21,C1,True,,,fragment
+gemini,Chart-21,C2,True,,,fragment
+gemini,Chart-22,C1,True,,,fragment
+gemini,Chart-22,C2,True,,,fragment
+gemini,Chart-23,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-23_C1/org/jfree/chart/renderer/category/gemini_Chart_23_C1_Test.java:106: error: cannot find symbol,fragment
+gemini,Chart-23,C2,True,,,fragment
+gemini,Chart-24,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:80: error: cannot find symbol,fragment
+gemini,Chart-24,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C2/org/jfree/chart/renderer/gemini_Chart_24_C2_Test.java:79: error: cannot find symbol,fragment
+gemini,Lang-10,C1,True,,,fragment
+gemini,Lang-10,C2,False,private_method_access,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-10_C2/org/apache/commons/lang3/time/gemini_Lang_10_C2_Test.java:29: error: escapeRegex(StringBuilder,String,boolean) has private access in FastDateParser",fragment
+gemini,Lang-19,C1,True,,,fragment
+gemini,Lang-19,C2,True,,,fragment
+gemini,Lang-22,C1,False,private_method_access,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-22_C1/org/apache/commons/lang3/math/gemini_Lang_22_C1_Test.java:27: error: greatestCommonDivisor(int,int) has private access in Fraction",fragment
+gemini,Lang-22,C2,False,private_method_access,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-22_C2/org/apache/commons/lang3/math/gemini_Lang_22_C2_Test.java:27: error: greatestCommonDivisor(int,int) has private access in Fraction",fragment
+gemini,Lang-26,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-26_C1/org/apache/commons/lang3/time/gemini_Lang_26_C1_Test.java:28: error: cannot find symbol,fragment
+gemini,Lang-26,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-26_C2/org/apache/commons/lang3/time/gemini_Lang_26_C2_Test.java:38: error: reference to format is ambiguous,fragment
+gemini,Lang-30,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-30_C1/org/apache/commons/lang3/gemini_Lang_30_C1_Test.java:24: error: cannot find symbol,fragment
+gemini,Lang-30,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-30_C2/org/apache/commons/lang3/gemini_Lang_30_C2_Test.java:26: error: reference to containsAny is ambiguous,fragment
+gemini,Lang-41,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-41_C1/org/apache/commons/lang/gemini_Lang_41_C1_Test.java:24: error: cannot find symbol,fragment
+gemini,Lang-41,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-41_C2/org/apache/commons/lang/gemini_Lang_41_C2_Test.java:27: error: reference to getPackageName is ambiguous,fragment
+gemini,Lang-42,C1,True,,,fragment
+gemini,Lang-42,C2,True,,,fragment
+gemini,Lang-57,C1,True,,,fragment
+gemini,Lang-57,C2,True,,,fragment
+gemini,Lang-60,C1,True,,,fragment
+gemini,Lang-60,C2,True,,,fragment
+gemini,Lang-8,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-8_C1/org/apache/commons/lang3/time/gemini_Lang_8_C1_Test.java:45: error: cannot find symbol,fragment
+gemini,Lang-8,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Lang-8_C2/org/apache/commons/lang3/time/gemini_Lang_8_C2_Test.java:36: error: cannot find symbol,fragment
+gemini,Math-27,C1,True,,,fragment
+gemini,Math-27,C2,True,,,fragment
+gemini,Math-2,C1,True,,,fragment
+gemini,Math-2,C2,True,,,fragment
+gemini,Math-53,C1,True,,,fragment
+gemini,Math-53,C2,True,,,fragment
+gemini,Math-55,C1,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:62: error: x has private access in Vector3D,fragment
+gemini,Math-55,C2,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Math-55_C2/org/apache/commons/math/geometry/gemini_Math_55_C2_Test.java:63: error: x has private access in Vector3D,fragment
+gemini,Math-59,C1,True,,,fragment
+gemini,Math-59,C2,True,,,fragment
+gemini,Math-63,C1,True,,,fragment
+gemini,Math-63,C2,True,,,fragment
+gemini,Math-70,C1,True,,,fragment
+gemini,Math-70,C2,True,,,fragment
+gemini,Math-75,C1,True,,,fragment
+gemini,Math-75,C2,True,,,fragment
+gemini,Math-79,C1,True,,,fragment
+gemini,Math-79,C2,True,,,fragment
+gemini,Math-9,C1,False,ambiguous_type_from_injected_import,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:78: error: reference to Vector is ambiguous,fragment
+gemini,Math-9,C2,False,no_suitable_constructor,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C2_Test.java:75: error: no suitable constructor found for Line(Vector3D,Vector3D,double)",fragment
+deepseek,Chart-10,C1,True,,,fragment
+deepseek,Chart-10,C2,True,,,fragment
+deepseek,Chart-11,C1,False,no_suitable_constructor,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:80: error: no suitable constructor found for XYPlot(int,PlotOrientation)",fragment
+deepseek,Chart-11,C2,False,no_suitable_constructor,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:79: error: no suitable constructor found for XYPlot(int,int)",fragment
+deepseek,Chart-15,C1,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:82: error: dataset has private access in PiePlot,fragment
+deepseek,Chart-15,C2,True,,,fragment
+deepseek,Chart-17,C1,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-17_C1/org/jfree/data/time/deepseek_Chart_17_C1_Test.java:79: error: no suitable constructor found for TimeSeries(no arguments),fragment
+deepseek,Chart-17,C2,False,no_suitable_constructor,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:79: error: no suitable constructor found for TimeSeries(no arguments),fragment
+deepseek,Chart-19,C1,True,,,fragment
+deepseek,Chart-19,C2,True,,,fragment
+deepseek,Chart-1,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C1/org/jfree/chart/renderer/category/deepseek_Chart_1_C1_Test.java:83: error: cannot find symbol,fragment
+deepseek,Chart-1,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-1_C2/org/jfree/chart/renderer/category/deepseek_Chart_1_C2_Test.java:83: error: cannot find symbol,fragment
+deepseek,Chart-21,C1,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:81: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset,fragment
+deepseek,Chart-21,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C2/org/jfree/data/statistics/deepseek_Chart_21_C2_Test.java:79: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset,fragment
+deepseek,Chart-22,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:80: error: cannot find symbol,fragment
+deepseek,Chart-22,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-22_C2/org/jfree/data/deepseek_Chart_22_C2_Test.java:80: error: cannot find symbol,fragment
+deepseek,Chart-23,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:98: error: cannot find symbol,fragment
+deepseek,Chart-23,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-23_C2/org/jfree/chart/renderer/category/deepseek_Chart_23_C2_Test.java:104: error: cannot find symbol,fragment
+deepseek,Chart-24,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:79: error: cannot find symbol,fragment
+deepseek,Chart-24,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-24_C2/org/jfree/chart/renderer/deepseek_Chart_24_C2_Test.java:79: error: cannot find symbol,fragment
+deepseek,Lang-10,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C1/org/apache/commons/lang3/time/deepseek_Lang_10_C1_Test.java:28: error: cannot find symbol,fragment
+deepseek,Lang-10,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:31: error: cannot find symbol,fragment
+deepseek,Lang-19,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:30: error: cannot find symbol,fragment
+deepseek,Lang-19,C2,True,,,fragment
+deepseek,Lang-22,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:27: error: cannot find symbol,fragment
+deepseek,Lang-22,C2,False,private_method_access,"/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-22_C2/org/apache/commons/lang3/math/deepseek_Lang_22_C2_Test.java:27: error: greatestCommonDivisor(int,int) has private access in Fraction",fragment
+deepseek,Lang-26,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-26_C1/org/apache/commons/lang3/time/deepseek_Lang_26_C1_Test.java:56: error: reference to format is ambiguous,fragment
+deepseek,Lang-26,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-26_C2/org/apache/commons/lang3/time/deepseek_Lang_26_C2_Test.java:51: error: reference to format is ambiguous,fragment
+deepseek,Lang-30,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-30_C1/org/apache/commons/lang3/deepseek_Lang_30_C1_Test.java:36: error: reference to containsAny is ambiguous,fragment
+deepseek,Lang-30,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-30_C2/org/apache/commons/lang3/deepseek_Lang_30_C2_Test.java:36: error: reference to containsAny is ambiguous,fragment
+deepseek,Lang-41,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-41_C1/org/apache/commons/lang/deepseek_Lang_41_C1_Test.java:26: error: reference to getPackageName is ambiguous,fragment
+deepseek,Lang-41,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-41_C2/org/apache/commons/lang/deepseek_Lang_41_C2_Test.java:26: error: cannot find symbol,fragment
+deepseek,Lang-42,C1,False,other_compile_error,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C1/org/apache/commons/lang/deepseek_Lang_42_C1_Test.java:94: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C1_Test$1> cannot override entityName(int) in Entities,fragment
+deepseek,Lang-42,C2,False,other_compile_error,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:28: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$1> cannot override entityName(int) in Entities,fragment
+deepseek,Lang-57,C1,True,,,fragment
+deepseek,Lang-57,C2,True,,,fragment
+deepseek,Lang-60,C1,True,,,fragment
+deepseek,Lang-60,C2,True,,,fragment
+deepseek,Lang-8,C1,True,,,full_class
+deepseek,Lang-8,C2,True,,,full_class
+deepseek,Math-27,C1,True,,,fragment
+deepseek,Math-27,C2,True,,,fragment
+deepseek,Math-2,C1,False,incompatible_types,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:83: error: no suitable method found for thenReturn(double),fragment
+deepseek,Math-2,C2,False,incompatible_types,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-2_C2/org/apache/commons/math3/distribution/HypergeometricDistributionTest.java:89: error: no suitable method found for thenReturn(double),full_class
+deepseek,Math-53,C1,True,,,fragment
+deepseek,Math-53,C2,True,,,fragment
+deepseek,Math-55,C1,False,private_method_access,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:61: error: x has private access in Vector3D,fragment
+deepseek,Math-55,C2,True,,,fragment
+deepseek,Math-59,C1,True,,,fragment
+deepseek,Math-59,C2,True,,,fragment
+deepseek,Math-63,C1,True,,,fragment
+deepseek,Math-63,C2,True,,,fragment
+deepseek,Math-70,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-70_C1/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C1_Test.java:62: error: cannot find symbol,fragment
+deepseek,Math-70,C2,False,unreported_checked_exception,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:59: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown,fragment
+deepseek,Math-75,C1,True,,,fragment
+deepseek,Math-75,C2,True,,,fragment
+deepseek,Math-79,C1,True,,,fragment
+deepseek,Math-79,C2,True,,,fragment
+deepseek,Math-9,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:73: error: cannot find symbol,fragment
+deepseek,Math-9,C2,False,ambiguous_type_from_injected_import,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:73: error: cannot find symbol,fragment
+gpt-5.5-instant,Chart-10,C1,True,,,fragment
+gpt-5.5-instant,Chart-10,C2,True,,,fragment
+gpt-5.5-instant,Chart-11,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C1/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C1_Test.java:79: error: reference to equal is ambiguous,fragment
+gpt-5.5-instant,Chart-11,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:79: error: reference to equal is ambiguous,fragment
+gpt-5.5-instant,Chart-15,C1,True,,,fragment
+gpt-5.5-instant,Chart-15,C2,True,,,fragment
+gpt-5.5-instant,Chart-17,C1,True,,,fragment
+gpt-5.5-instant,Chart-17,C2,True,,,fragment
+gpt-5.5-instant,Chart-19,C1,True,,,fragment
+gpt-5.5-instant,Chart-19,C2,True,,,fragment
+gpt-5.5-instant,Chart-1,C1,True,,,fragment
+gpt-5.5-instant,Chart-1,C2,True,,,fragment
+gpt-5.5-instant,Chart-21,C1,True,,,fragment
+gpt-5.5-instant,Chart-21,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-21_C2/org/jfree/data/statistics/gpt_5_5_instant_Chart_21_C2_Test.java:133: error: cannot find symbol,fragment
+gpt-5.5-instant,Chart-22,C1,True,,,fragment
+gpt-5.5-instant,Chart-22,C2,True,,,fragment
+gpt-5.5-instant,Chart-23,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:111: error: cannot find symbol,fragment
+gpt-5.5-instant,Chart-23,C2,True,,,fragment
+gpt-5.5-instant,Chart-24,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:80: error: cannot find symbol,fragment
+gpt-5.5-instant,Chart-24,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:80: error: cannot find symbol,fragment
+gpt-5.5-instant,Lang-10,C1,True,,,fragment
+gpt-5.5-instant,Lang-10,C2,True,,,fragment
+gpt-5.5-instant,Lang-19,C1,True,,,fragment
+gpt-5.5-instant,Lang-19,C2,True,,,fragment
+gpt-5.5-instant,Lang-22,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:27: error: cannot find symbol,fragment
+gpt-5.5-instant,Lang-22,C2,True,,,fragment
+gpt-5.5-instant,Lang-26,C1,True,,,fragment
+gpt-5.5-instant,Lang-26,C2,True,,,fragment
+gpt-5.5-instant,Lang-30,C1,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-30_C1/org/apache/commons/lang3/gpt_5_5_instant_Lang_30_C1_Test.java:51: error: reference to containsAny is ambiguous,fragment
+gpt-5.5-instant,Lang-30,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-30_C2/org/apache/commons/lang3/gpt_5_5_instant_Lang_30_C2_Test.java:28: error: reference to containsAny is ambiguous,fragment
+gpt-5.5-instant,Lang-41,C1,True,,,fragment
+gpt-5.5-instant,Lang-41,C2,False,ambiguous_method_overload,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-41_C2/org/apache/commons/lang/gpt_5_5_instant_Lang_41_C2_Test.java:26: error: reference to getPackageName is ambiguous,fragment
+gpt-5.5-instant,Lang-42,C1,True,,,fragment
+gpt-5.5-instant,Lang-42,C2,True,,,fragment
+gpt-5.5-instant,Lang-57,C1,True,,,fragment
+gpt-5.5-instant,Lang-57,C2,True,,,fragment
+gpt-5.5-instant,Lang-60,C1,True,,,fragment
+gpt-5.5-instant,Lang-60,C2,True,,,fragment
+gpt-5.5-instant,Lang-8,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-8_C1/org/apache/commons/lang3/time/gpt_5_5_instant_Lang_8_C1_Test.java:36: error: cannot find symbol,fragment
+gpt-5.5-instant,Lang-8,C2,True,,,fragment
+gpt-5.5-instant,Math-27,C1,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Math-27_C1/org/apache/commons/math3/fraction/gpt_5_5_instant_Math_27_C1_Test.java:63: error: cannot find symbol,fragment
+gpt-5.5-instant,Math-27,C2,False,cannot_find_symbol,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Math-27_C2/org/apache/commons/math3/fraction/gpt_5_5_instant_Math_27_C2_Test.java:63: error: cannot find symbol,fragment
+gpt-5.5-instant,Math-2,C1,True,,,fragment
+gpt-5.5-instant,Math-2,C2,True,,,fragment
+gpt-5.5-instant,Math-53,C1,True,,,fragment
+gpt-5.5-instant,Math-53,C2,True,,,fragment
+gpt-5.5-instant,Math-55,C1,True,,,fragment
+gpt-5.5-instant,Math-55,C2,True,,,fragment
+gpt-5.5-instant,Math-59,C1,True,,,fragment
+gpt-5.5-instant,Math-59,C2,True,,,fragment
+gpt-5.5-instant,Math-63,C1,True,,,fragment
+gpt-5.5-instant,Math-63,C2,True,,,fragment
+gpt-5.5-instant,Math-70,C1,True,,,fragment
+gpt-5.5-instant,Math-70,C2,True,,,fragment
+gpt-5.5-instant,Math-75,C1,True,,,fragment
+gpt-5.5-instant,Math-75,C2,True,,,fragment
+gpt-5.5-instant,Math-79,C1,True,,,fragment
+gpt-5.5-instant,Math-79,C2,True,,,fragment
+gpt-5.5-instant,Math-9,C1,False,incompatible_types,/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:75: error: incompatible types: Vector2D cannot be converted to Vector3D,fragment
+gpt-5.5-instant,Math-9,C2,True,,,fragment

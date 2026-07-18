@@ -1,0 +1,51 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:80: error: cannot find symbol
+    Color expectedColor = new Color(0, 0, 0);
+    ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:80: error: cannot find symbol
+    Color expectedColor = new Color(0, 0, 0);
+                              ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:87: error: cannot find symbol
+    Color expectedColor = new Color(255, 255, 255);
+    ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:87: error: cannot find symbol
+    Color expectedColor = new Color(255, 255, 255);
+                              ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:94: error: cannot find symbol
+    Color expectedColor = new Color(0, 0, 0);
+    ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:94: error: cannot find symbol
+    Color expectedColor = new Color(0, 0, 0);
+                              ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:101: error: cannot find symbol
+    Color expectedColor = new Color(255, 255, 255);
+    ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:101: error: cannot find symbol
+    Color expectedColor = new Color(255, 255, 255);
+                              ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:109: error: cannot find symbol
+    Color expectedColor = new Color(127, 127, 127);
+    ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-24_C1/org/jfree/chart/renderer/gemini_Chart_24_C1_Test.java:109: error: cannot find symbol
+    Color expectedColor = new Color(127, 127, 127);
+                              ^
+  symbol:   class Color
+  location: class gemini_Chart_24_C1_Test
+10 errors

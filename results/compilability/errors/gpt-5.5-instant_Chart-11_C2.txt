@@ -1,0 +1,115 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:79: error: reference to equal is ambiguous
+    assertTrue(ShapeUtilities.equal(null, null));
+                             ^
+  both method equal(Polygon,Polygon) in ShapeUtilities and method equal(GeneralPath,GeneralPath) in ShapeUtilities match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:81: error: cannot find symbol
+    GeneralPath path = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:81: error: cannot find symbol
+    GeneralPath path = new GeneralPath();
+                           ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:88: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:88: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath();
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:94: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:94: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath();
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:105: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath(GeneralPath.WIND_EVEN_ODD);
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:105: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath(GeneralPath.WIND_EVEN_ODD);
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:105: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath(GeneralPath.WIND_EVEN_ODD);
+                                        ^
+  symbol:   variable GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:109: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath(GeneralPath.WIND_NON_ZERO);
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:109: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath(GeneralPath.WIND_NON_ZERO);
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:109: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath(GeneralPath.WIND_NON_ZERO);
+                                        ^
+  symbol:   variable GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:118: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:118: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath();
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:122: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:122: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath();
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:131: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:131: error: cannot find symbol
+    GeneralPath path1 = new GeneralPath();
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:135: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:135: error: cannot find symbol
+    GeneralPath path2 = new GeneralPath();
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:139: error: cannot find symbol
+    GeneralPath path3 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-11_C2/org/jfree/chart/util/gpt_5_5_instant_Chart_11_C2_Test.java:139: error: cannot find symbol
+    GeneralPath path3 = new GeneralPath();
+                            ^
+  symbol:   class GeneralPath
+  location: class gpt_5_5_instant_Chart_11_C2_Test
+23 errors

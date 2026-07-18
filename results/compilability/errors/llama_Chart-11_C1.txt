@@ -1,0 +1,5 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:76: error: reference to equal is ambiguous
+        assertTrue(ShapeUtilities.equal(null, null));
+                                 ^
+  both method equal(Polygon,Polygon) in ShapeUtilities and method equal(GeneralPath,GeneralPath) in ShapeUtilities match
+1 error

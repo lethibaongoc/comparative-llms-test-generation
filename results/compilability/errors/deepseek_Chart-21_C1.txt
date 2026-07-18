@@ -1,0 +1,276 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:81: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:82: error: cannot find symbol
+    assertEquals(Double.NaN, dataset.getMinimumRangeValue());
+                                    ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:83: error: cannot find symbol
+    assertEquals(-1, dataset.getMinimumRangeValueRow());
+                            ^
+  symbol:   method getMinimumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:84: error: cannot find symbol
+    assertEquals(-1, dataset.getMinimumRangeValueColumn());
+                            ^
+  symbol:   method getMinimumRangeValueColumn()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:85: error: cannot find symbol
+    assertEquals(Double.NaN, dataset.getMaximumRangeValue());
+                                    ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:86: error: cannot find symbol
+    assertEquals(-1, dataset.getMaximumRangeValueRow());
+                            ^
+  symbol:   method getMaximumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:87: error: cannot find symbol
+    assertEquals(-1, dataset.getMaximumRangeValueColumn());
+                            ^
+  symbol:   method getMaximumRangeValueColumn()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:96: error: cannot find symbol
+    dataset.addItem(item, "Series", "Category");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:97: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:98: error: cannot find symbol
+    assertEquals(5.0, dataset.getMinimumRangeValue());
+                             ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:99: error: cannot find symbol
+    assertEquals(0, dataset.getMinimumRangeValueRow());
+                           ^
+  symbol:   method getMinimumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:100: error: cannot find symbol
+    assertEquals(0, dataset.getMinimumRangeValueColumn());
+                           ^
+  symbol:   method getMinimumRangeValueColumn()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:101: error: cannot find symbol
+    assertEquals(15.0, dataset.getMaximumRangeValue());
+                              ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:102: error: cannot find symbol
+    assertEquals(0, dataset.getMaximumRangeValueRow());
+                           ^
+  symbol:   method getMaximumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:103: error: cannot find symbol
+    assertEquals(0, dataset.getMaximumRangeValueColumn());
+                           ^
+  symbol:   method getMaximumRangeValueColumn()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:112: error: cannot find symbol
+    dataset.addItem(item, "Series", "Category");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:113: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:114: error: cannot find symbol
+    assertEquals(Double.NaN, dataset.getMinimumRangeValue());
+                                    ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:115: error: cannot find symbol
+    assertEquals(10.0, dataset.getMaximumRangeValue());
+                              ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:124: error: cannot find symbol
+    dataset.addItem(item, "Series", "Category");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:125: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:126: error: cannot find symbol
+    assertEquals(5.0, dataset.getMinimumRangeValue());
+                             ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:127: error: cannot find symbol
+    assertEquals(Double.NaN, dataset.getMaximumRangeValue());
+                                    ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:136: error: cannot find symbol
+    dataset.addItem(item, "Series", "Category");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:137: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:138: error: cannot find symbol
+    assertEquals(Double.NaN, dataset.getMinimumRangeValue());
+                                    ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:139: error: cannot find symbol
+    assertEquals(20.0, dataset.getMaximumRangeValue());
+                              ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:148: error: cannot find symbol
+    dataset.addItem(item, "Series", "Category");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:149: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:150: error: cannot find symbol
+    assertEquals(5.0, dataset.getMinimumRangeValue());
+                             ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:151: error: cannot find symbol
+    assertEquals(Double.NaN, dataset.getMaximumRangeValue());
+                                    ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:163: error: cannot find symbol
+    dataset.addItem(item1, "Series1", "Category1");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:164: error: cannot find symbol
+    dataset.addItem(item2, "Series2", "Category2");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:165: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:166: error: cannot find symbol
+    assertEquals(1.0, dataset.getMinimumRangeValue());
+                             ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:167: error: cannot find symbol
+    assertEquals(1, dataset.getMinimumRangeValueRow());
+                           ^
+  symbol:   method getMinimumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:168: error: cannot find symbol
+    assertEquals(1, dataset.getMinimumRangeValueColumn());
+                           ^
+  symbol:   method getMinimumRangeValueColumn()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:169: error: cannot find symbol
+    assertEquals(30.0, dataset.getMaximumRangeValue());
+                              ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:170: error: cannot find symbol
+    assertEquals(1, dataset.getMaximumRangeValueRow());
+                           ^
+  symbol:   method getMaximumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:171: error: cannot find symbol
+    assertEquals(1, dataset.getMaximumRangeValueColumn());
+                           ^
+  symbol:   method getMaximumRangeValueColumn()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:183: error: cannot find symbol
+    dataset.addItem(item1, "Series1", "Category1");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:184: error: cannot find symbol
+    dataset.addItem(item2, "Series2", "Category2");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:185: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:186: error: cannot find symbol
+    assertEquals(5.0, dataset.getMinimumRangeValue());
+                             ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:187: error: cannot find symbol
+    assertEquals(0, dataset.getMinimumRangeValueRow());
+                           ^
+  symbol:   method getMinimumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:188: error: cannot find symbol
+    assertEquals(30.0, dataset.getMaximumRangeValue());
+                              ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:189: error: cannot find symbol
+    assertEquals(1, dataset.getMaximumRangeValueRow());
+                           ^
+  symbol:   method getMaximumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:201: error: cannot find symbol
+    dataset.addItem(item1, "Series1", "Category1");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:202: error: cannot find symbol
+    dataset.addItem(item2, "Series2", "Category2");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:203: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:204: error: cannot find symbol
+    assertEquals(1.0, dataset.getMinimumRangeValue());
+                             ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:205: error: cannot find symbol
+    assertEquals(1, dataset.getMinimumRangeValueRow());
+                           ^
+  symbol:   method getMinimumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:206: error: cannot find symbol
+    assertEquals(30.0, dataset.getMaximumRangeValue());
+                              ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:207: error: cannot find symbol
+    assertEquals(0, dataset.getMaximumRangeValueRow());
+                           ^
+  symbol:   method getMaximumRangeValueRow()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:216: error: cannot find symbol
+    dataset.addItem(validItem, "Series1", "Category1");
+           ^
+  symbol:   method addItem(BoxAndWhiskerItem,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:217: error: cannot find symbol
+    dataset.addItem(null, "Series2", "Category2");
+           ^
+  symbol:   method addItem(<null>,String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:218: error: updateBounds() has private access in DefaultBoxAndWhiskerCategoryDataset
+    dataset.updateBounds();
+           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:219: error: cannot find symbol
+    assertEquals(5.0, dataset.getMinimumRangeValue());
+                             ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Chart-21_C1/org/jfree/data/statistics/deepseek_Chart_21_C1_Test.java:220: error: cannot find symbol
+    assertEquals(15.0, dataset.getMaximumRangeValue());
+                              ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+59 errors

@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:28: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$1> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:41: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$2> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:54: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$3> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:67: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$4> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:80: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$5> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:93: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$6> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:106: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$7> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:118: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$8> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:140: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$10> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C2/org/apache/commons/lang/deepseek_Lang_42_C2_Test.java:154: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C2_Test$11> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+10 errors

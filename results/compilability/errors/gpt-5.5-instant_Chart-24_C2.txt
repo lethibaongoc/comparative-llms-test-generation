@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:80: error: cannot find symbol
+    assertEquals(new Color(0, 0, 0), scale.getPaint(0.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:81: error: cannot find symbol
+    assertEquals(new Color(127, 127, 127), scale.getPaint(50.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:82: error: cannot find symbol
+    assertEquals(new Color(255, 255, 255), scale.getPaint(100.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:89: error: cannot find symbol
+    assertEquals(new Color(0, 0, 0), scale.getPaint(-10.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:90: error: cannot find symbol
+    assertEquals(new Color(255, 255, 255), scale.getPaint(110.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:97: error: cannot find symbol
+    assertEquals(new Color(0, 0, 0), scale.getPaint(10.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:98: error: cannot find symbol
+    assertEquals(new Color(127, 127, 127), scale.getPaint(15.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Chart-24_C2/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C2_Test.java:99: error: cannot find symbol
+    assertEquals(new Color(255, 255, 255), scale.getPaint(20.0));
+                     ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C2_Test
+8 errors

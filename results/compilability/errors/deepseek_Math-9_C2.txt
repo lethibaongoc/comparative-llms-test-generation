@@ -1,0 +1,276 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:73: error: cannot find symbol
+    Point p1 = new Point(1, 2);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:73: error: cannot find symbol
+    Point p1 = new Point(1, 2);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:74: error: cannot find symbol
+    Point p2 = new Point(4, 6);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:74: error: cannot find symbol
+    Point p2 = new Point(4, 6);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:79: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                 ^
+  symbol:   variable Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:79: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                                         ^
+  symbol:   method getStart()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:81: error: cannot find symbol
+    Point expectedEnd = new Point(-3, -4);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:81: error: cannot find symbol
+    Point expectedEnd = new Point(-3, -4);
+                            ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:82: error: cannot find symbol
+    assertEquals(expectedEnd, revertedLine.getEnd());
+                                          ^
+  symbol:   method getEnd()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:84: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(-3, -4);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:84: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(-3, -4);
+                                   ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:90: error: cannot find symbol
+    Point p1 = new Point(5, 5);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:90: error: cannot find symbol
+    Point p1 = new Point(5, 5);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:91: error: cannot find symbol
+    Point p2 = new Point(2, 1);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:91: error: cannot find symbol
+    Point p2 = new Point(2, 1);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:96: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                 ^
+  symbol:   variable Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:96: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                                         ^
+  symbol:   method getStart()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:98: error: cannot find symbol
+    Point expectedEnd = new Point(3, 4);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:98: error: cannot find symbol
+    Point expectedEnd = new Point(3, 4);
+                            ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:99: error: cannot find symbol
+    assertEquals(expectedEnd, revertedLine.getEnd());
+                                          ^
+  symbol:   method getEnd()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:101: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(3, 4);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:101: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(3, 4);
+                                   ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:107: error: cannot find symbol
+    Point p1 = new Point(1, 1);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:107: error: cannot find symbol
+    Point p1 = new Point(1, 1);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:108: error: cannot find symbol
+    Point p2 = new Point(3, -1);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:108: error: cannot find symbol
+    Point p2 = new Point(3, -1);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:113: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                 ^
+  symbol:   variable Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:113: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                                         ^
+  symbol:   method getStart()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:115: error: cannot find symbol
+    Point expectedEnd = new Point(-2, 2);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:115: error: cannot find symbol
+    Point expectedEnd = new Point(-2, 2);
+                            ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:116: error: cannot find symbol
+    assertEquals(expectedEnd, revertedLine.getEnd());
+                                          ^
+  symbol:   method getEnd()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:118: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(-2, 2);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:118: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(-2, 2);
+                                   ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:124: error: cannot find symbol
+    Point p1 = new Point(1, 2);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:124: error: cannot find symbol
+    Point p1 = new Point(1, 2);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:125: error: cannot find symbol
+    Point p2 = new Point(1, 2);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:125: error: cannot find symbol
+    Point p2 = new Point(1, 2);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:130: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                 ^
+  symbol:   variable Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:130: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                                         ^
+  symbol:   method getStart()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:132: error: cannot find symbol
+    Point expectedEnd = new Point(0, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:132: error: cannot find symbol
+    Point expectedEnd = new Point(0, 0);
+                            ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:133: error: cannot find symbol
+    assertEquals(expectedEnd, revertedLine.getEnd());
+                                          ^
+  symbol:   method getEnd()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:134: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getEnd());
+                 ^
+  symbol:   variable Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:134: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getEnd());
+                                         ^
+  symbol:   method getEnd()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:136: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(0, 0);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:136: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(0, 0);
+                                   ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:142: error: cannot find symbol
+    Point p1 = Point.zero;
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:142: error: cannot find symbol
+    Point p1 = Point.zero;
+               ^
+  symbol:   variable Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:143: error: cannot find symbol
+    Point p2 = new Point(3, 4);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:143: error: cannot find symbol
+    Point p2 = new Point(3, 4);
+                   ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:148: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                 ^
+  symbol:   variable Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:148: error: cannot find symbol
+    assertEquals(Point.zero, revertedLine.getStart());
+                                         ^
+  symbol:   method getStart()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:150: error: cannot find symbol
+    Point expectedEnd = new Point(-3, -4);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:150: error: cannot find symbol
+    Point expectedEnd = new Point(-3, -4);
+                            ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:151: error: cannot find symbol
+    assertEquals(expectedEnd, revertedLine.getEnd());
+                                          ^
+  symbol:   method getEnd()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:153: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(-3, -4);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C2_Test.java:153: error: reference to Vector is ambiguous
+    Vector expectedDirection = new Vector(-3, -4);
+                                   ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+57 errors

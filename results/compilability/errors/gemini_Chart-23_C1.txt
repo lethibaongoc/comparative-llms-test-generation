@@ -1,0 +1,21 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-23_C1/org/jfree/chart/renderer/category/gemini_Chart_23_C1_Test.java:106: error: cannot find symbol
+    r1.setPlotLines(true);
+      ^
+  symbol:   method setPlotLines(boolean)
+  location: variable r1 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-23_C1/org/jfree/chart/renderer/category/gemini_Chart_23_C1_Test.java:107: error: cannot find symbol
+    r2.setPlotLines(false);
+      ^
+  symbol:   method setPlotLines(boolean)
+  location: variable r2 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-23_C1/org/jfree/chart/renderer/category/gemini_Chart_23_C1_Test.java:145: error: cannot find symbol
+    r1.setDefaultToolTipGenerator(new org.jfree.chart.labels.StandardCategoryToolTipGenerator());
+      ^
+  symbol:   method setDefaultToolTipGenerator(StandardCategoryToolTipGenerator)
+  location: variable r1 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Chart-23_C1/org/jfree/chart/renderer/category/gemini_Chart_23_C1_Test.java:146: error: cannot find symbol
+    r2.setDefaultToolTipGenerator(null);
+      ^
+  symbol:   method setDefaultToolTipGenerator(<null>)
+  location: variable r2 of type MinMaxCategoryRenderer
+4 errors

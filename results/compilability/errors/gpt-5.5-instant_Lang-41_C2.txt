@@ -1,0 +1,5 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-41_C2/org/apache/commons/lang/gpt_5_5_instant_Lang_41_C2_Test.java:26: error: reference to getPackageName is ambiguous
+    assertEquals("", ClassUtils.getPackageName(null));
+                               ^
+  both method getPackageName(Class<?>) in ClassUtils and method getPackageName(String) in ClassUtils match
+1 error

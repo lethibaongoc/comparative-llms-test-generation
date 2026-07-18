@@ -1,0 +1,16 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-8_C1/org/apache/commons/lang3/time/gpt_5_5_instant_Lang_8_C1_Test.java:36: error: cannot find symbol
+    printer.appendTo(buffer, calendar);
+           ^
+  symbol:   method appendTo(StringBuffer,Calendar)
+  location: variable printer of type FastDatePrinter
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-8_C1/org/apache/commons/lang3/time/gpt_5_5_instant_Lang_8_C1_Test.java:54: error: cannot find symbol
+    printer.appendTo(buffer, calendar);
+           ^
+  symbol:   method appendTo(StringBuffer,Calendar)
+  location: variable printer of type FastDatePrinter
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gpt-5.5-instant/Lang-8_C1/org/apache/commons/lang3/time/gpt_5_5_instant_Lang_8_C1_Test.java:71: error: cannot find symbol
+    printer.appendTo(buffer, calendar);
+           ^
+  symbol:   method appendTo(StringBuffer,Calendar)
+  location: variable printer of type FastDatePrinter
+3 errors

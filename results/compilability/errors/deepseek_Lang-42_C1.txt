@@ -1,0 +1,5 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/deepseek/Lang-42_C1/org/apache/commons/lang/deepseek_Lang_42_C1_Test.java:94: error: entityName(int) in <anonymous org.apache.commons.lang.deepseek_Lang_42_C1_Test$1> cannot override entityName(int) in Entities
+        protected String entityName(int c) {
+                         ^
+  attempting to assign weaker access privileges; was public
+1 error

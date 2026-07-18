@@ -222,3 +222,8 @@ api_key.txt
 __pycache__/
 .DS_Store
 *.pyc
+
+# Compilability measurement (scripts/run_compile.sh) -- both regenerable,
+# several GB. results/compilability/ IS tracked; these two are not.
+_d4j_work/
+tools/

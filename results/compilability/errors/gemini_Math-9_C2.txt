@@ -1,0 +1,15 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C2_Test.java:75: error: no suitable constructor found for Line(Vector3D,Vector3D,double)
+    Line line = new Line(p1, p2, 1.0e-10);
+                ^
+    constructor Line.Line(Vector3D,Vector3D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Line.Line(Line) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/gemini/Math-9_C2/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C2_Test.java:86: error: no suitable constructor found for Line(Vector3D,Vector3D,double)
+    Line line = new Line(p1, p2, 1.0e-10);
+                ^
+    constructor Line.Line(Vector3D,Vector3D) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Line.Line(Line) is not applicable
+      (actual and formal argument lists differ in length)
+2 errors

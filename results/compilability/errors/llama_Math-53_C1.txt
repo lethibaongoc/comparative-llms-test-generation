@@ -1,0 +1,4 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_compile/llama/Math-53_C1/org/apache/commons/math/complex/ComplexTest.java:70: error: isNaN has private access in Complex
+        assertTrue(result.isNaN);
+                         ^
+1 error
