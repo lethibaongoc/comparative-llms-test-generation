@@ -1,0 +1,31 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C2/org/jfree/chart/renderer/category/deepseek_Chart_23_C2_Test.java:41: error: cannot find symbol
+    renderer1.setPlotLines(true);
+             ^
+  symbol:   method setPlotLines(boolean)
+  location: variable renderer1 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C2/org/jfree/chart/renderer/category/deepseek_Chart_23_C2_Test.java:43: error: cannot find symbol
+    renderer2.setPlotLines(false);
+             ^
+  symbol:   method setPlotLines(boolean)
+  location: variable renderer2 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C2/org/jfree/chart/renderer/category/deepseek_Chart_23_C2_Test.java:50: error: cannot find symbol
+    renderer1.setGroupPaint(Color.RED);
+                            ^
+  symbol:   variable Color
+  location: class deepseek_Chart_23_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C2/org/jfree/chart/renderer/category/deepseek_Chart_23_C2_Test.java:52: error: cannot find symbol
+    renderer2.setGroupPaint(Color.BLUE);
+                            ^
+  symbol:   variable Color
+  location: class deepseek_Chart_23_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C2/org/jfree/chart/renderer/category/deepseek_Chart_23_C2_Test.java:59: error: cannot find symbol
+    renderer1.setGroupStroke(new BasicStroke(1.0f));
+                                 ^
+  symbol:   class BasicStroke
+  location: class deepseek_Chart_23_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C2/org/jfree/chart/renderer/category/deepseek_Chart_23_C2_Test.java:61: error: cannot find symbol
+    renderer2.setGroupStroke(new BasicStroke(2.0f));
+                                 ^
+  symbol:   class BasicStroke
+  location: class deepseek_Chart_23_C2_Test
+6 errors

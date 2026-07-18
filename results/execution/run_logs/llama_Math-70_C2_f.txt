@@ -1,0 +1,16 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C2/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:53: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+        double result = solver.solve(f, -1, 1, 0.5);
+                                    ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C2/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:61: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+        double result1 = solver.solve(f, -1, 1, -10);
+                                     ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C2/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:62: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+        double result2 = solver.solve(f, -1, 1, 10);
+                                     ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C2/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:70: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+        double result1 = solver.solve(f, -1, 1, 0.5);
+                                     ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C2/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:71: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+        double result2 = solver.solve(f, -1, 1);
+                                     ^
+5 errors

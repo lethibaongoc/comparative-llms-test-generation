@@ -1,0 +1,56 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:15: error: cannot find symbol
+    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+    ^
+  symbol:   class Method
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:25: error: cannot find symbol
+    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+    ^
+  symbol:   class Method
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:37: error: cannot find symbol
+    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+    ^
+  symbol:   class Method
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:47: error: cannot find symbol
+    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+    ^
+  symbol:   class Method
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:57: error: cannot find symbol
+    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+    ^
+  symbol:   class Method
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:67: error: cannot find symbol
+    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+    ^
+  symbol:   class Method
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:70: error: cannot find symbol
+    InvocationTargetException ex = assertThrows(
+    ^
+  symbol:   class InvocationTargetException
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:71: error: cannot find symbol
+        InvocationTargetException.class,
+        ^
+  symbol:   class InvocationTargetException
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:80: error: cannot find symbol
+    Method method = Fraction.class.getDeclaredMethod("greatestCommonDivisor", int.class, int.class);
+    ^
+  symbol:   class Method
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:83: error: cannot find symbol
+    InvocationTargetException ex = assertThrows(
+    ^
+  symbol:   class InvocationTargetException
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-22_C1/org/apache/commons/lang3/math/gpt_5_5_instant_Lang_22_C1_Test.java:84: error: cannot find symbol
+        InvocationTargetException.class,
+        ^
+  symbol:   class InvocationTargetException
+  location: class gpt_5_5_instant_Lang_22_C1_Test
+11 errors

@@ -1,0 +1,161 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:15: error: cannot find symbol
+    assertTrue(ShapeUtilities.equal((GeneralPath) null, (GeneralPath) null));
+                                     ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:15: error: cannot find symbol
+    assertTrue(ShapeUtilities.equal((GeneralPath) null, (GeneralPath) null));
+                                                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:16: error: cannot find symbol
+    assertFalse(ShapeUtilities.equal(new GeneralPath(), (GeneralPath) null));
+                                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:16: error: cannot find symbol
+    assertFalse(ShapeUtilities.equal(new GeneralPath(), (GeneralPath) null));
+                                                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:17: error: cannot find symbol
+    assertFalse(ShapeUtilities.equal((GeneralPath) null, new GeneralPath()));
+                                      ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:17: error: cannot find symbol
+    assertFalse(ShapeUtilities.equal((GeneralPath) null, new GeneralPath()));
+                                                             ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:22: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath(GeneralPath.WIND_EVEN_ODD);
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:22: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath(GeneralPath.WIND_EVEN_ODD);
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:22: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath(GeneralPath.WIND_EVEN_ODD);
+                                     ^
+  symbol:   variable GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:23: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath(GeneralPath.WIND_NON_ZERO);
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:23: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath(GeneralPath.WIND_NON_ZERO);
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:23: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath(GeneralPath.WIND_NON_ZERO);
+                                     ^
+  symbol:   variable GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:29: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:29: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:30: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:30: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:36: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:36: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:41: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:41: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:51: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:51: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:55: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:55: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:64: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:64: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:68: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:68: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:77: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:77: error: cannot find symbol
+    GeneralPath p1 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:81: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+    ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-11_C2/org/jfree/chart/util/gemini_Chart_11_C2_Test.java:81: error: cannot find symbol
+    GeneralPath p2 = new GeneralPath();
+                         ^
+  symbol:   class GeneralPath
+  location: class gemini_Chart_11_C2_Test
+32 errors

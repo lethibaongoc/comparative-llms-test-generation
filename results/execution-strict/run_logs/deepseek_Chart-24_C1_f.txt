@@ -1,0 +1,121 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:16: error: cannot find symbol
+    Paint result = scale.getPaint(0.0);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:17: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:17: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:26: error: cannot find symbol
+    Paint result = scale.getPaint(1.0);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:27: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:27: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:36: error: cannot find symbol
+    Paint result = scale.getPaint(0.5);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:37: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:37: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:46: error: cannot find symbol
+    Paint result = scale.getPaint(5.0);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:47: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:47: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:56: error: cannot find symbol
+    Paint result = scale.getPaint(25.0);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:57: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:57: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:66: error: cannot find symbol
+    Paint result = scale.getPaint(25.0);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:67: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:67: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:76: error: cannot find symbol
+    Paint result = scale.getPaint(0.0);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:77: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:77: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:86: error: cannot find symbol
+    Paint result = scale.getPaint(100.0);
+    ^
+  symbol:   class Paint
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:87: error: cannot find symbol
+    Color color = (Color) result;
+    ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-24_C1/org/jfree/chart/renderer/deepseek_Chart_24_C1_Test.java:87: error: cannot find symbol
+    Color color = (Color) result;
+                   ^
+  symbol:   class Color
+  location: class deepseek_Chart_24_C1_Test
+24 errors

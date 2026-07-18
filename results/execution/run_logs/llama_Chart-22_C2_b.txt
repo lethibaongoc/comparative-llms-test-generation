@@ -1,0 +1,49 @@
+
+Failures (2):
+  JUnit Jupiter:KeyedObjects2DTest:testRemoveRow_NullKey()
+    MethodSource [className = 'org.jfree.data.KeyedObjects2DTest', methodName = 'testRemoveRow_NullKey', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.NullPointerException> but was: <java.lang.ArrayIndexOutOfBoundsException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.jfree.data.KeyedObjects2DTest.testRemoveRow_NullKey(KeyedObjects2DTest.java:91)
+       [...]
+     Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+       java.util.ArrayList.elementData(ArrayList.java:424)
+       java.util.ArrayList.remove(ArrayList.java:501)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:330)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:345)
+       org.jfree.data.KeyedObjects2DTest.lambda$testRemoveRow_NullKey$2(KeyedObjects2DTest.java:91)
+       [...]
+  JUnit Jupiter:KeyedObjects2DTest:testRemoveRow_UnrecognisedKey()
+    MethodSource [className = 'org.jfree.data.KeyedObjects2DTest', methodName = 'testRemoveRow_UnrecognisedKey', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <org.jfree.data.UnknownKeyException> but was: <java.lang.ArrayIndexOutOfBoundsException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.jfree.data.KeyedObjects2DTest.testRemoveRow_UnrecognisedKey(KeyedObjects2DTest.java:84)
+       [...]
+     Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+       java.util.ArrayList.elementData(ArrayList.java:424)
+       java.util.ArrayList.remove(ArrayList.java:501)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:330)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:345)
+       org.jfree.data.KeyedObjects2DTest.lambda$testRemoveRow_UnrecognisedKey$1(KeyedObjects2DTest.java:84)
+       [...]
+
+Test run finished after 706 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         2 tests failed          ]
+

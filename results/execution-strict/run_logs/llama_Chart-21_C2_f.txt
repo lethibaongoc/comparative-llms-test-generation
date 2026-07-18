@@ -1,0 +1,83 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:12: error: cannot find symbol
+        assertEquals(Double.NaN, dataset.getMinimumRangeValue(), 0.0);
+                                        ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:13: error: cannot find symbol
+        assertEquals(Double.NaN, dataset.getMaximumRangeValue(), 0.0);
+                                        ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:19: error: no suitable constructor found for BoxAndWhiskerItem(double,double,double,double,double,double)
+        BoxAndWhiskerItem item = new BoxAndWhiskerItem(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+                                 ^
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(Number,Number,Number,Number,Number,Number,Number,Number,List) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(double,double,double,double,double,double,double,double,List) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:21: error: cannot find symbol
+        assertEquals(1.0, dataset.getMinimumRangeValue(), 0.0);
+                                 ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:22: error: cannot find symbol
+        assertEquals(6.0, dataset.getMaximumRangeValue(), 0.0);
+                                 ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:28: error: no suitable constructor found for BoxAndWhiskerItem(double,double,double,double,double,double)
+        BoxAndWhiskerItem item1 = new BoxAndWhiskerItem(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+                                  ^
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(Number,Number,Number,Number,Number,Number,Number,Number,List) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(double,double,double,double,double,double,double,double,List) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:29: error: no suitable constructor found for BoxAndWhiskerItem(double,double,double,double,double,double)
+        BoxAndWhiskerItem item2 = new BoxAndWhiskerItem(7.0, 8.0, 9.0, 10.0, 11.0, 12.0);
+                                  ^
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(Number,Number,Number,Number,Number,Number,Number,Number,List) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(double,double,double,double,double,double,double,double,List) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:32: error: cannot find symbol
+        assertEquals(1.0, dataset.getMinimumRangeValue(), 0.0);
+                                 ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:33: error: cannot find symbol
+        assertEquals(12.0, dataset.getMaximumRangeValue(), 0.0);
+                                  ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:39: error: reference to add is ambiguous
+        dataset.add(null, "Row", "Column");
+               ^
+  both method add(List,Comparable,Comparable) in DefaultBoxAndWhiskerCategoryDataset and method add(BoxAndWhiskerItem,Comparable,Comparable) in DefaultBoxAndWhiskerCategoryDataset match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:40: error: cannot find symbol
+        assertEquals(Double.NaN, dataset.getMinimumRangeValue(), 0.0);
+                                        ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:41: error: cannot find symbol
+        assertEquals(Double.NaN, dataset.getMaximumRangeValue(), 0.0);
+                                        ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:47: error: no suitable constructor found for BoxAndWhiskerItem(double,double,double,double,double,double)
+        BoxAndWhiskerItem item = new BoxAndWhiskerItem(Double.NaN, Double.NaN, Double.NaN, Double.NaN, Double.NaN, Double.NaN);
+                                 ^
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(Number,Number,Number,Number,Number,Number,Number,Number,List) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor BoxAndWhiskerItem.BoxAndWhiskerItem(double,double,double,double,double,double,double,double,List) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:49: error: cannot find symbol
+        assertEquals(Double.NaN, dataset.getMinimumRangeValue(), 0.0);
+                                        ^
+  symbol:   method getMinimumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-21_C2/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDatasetTest.java:50: error: cannot find symbol
+        assertEquals(Double.NaN, dataset.getMaximumRangeValue(), 0.0);
+                                        ^
+  symbol:   method getMaximumRangeValue()
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+15 errors

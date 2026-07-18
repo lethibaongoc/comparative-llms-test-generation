@@ -1,0 +1,6 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-53_C2/org/apache/commons/math/complex/gpt_5_5_instant_Math_53_C2_Test.java:36: error: cannot find symbol
+    assertThrows(NullArgumentException.class, () -> c.add(null));
+                 ^
+  symbol:   class NullArgumentException
+  location: class gpt_5_5_instant_Math_53_C2_Test
+1 error

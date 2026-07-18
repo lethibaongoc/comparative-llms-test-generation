@@ -1,0 +1,81 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:17: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:17: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:26: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:26: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:35: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:35: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:44: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:44: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:53: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:53: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:62: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:62: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:71: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:71: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:80: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+    ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:80: error: cannot find symbol
+    RandomDataGenerator mockRandomData = Mockito.mock(RandomDataGenerator.class);
+                                                      ^
+  symbol:   class RandomDataGenerator
+  location: class deepseek_Math_2_C1_Test
+16 errors

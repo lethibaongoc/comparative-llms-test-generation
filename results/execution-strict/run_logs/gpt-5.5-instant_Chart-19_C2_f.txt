@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:16: error: cannot find symbol
+    CategoryAxis axis1 = new CategoryAxis("Axis 1");
+    ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:16: error: cannot find symbol
+    CategoryAxis axis1 = new CategoryAxis("Axis 1");
+                             ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:17: error: cannot find symbol
+    CategoryAxis axis2 = new CategoryAxis("Axis 2");
+    ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:17: error: cannot find symbol
+    CategoryAxis axis2 = new CategoryAxis("Axis 2");
+                             ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:29: error: cannot find symbol
+    CategoryAxis axis1 = new CategoryAxis("Axis 1");
+    ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:29: error: cannot find symbol
+    CategoryAxis axis1 = new CategoryAxis("Axis 1");
+                             ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:30: error: cannot find symbol
+    CategoryAxis axis2 = new CategoryAxis("Axis 2");
+    ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-19_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_19_C2_Test.java:30: error: cannot find symbol
+    CategoryAxis axis2 = new CategoryAxis("Axis 2");
+                             ^
+  symbol:   class CategoryAxis
+  location: class gpt_5_5_instant_Chart_19_C2_Test
+8 errors

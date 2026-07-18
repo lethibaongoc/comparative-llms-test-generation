@@ -1,0 +1,31 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:10: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(0, 0));
+                                                              ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:15: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertThrows(ArithmeticException.class, () -> Fraction.greatestCommonDivisor(Integer.MIN_VALUE, 0));
+                                                              ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:20: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(1, Fraction.greatestCommonDivisor(1, 1));
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:25: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(1, Fraction.greatestCommonDivisor(1, 2));
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:30: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(2, Fraction.greatestCommonDivisor(2, 2));
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:35: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(2, Fraction.greatestCommonDivisor(4, 6));
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:40: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(1, Fraction.greatestCommonDivisor(-1, 1));
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:45: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(2, Fraction.greatestCommonDivisor(-2, 2));
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:50: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(2, Fraction.greatestCommonDivisor(-4, -6));
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-22_C1/org/apache/commons/lang3/math/FractionTest.java:55: error: greatestCommonDivisor(int,int) has private access in Fraction
+        assertEquals(1, Fraction.greatestCommonDivisor(12345, 67890));
+                                ^
+10 errors

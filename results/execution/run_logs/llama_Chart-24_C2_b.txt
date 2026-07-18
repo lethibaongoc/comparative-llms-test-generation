@@ -1,0 +1,65 @@
+
+Failures (4):
+  JUnit Jupiter:GrayPaintScaleTest:testGetPaint_BelowLowerBound()
+    MethodSource [className = 'org.jfree.chart.renderer.GrayPaintScaleTest', methodName = 'testGetPaint_BelowLowerBound', methodParameterTypes = '']
+    => java.lang.IllegalArgumentException: Color parameter outside of expected range: Red Green Blue
+       java.awt.Color.testColorValueRange(Color.java:310)
+       java.awt.Color.<init>(Color.java:395)
+       java.awt.Color.<init>(Color.java:369)
+       org.jfree.chart.renderer.GrayPaintScale.getPaint(GrayPaintScale.java:128)
+       org.jfree.chart.renderer.GrayPaintScaleTest.testGetPaint_BelowLowerBound(GrayPaintScaleTest.java:74)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:GrayPaintScaleTest:testGetPaint_CustomBounds()
+    MethodSource [className = 'org.jfree.chart.renderer.GrayPaintScaleTest', methodName = 'testGetPaint_CustomBounds', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <java.awt.Color[r=128,g=128,b=128]> but was: <java.awt.Color[r=127,g=127,b=127]>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.renderer.GrayPaintScaleTest.testGetPaint_CustomBounds(GrayPaintScaleTest.java:92)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:GrayPaintScaleTest:testGetPaint_MiddleValue()
+    MethodSource [className = 'org.jfree.chart.renderer.GrayPaintScaleTest', methodName = 'testGetPaint_MiddleValue', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <java.awt.Color[r=128,g=128,b=128]> but was: <java.awt.Color[r=127,g=127,b=127]>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.renderer.GrayPaintScaleTest.testGetPaint_MiddleValue(GrayPaintScaleTest.java:68)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:GrayPaintScaleTest:testGetPaint_AboveUpperBound()
+    MethodSource [className = 'org.jfree.chart.renderer.GrayPaintScaleTest', methodName = 'testGetPaint_AboveUpperBound', methodParameterTypes = '']
+    => java.lang.IllegalArgumentException: Color parameter outside of expected range: Red Green Blue
+       java.awt.Color.testColorValueRange(Color.java:310)
+       java.awt.Color.<init>(Color.java:395)
+       java.awt.Color.<init>(Color.java:369)
+       org.jfree.chart.renderer.GrayPaintScale.getPaint(GrayPaintScale.java:128)
+       org.jfree.chart.renderer.GrayPaintScaleTest.testGetPaint_AboveUpperBound(GrayPaintScaleTest.java:82)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 494 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         2 tests successful      ]
+[         4 tests failed          ]
+

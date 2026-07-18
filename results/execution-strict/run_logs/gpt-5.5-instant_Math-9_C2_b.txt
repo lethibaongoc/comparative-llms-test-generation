@@ -1,0 +1,43 @@
+
+Failures (2):
+  JUnit Jupiter:gpt_5_5_instant_Math_9_C2_Test:testRevertCreatesLineWithNegatedDirection()
+    MethodSource [className = 'org.apache.commons.math3.geometry.euclidean.threed.gpt_5_5_instant_Math_9_C2_Test', methodName = 'testRevertCreatesLineWithNegatedDirection', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <{1; 2; 3}> but was: <{-0.56; -0.08; 0.4}>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.apache.commons.math3.geometry.euclidean.threed.gpt_5_5_instant_Math_9_C2_Test.testRevertCreatesLineWithNegatedDirection(gpt_5_5_instant_Math_9_C2_Test.java:21)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Math_9_C2_Test:testRevertTwiceReturnsEquivalentDirection()
+    MethodSource [className = 'org.apache.commons.math3.geometry.euclidean.threed.gpt_5_5_instant_Math_9_C2_Test', methodName = 'testRevertTwiceReturnsEquivalentDirection', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: org.apache.commons.math3.geometry.euclidean.threed.Vector3D@399c4be1<{0.5; -0.5; 0}> but was: org.apache.commons.math3.geometry.euclidean.threed.Vector3D@291caca8<{0.5; -0.5; 0}>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.apache.commons.math3.geometry.euclidean.threed.gpt_5_5_instant_Math_9_C2_Test.testRevertTwiceReturnsEquivalentDirection(gpt_5_5_instant_Math_9_C2_Test.java:33)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1302 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         2 tests found           ]
+[         0 tests skipped         ]
+[         2 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         2 tests failed          ]
+

@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:21: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:21: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:28: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:28: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:38: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:38: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:53: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-15_C2/org/jfree/chart/plot/gemini_Chart_15_C2_Test.java:53: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class gemini_Chart_15_C2_Test
+8 errors

@@ -1,0 +1,33 @@
+
+Failures (2):
+  JUnit Jupiter:gemini_Lang_57_C2_Test:testIsAvailableLocale()
+    MethodSource [className = 'org.apache.commons.lang.gemini_Lang_57_C2_Test', methodName = 'testIsAvailableLocale', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.gemini_Lang_57_C2_Test.testIsAvailableLocale(gemini_Lang_57_C2_Test.java:26)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gemini_Lang_57_C2_Test:testIsAvailableLocale_Null()
+    MethodSource [className = 'org.apache.commons.lang.gemini_Lang_57_C2_Test', methodName = 'testIsAvailableLocale_Null', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.gemini_Lang_57_C2_Test.testIsAvailableLocale_Null(gemini_Lang_57_C2_Test.java:32)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 946 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         2 tests found           ]
+[         0 tests skipped         ]
+[         2 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         2 tests failed          ]
+

@@ -1,0 +1,61 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:17: error: cannot find symbol
+    Paint paint = scale.getPaint(50.0);
+    ^
+  symbol:   class Paint
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:19: error: cannot find symbol
+    assertTrue(paint instanceof Color);
+                                ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:20: error: cannot find symbol
+    Color color = (Color) paint;
+    ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:20: error: cannot find symbol
+    Color color = (Color) paint;
+                   ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:30: error: cannot find symbol
+    Color color = (Color) scale.getPaint(-10.0);
+    ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:30: error: cannot find symbol
+    Color color = (Color) scale.getPaint(-10.0);
+                   ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:41: error: cannot find symbol
+    Color color = (Color) scale.getPaint(150.0);
+    ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:41: error: cannot find symbol
+    Color color = (Color) scale.getPaint(150.0);
+                   ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:52: error: cannot find symbol
+    Color color = (Color) scale.getPaint(10.0);
+    ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:52: error: cannot find symbol
+    Color color = (Color) scale.getPaint(10.0);
+                   ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:63: error: cannot find symbol
+    Color color = (Color) scale.getPaint(20.0);
+    ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-24_C1/org/jfree/chart/renderer/gpt_5_5_instant_Chart_24_C1_Test.java:63: error: cannot find symbol
+    Color color = (Color) scale.getPaint(20.0);
+                   ^
+  symbol:   class Color
+  location: class gpt_5_5_instant_Chart_24_C1_Test
+12 errors

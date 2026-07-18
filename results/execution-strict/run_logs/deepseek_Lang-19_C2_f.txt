@@ -1,0 +1,188 @@
+
+Failures (13):
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateHexEntityWithoutSemicolon()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateHexEntityWithoutSemicolon', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <4> but was: <5>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateHexEntityWithoutSemicolon(deepseek_Lang_19_C2_Test.java:87)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateHexEntityWithMixedCase()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateHexEntityWithMixedCase', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateHexEntityWithMixedCase(deepseek_Lang_19_C2_Test.java:168)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateWithContentBeforeEntity()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateWithContentBeforeEntity', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <4> but was: <0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateWithContentBeforeEntity(deepseek_Lang_19_C2_Test.java:150)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateDecimalEntity()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateDecimalEntity', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <4> but was: <5>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateDecimalEntity(deepseek_Lang_19_C2_Test.java:51)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateSupplementaryCharacter()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateSupplementaryCharacter', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <7> but was: <9>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateSupplementaryCharacter(deepseek_Lang_19_C2_Test.java:132)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateHexEntityLowercase()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateHexEntityLowercase', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateHexEntityLowercase(deepseek_Lang_19_C2_Test.java:69)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateDecimalEntityWithoutSemicolon()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateDecimalEntityWithoutSemicolon', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <3> but was: <4>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateDecimalEntityWithoutSemicolon(deepseek_Lang_19_C2_Test.java:60)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateHexEntityLowercaseLetters()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateHexEntityLowercaseLetters', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateHexEntityLowercaseLetters(deepseek_Lang_19_C2_Test.java:96)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateWithContentAfterEntity()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateWithContentAfterEntity', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <4> but was: <5>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateWithContentAfterEntity(deepseek_Lang_19_C2_Test.java:159)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateHexEntityUppercaseLetters()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateHexEntityUppercaseLetters', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateHexEntityUppercaseLetters(deepseek_Lang_19_C2_Test.java:105)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateHexEntityUppercaseX()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateHexEntityUppercaseX', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateHexEntityUppercaseX(deepseek_Lang_19_C2_Test.java:78)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateMaximumValidCharacter()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateMaximumValidCharacter', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <8> but was: <10>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateMaximumValidCharacter(deepseek_Lang_19_C2_Test.java:177)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_19_C2_Test:testTranslateSupplementaryCharacterWithoutSemicolon()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test', methodName = 'testTranslateSupplementaryCharacterWithoutSemicolon', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <6> but was: <8>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.apache.commons.lang3.text.translate.deepseek_Lang_19_C2_Test.testTranslateSupplementaryCharacterWithoutSemicolon(deepseek_Lang_19_C2_Test.java:141)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1062 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[        19 tests found           ]
+[         0 tests skipped         ]
+[        19 tests started         ]
+[         0 tests aborted         ]
+[         6 tests successful      ]
+[        13 tests failed          ]
+
+FAIL: 999999999999[2][14]
+FAIL: [3][3]

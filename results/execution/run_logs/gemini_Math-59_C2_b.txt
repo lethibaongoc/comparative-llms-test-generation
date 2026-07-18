@@ -1,0 +1,56 @@
+
+Failures (3):
+  JUnit Jupiter:gemini_Math_59_C2_Test:testMaxStandardValues()
+    MethodSource [className = 'org.apache.commons.math.util.gemini_Math_59_C2_Test', methodName = 'testMaxStandardValues', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <5.0> but was: <2.0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:102)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:97)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:735)
+       org.apache.commons.math.util.gemini_Math_59_C2_Test.testMaxStandardValues(gemini_Math_59_C2_Test.java:57)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gemini_Math_59_C2_Test:testMaxInfinities()
+    MethodSource [className = 'org.apache.commons.math.util.gemini_Math_59_C2_Test', methodName = 'testMaxInfinities', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <Infinity> but was: <1.0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:102)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:97)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:735)
+       org.apache.commons.math.util.gemini_Math_59_C2_Test.testMaxInfinities(gemini_Math_59_C2_Test.java:63)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gemini_Math_59_C2_Test:testMaxSignedZeros()
+    MethodSource [className = 'org.apache.commons.math.util.gemini_Math_59_C2_Test', methodName = 'testMaxSignedZeros', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <0.0> but was: <-0.0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:102)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:97)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:735)
+       org.apache.commons.math.util.gemini_Math_59_C2_Test.testMaxSignedZeros(gemini_Math_59_C2_Test.java:79)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1142 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         3 tests failed          ]
+

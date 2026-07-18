@@ -1,0 +1,26 @@
+
+Failures (1):
+  JUnit Jupiter:gpt_5_5_instant_Chart_17_C1_Test:testClone_emptySeries()
+    MethodSource [className = 'org.jfree.data.time.gpt_5_5_instant_Chart_17_C1_Test', methodName = 'testClone_emptySeries', methodParameterTypes = '']
+    => java.lang.IllegalArgumentException: Requires start <= end.
+       org.jfree.data.time.TimeSeries.createCopy(TimeSeries.java:880)
+       org.jfree.data.time.TimeSeries.clone(TimeSeries.java:857)
+       org.jfree.data.time.gpt_5_5_instant_Chart_17_C1_Test.testClone_emptySeries(gpt_5_5_instant_Chart_17_C1_Test.java:47)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 697 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         3 tests successful      ]
+[         1 tests failed          ]
+

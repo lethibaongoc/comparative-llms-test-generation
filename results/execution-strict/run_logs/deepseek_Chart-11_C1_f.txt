@@ -1,0 +1,351 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:15: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:15: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+                                  ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:16: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:16: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, orientation);
+                      ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:22: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:22: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+                                  ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:23: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:23: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, orientation);
+                      ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:29: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:29: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+                                  ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:30: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:30: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, orientation);
+                      ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:37: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:37: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+                                  ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:38: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:38: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:39: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:39: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, orientation);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:46: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:46: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+                                  ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:47: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:47: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:48: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:48: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, orientation);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:55: error: cannot find symbol
+    PlotOrientation orientation1 = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:55: error: cannot find symbol
+    PlotOrientation orientation1 = PlotOrientation.VERTICAL;
+                                   ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:56: error: cannot find symbol
+    PlotOrientation orientation2 = PlotOrientation.HORIZONTAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:56: error: cannot find symbol
+    PlotOrientation orientation2 = PlotOrientation.HORIZONTAL;
+                                   ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:57: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:57: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:58: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, orientation2);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:58: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, orientation2);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:65: error: cannot find symbol
+    PlotOrientation orientation1 = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:65: error: cannot find symbol
+    PlotOrientation orientation1 = PlotOrientation.VERTICAL;
+                                   ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:66: error: cannot find symbol
+    PlotOrientation orientation2 = PlotOrientation.HORIZONTAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:66: error: cannot find symbol
+    PlotOrientation orientation2 = PlotOrientation.HORIZONTAL;
+                                   ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:67: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:67: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:68: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, orientation2);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:68: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, orientation2);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:75: error: cannot find symbol
+    PlotOrientation orientation1 = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:75: error: cannot find symbol
+    PlotOrientation orientation1 = PlotOrientation.VERTICAL;
+                                   ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:76: error: cannot find symbol
+    PlotOrientation orientation2 = PlotOrientation.HORIZONTAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:76: error: cannot find symbol
+    PlotOrientation orientation2 = PlotOrientation.HORIZONTAL;
+                                   ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:78: error: cannot find symbol
+    XYPlot p1 = new XYPlot(10, orientation1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:78: error: cannot find symbol
+    XYPlot p1 = new XYPlot(10, orientation1);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:79: error: cannot find symbol
+    XYPlot p2 = new XYPlot(10, orientation1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:79: error: cannot find symbol
+    XYPlot p2 = new XYPlot(10, orientation1);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:83: error: cannot find symbol
+    XYPlot p3 = new XYPlot(20, orientation1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:83: error: cannot find symbol
+    XYPlot p3 = new XYPlot(20, orientation1);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:87: error: cannot find symbol
+    XYPlot p4 = new XYPlot(10, orientation2);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:87: error: cannot find symbol
+    XYPlot p4 = new XYPlot(10, orientation2);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:94: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:94: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+                                  ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:95: error: cannot find symbol
+    XYPlot p1 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:95: error: cannot find symbol
+    XYPlot p1 = new XYPlot(10, orientation);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:96: error: cannot find symbol
+    XYPlot p2 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:96: error: cannot find symbol
+    XYPlot p2 = new XYPlot(10, orientation);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:97: error: cannot find symbol
+    XYPlot p3 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:97: error: cannot find symbol
+    XYPlot p3 = new XYPlot(10, orientation);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:103: error: cannot find symbol
+    XYPlot p4 = new XYPlot(20, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:103: error: cannot find symbol
+    XYPlot p4 = new XYPlot(20, orientation);
+                    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:110: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+    ^
+  symbol:   class PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:110: error: cannot find symbol
+    PlotOrientation orientation = PlotOrientation.VERTICAL;
+                                  ^
+  symbol:   variable PlotOrientation
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:111: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:111: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, orientation);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:112: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:112: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, orientation);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:113: error: cannot find symbol
+    XYPlot plot3 = new XYPlot(20, orientation);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C1/org/jfree/chart/util/deepseek_Chart_11_C1_Test.java:113: error: cannot find symbol
+    XYPlot plot3 = new XYPlot(20, orientation);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C1_Test
+70 errors

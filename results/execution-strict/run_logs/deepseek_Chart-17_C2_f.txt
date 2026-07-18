@@ -1,0 +1,66 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:15: error: no suitable constructor found for TimeSeries(no arguments)
+    TimeSeries original = new TimeSeries();
+                          ^
+    constructor TimeSeries.TimeSeries(Comparable) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,Class) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,String,String,Class) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:25: error: no suitable constructor found for TimeSeries(no arguments)
+    TimeSeries original = new TimeSeries();
+                          ^
+    constructor TimeSeries.TimeSeries(Comparable) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,Class) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,String,String,Class) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:35: error: no suitable constructor found for TimeSeries(no arguments)
+    TimeSeries original = new TimeSeries();
+                          ^
+    constructor TimeSeries.TimeSeries(Comparable) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,Class) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,String,String,Class) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:44: error: no suitable constructor found for TimeSeries(no arguments)
+    TimeSeries original = new TimeSeries();
+                          ^
+    constructor TimeSeries.TimeSeries(Comparable) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,Class) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,String,String,Class) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:54: error: no suitable constructor found for TimeSeries(no arguments)
+    TimeSeries original = new TimeSeries();
+                          ^
+    constructor TimeSeries.TimeSeries(Comparable) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,Class) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,String,String,Class) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:64: error: no suitable constructor found for TimeSeries(no arguments)
+    TimeSeries original = new TimeSeries();
+                          ^
+    constructor TimeSeries.TimeSeries(Comparable) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,Class) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,String,String,Class) is not applicable
+      (actual and formal argument lists differ in length)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java:77: error: no suitable constructor found for TimeSeries(no arguments)
+    TimeSeries original = new TimeSeries();
+                          ^
+    constructor TimeSeries.TimeSeries(Comparable) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,Class) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor TimeSeries.TimeSeries(Comparable,String,String,Class) is not applicable
+      (actual and formal argument lists differ in length)
+Note: /mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-17_C2/org/jfree/data/time/deepseek_Chart_17_C2_Test.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 errors

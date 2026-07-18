@@ -1,0 +1,49 @@
+
+Failures (4):
+  JUnit Jupiter:gpt_5_5_instant_Lang_57_C1_Test:testIsAvailableLocale_nullLocale()
+    MethodSource [className = 'org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test', methodName = 'testIsAvailableLocale_nullLocale', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test.testIsAvailableLocale_nullLocale(gpt_5_5_instant_Lang_57_C1_Test.java:39)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Lang_57_C1_Test:testIsAvailableLocale_unavailableLocale()
+    MethodSource [className = 'org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test', methodName = 'testIsAvailableLocale_unavailableLocale', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test.testIsAvailableLocale_unavailableLocale(gpt_5_5_instant_Lang_57_C1_Test.java:34)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Lang_57_C1_Test:testIsAvailableLocale_defaultLocale()
+    MethodSource [className = 'org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test', methodName = 'testIsAvailableLocale_defaultLocale', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test.testIsAvailableLocale_defaultLocale(gpt_5_5_instant_Lang_57_C1_Test.java:28)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Lang_57_C1_Test:testIsAvailableLocale_availableLocale()
+    MethodSource [className = 'org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test', methodName = 'testIsAvailableLocale_availableLocale', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.gpt_5_5_instant_Lang_57_C1_Test.testIsAvailableLocale_availableLocale(gpt_5_5_instant_Lang_57_C1_Test.java:23)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 829 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         4 tests failed          ]
+

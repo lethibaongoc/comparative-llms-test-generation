@@ -1,0 +1,11 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-41_C1/org/apache/commons/lang/gemini_Lang_41_C1_Test.java:24: error: cannot find symbol
+@ParameterizedTest
+ ^
+  symbol:   class ParameterizedTest
+  location: class gemini_Lang_41_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-41_C1/org/apache/commons/lang/gemini_Lang_41_C1_Test.java:25: error: cannot find symbol
+@NullAndEmptySource
+ ^
+  symbol:   class NullAndEmptySource
+  location: class gemini_Lang_41_C1_Test
+2 errors

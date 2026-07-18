@@ -1,0 +1,75 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:82: error: dataset has private access in PiePlot
+    plot.dataset = null;
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:89: error: dataset has private access in PiePlot
+    plot.dataset = mock(PieDataset.class);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:90: error: dataset has private access in PiePlot
+    when(plot.dataset.getKeys()).thenReturn(Collections.emptyList());
+             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:97: error: dataset has private access in PiePlot
+    plot.dataset = mock(PieDataset.class);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:100: error: dataset has private access in PiePlot
+    when(plot.dataset.getKeys()).thenReturn(Arrays.asList(key1, key2));
+             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:101: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages = new HashMap<>();
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:102: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key1, null);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:103: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key2, null);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:110: error: dataset has private access in PiePlot
+    plot.dataset = mock(PieDataset.class);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:114: error: dataset has private access in PiePlot
+    when(plot.dataset.getKeys()).thenReturn(Arrays.asList(key1, key2, key3));
+             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:115: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages = new HashMap<>();
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:116: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key1, 0.1);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:117: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key2, 0.5);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:118: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key3, 0.3);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:125: error: dataset has private access in PiePlot
+    plot.dataset = mock(PieDataset.class);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:129: error: dataset has private access in PiePlot
+    when(plot.dataset.getKeys()).thenReturn(Arrays.asList(key1, key2, key3));
+             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:130: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages = new HashMap<>();
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:131: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key1, 0.2);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:132: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key2, null);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:133: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key3, 0.7);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:140: error: dataset has private access in PiePlot
+    plot.dataset = mock(PieDataset.class);
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:142: error: dataset has private access in PiePlot
+    when(plot.dataset.getKeys()).thenReturn(Collections.singletonList(key1));
+             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:143: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages = new HashMap<>();
+        ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java:144: error: explodePercentages has private access in PiePlot
+    plot.explodePercentages.put(key1, 0.75);
+        ^
+Note: /mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C1/org/jfree/chart/plot/deepseek_Chart_15_C1_Test.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+24 errors

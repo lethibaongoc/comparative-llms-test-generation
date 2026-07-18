@@ -1,0 +1,55 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:62: error: x has private access in Vector3D
+    assertEquals(0.0, result.x, 1e-9);
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:63: error: y has private access in Vector3D
+    assertEquals(0.0, result.y, 1e-9);
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:64: error: z has private access in Vector3D
+    assertEquals(1.0, result.z, 1e-9); // k
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:75: error: x has private access in Vector3D
+    assertEquals(0.0, result.x, 1e-9);
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:76: error: y has private access in Vector3D
+    assertEquals(0.0, result.y, 1e-9);
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:77: error: z has private access in Vector3D
+    assertEquals(0.0, result.z, 1e-9);
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:89: error: x has private access in Vector3D
+    assertEquals(r1.x, -r2.x, 1e-9);
+                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:89: error: x has private access in Vector3D
+    assertEquals(r1.x, -r2.x, 1e-9);
+                          ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:90: error: y has private access in Vector3D
+    assertEquals(r1.y, -r2.y, 1e-9);
+                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:90: error: y has private access in Vector3D
+    assertEquals(r1.y, -r2.y, 1e-9);
+                          ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:91: error: z has private access in Vector3D
+    assertEquals(r1.z, -r2.z, 1e-9);
+                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:91: error: z has private access in Vector3D
+    assertEquals(r1.z, -r2.z, 1e-9);
+                          ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:106: error: x has private access in Vector3D
+    assertEquals(-27.0, result.x, 1e-9);
+                              ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:107: error: y has private access in Vector3D
+    assertEquals(-6.0, result.y, 1e-9);
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:108: error: z has private access in Vector3D
+    assertEquals(13.0, result.z, 1e-9);
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:119: error: x has private access in Vector3D
+    assertEquals(0.0, result.x, 1e-9);
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:120: error: y has private access in Vector3D
+    assertEquals(0.0, result.y, 1e-9);
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-55_C1/org/apache/commons/math/geometry/gemini_Math_55_C1_Test.java:121: error: z has private access in Vector3D
+    assertEquals(0.0, result.z, 1e-9);
+                            ^
+18 errors

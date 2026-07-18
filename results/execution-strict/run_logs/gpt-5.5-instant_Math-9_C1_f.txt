@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:15: error: cannot find symbol
+    Vector2D origin = new Vector2D(1.0, 2.0);
+    ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:15: error: cannot find symbol
+    Vector2D origin = new Vector2D(1.0, 2.0);
+                          ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:16: error: cannot find symbol
+    Vector2D second = new Vector2D(4.0, 6.0);
+    ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:16: error: cannot find symbol
+    Vector2D second = new Vector2D(4.0, 6.0);
+                          ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:28: error: cannot find symbol
+    Line line = new Line(new Vector2D(0.0, 0.0), new Vector2D(5.0, 0.0));
+                             ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:28: error: cannot find symbol
+    Line line = new Line(new Vector2D(0.0, 0.0), new Vector2D(5.0, 0.0));
+                                                     ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:38: error: cannot find symbol
+    Line line = new Line(new Vector2D(-2.0, 3.0), new Vector2D(1.0, 7.0));
+                             ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:38: error: cannot find symbol
+    Line line = new Line(new Vector2D(-2.0, 3.0), new Vector2D(1.0, 7.0));
+                                                      ^
+  symbol:   class Vector2D
+  location: class gpt_5_5_instant_Math_9_C1_Test
+8 errors

@@ -1,0 +1,30 @@
+
+Failures (1):
+  JUnit Jupiter:gemini_Chart_10_C1_Test:Should correctly format tool tip text and escape HTML characters
+    MethodSource [className = 'org.jfree.chart.imagemap.gemini_Chart_10_C1_Test', methodName = 'testGenerateToolTipFragmentWithSpecialCharacters', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: < title="Hello &lt;World&gt; &amp; &quot;Friends&quot;" alt=""> but was: < title="Hello <World> & "Friends"" alt="">
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.imagemap.gemini_Chart_10_C1_Test.testGenerateToolTipFragmentWithSpecialCharacters(gemini_Chart_10_C1_Test.java:95)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 639 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         2 tests successful      ]
+[         1 tests failed          ]
+

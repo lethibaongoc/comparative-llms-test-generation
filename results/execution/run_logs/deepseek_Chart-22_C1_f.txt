@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:80: error: cannot find symbol
+    keyedObjects.addRow(rowKey);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:108: error: cannot find symbol
+    keyedObjects.addRow(rowKey1);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:109: error: cannot find symbol
+    keyedObjects.addRow(rowKey2);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:120: error: cannot find symbol
+    keyedObjects.addRow(rowKey1);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:121: error: cannot find symbol
+    keyedObjects.addRow(rowKey2);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:133: error: cannot find symbol
+    keyedObjects.addRow(rowKey1);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:134: error: cannot find symbol
+    keyedObjects.addRow(rowKey2);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-22_C1/org/jfree/data/deepseek_Chart_22_C1_Test.java:135: error: cannot find symbol
+    keyedObjects.addRow(rowKey3);
+                ^
+  symbol:   method addRow(Comparable)
+  location: variable keyedObjects of type KeyedObjects2D
+8 errors

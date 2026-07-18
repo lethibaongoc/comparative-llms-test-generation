@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:29: error: cannot find symbol
+    CategoryAxis axis1 = mock(CategoryAxis.class);
+    ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:29: error: cannot find symbol
+    CategoryAxis axis1 = mock(CategoryAxis.class);
+                              ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:30: error: cannot find symbol
+    CategoryAxis axis2 = mock(CategoryAxis.class);
+    ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:30: error: cannot find symbol
+    CategoryAxis axis2 = mock(CategoryAxis.class);
+                              ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:42: error: cannot find symbol
+    CategoryAxis existingAxis = mock(CategoryAxis.class);
+    ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:42: error: cannot find symbol
+    CategoryAxis existingAxis = mock(CategoryAxis.class);
+                                     ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:43: error: cannot find symbol
+    CategoryAxis nonExistentAxis = mock(CategoryAxis.class);
+    ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-19_C1/org/jfree/chart/plot/gemini_Chart_19_C1_Test.java:43: error: cannot find symbol
+    CategoryAxis nonExistentAxis = mock(CategoryAxis.class);
+                                        ^
+  symbol:   class CategoryAxis
+  location: class gemini_Chart_19_C1_Test
+8 errors

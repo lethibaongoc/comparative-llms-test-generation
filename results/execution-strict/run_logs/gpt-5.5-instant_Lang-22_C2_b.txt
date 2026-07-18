@@ -1,0 +1,52 @@
+
+Failures (3):
+  JUnit Jupiter:gpt_5_5_instant_Lang_22_C2_Test:testGreatestCommonDivisorWhenOneValueIsZero()
+    MethodSource [className = 'org.apache.commons.lang3.math.gpt_5_5_instant_Lang_22_C2_Test', methodName = 'testGreatestCommonDivisorWhenOneValueIsZero', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <8> but was: <1>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.apache.commons.lang3.math.gpt_5_5_instant_Lang_22_C2_Test.testGreatestCommonDivisorWhenOneValueIsZero(gpt_5_5_instant_Lang_22_C2_Test.java:32)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Lang_22_C2_Test:testGreatestCommonDivisorOfTwoIntegerMinValuesThrowsOverflow()
+    MethodSource [className = 'org.apache.commons.lang3.math.gpt_5_5_instant_Lang_22_C2_Test', methodName = 'testGreatestCommonDivisorOfTwoIntegerMinValuesThrowsOverflow', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Expected java.lang.reflect.InvocationTargetException to be thrown, but nothing was thrown.
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.apache.commons.lang3.math.gpt_5_5_instant_Lang_22_C2_Test.testGreatestCommonDivisorOfTwoIntegerMinValuesThrowsOverflow(gpt_5_5_instant_Lang_22_C2_Test.java:59)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Lang_22_C2_Test:testGreatestCommonDivisorWithIntegerMinValueAndZeroThrowsOverflow()
+    MethodSource [className = 'org.apache.commons.lang3.math.gpt_5_5_instant_Lang_22_C2_Test', methodName = 'testGreatestCommonDivisorWithIntegerMinValueAndZeroThrowsOverflow', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Expected java.lang.reflect.InvocationTargetException to be thrown, but nothing was thrown.
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.apache.commons.lang3.math.gpt_5_5_instant_Lang_22_C2_Test.testGreatestCommonDivisorWithIntegerMinValueAndZeroThrowsOverflow(gpt_5_5_instant_Lang_22_C2_Test.java:45)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1033 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         3 tests failed          ]
+

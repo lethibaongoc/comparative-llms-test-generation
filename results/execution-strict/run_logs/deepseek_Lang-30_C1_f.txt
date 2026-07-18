@@ -1,0 +1,5 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-30_C1/org/apache/commons/lang3/deepseek_Lang_30_C1_Test.java:25: error: reference to containsAny is ambiguous
+    assertFalse(StringUtils.containsAny("abc", null));
+                           ^
+  both method containsAny(String,char[]) in StringUtils and method containsAny(String,String) in StringUtils match
+1 error

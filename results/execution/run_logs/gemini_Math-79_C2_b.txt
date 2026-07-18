@@ -1,0 +1,28 @@
+
+Failures (1):
+  JUnit Jupiter:gemini_Math_79_C2_Test:testDistanceThrowsExceptionForDifferentLengths()
+    MethodSource [className = 'org.apache.commons.math.util.gemini_Math_79_C2_Test', methodName = 'testDistanceThrowsExceptionForDifferentLengths', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Expected java.lang.ArrayIndexOutOfBoundsException to be thrown, but nothing was thrown.
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.apache.commons.math.util.gemini_Math_79_C2_Test.testDistanceThrowsExceptionForDifferentLengths(gemini_Math_79_C2_Test.java:99)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 889 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         9 tests found           ]
+[         0 tests skipped         ]
+[         9 tests started         ]
+[         0 tests aborted         ]
+[         8 tests successful      ]
+[         1 tests failed          ]
+

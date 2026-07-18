@@ -1,0 +1,51 @@
+
+Failures (3):
+  JUnit Jupiter:deepseek_Math_75_C1_Test:testGetPctWithNullObject()
+    MethodSource [className = 'org.apache.commons.math.stat.deepseek_Math_75_C1_Test', methodName = 'testGetPctWithNullObject', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.math.stat.Frequency.addValue(Frequency.java:168)
+       org.apache.commons.math.stat.deepseek_Math_75_C1_Test.testGetPctWithNullObject(deepseek_Math_75_C1_Test.java:67)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Math_75_C1_Test:testGetPctWithEmptyFrequency()
+    MethodSource [className = 'org.apache.commons.math.stat.deepseek_Math_75_C1_Test', methodName = 'testGetPctWithEmptyFrequency', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <0.0> but was: <NaN>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)
+       org.apache.commons.math.stat.deepseek_Math_75_C1_Test.testGetPctWithEmptyFrequency(deepseek_Math_75_C1_Test.java:75)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Math_75_C1_Test:testGetPctWithObject()
+    MethodSource [className = 'org.apache.commons.math.stat.deepseek_Math_75_C1_Test', methodName = 'testGetPctWithObject', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <0.3333333333333333> but was: <1.0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)
+       org.apache.commons.math.stat.deepseek_Math_75_C1_Test.testGetPctWithObject(deepseek_Math_75_C1_Test.java:59)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 891 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         3 tests failed          ]
+

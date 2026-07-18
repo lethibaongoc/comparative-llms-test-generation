@@ -1,0 +1,71 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:31: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:42: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:53: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:64: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:75: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:86: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:97: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:108: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:119: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:130: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:136: error: cannot find symbol
+    result = obj.parse(source, pos);
+             ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:147: error: cannot find symbol
+    boolean result = obj.parse(source, pos);
+                     ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:158: error: cannot find symbol
+    assertThrows(NullPointerException.class, () -> obj.parse(source, pos));
+                                                   ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-10_C2/org/apache/commons/lang3/time/deepseek_Lang_10_C2_Test.java:167: error: cannot find symbol
+    assertThrows(NullPointerException.class, () -> obj.parse(source, pos));
+                                                   ^
+  symbol:   variable obj
+  location: class deepseek_Lang_10_C2_Test
+14 errors

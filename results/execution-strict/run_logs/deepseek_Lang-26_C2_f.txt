@@ -1,0 +1,7 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-26_C2/org/apache/commons/lang3/time/deepseek_Lang_26_C2_Test.java:39: error: reference to format is ambiguous
+    assertThrows(NullPointerException.class, () -> formatter.format(null));
+                                                            ^
+  both method format(Date) in FastDateFormat and method format(Calendar) in FastDateFormat match
+Note: /mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-26_C2/org/apache/commons/lang3/time/deepseek_Lang_26_C2_Test.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error

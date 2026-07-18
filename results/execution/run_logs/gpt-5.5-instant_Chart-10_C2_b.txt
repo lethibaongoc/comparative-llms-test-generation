@@ -1,0 +1,30 @@
+
+Failures (1):
+  JUnit Jupiter:gpt_5_5_instant_Chart_10_C2_Test:testGenerateToolTipFragmentWithHtmlSpecialCharacters()
+    MethodSource [className = 'org.jfree.chart.imagemap.gpt_5_5_instant_Chart_10_C2_Test', methodName = 'testGenerateToolTipFragmentWithHtmlSpecialCharacters', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: < title="&lt;tag&gt; &amp; &quot;quote&quot;" alt=""> but was: < title="<tag> & "quote"" alt="">
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.imagemap.gpt_5_5_instant_Chart_10_C2_Test.testGenerateToolTipFragmentWithHtmlSpecialCharacters(gpt_5_5_instant_Chart_10_C2_Test.java:95)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 787 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         2 tests successful      ]
+[         1 tests failed          ]
+

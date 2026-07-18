@@ -1,0 +1,82 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:83: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.0);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:84: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:92: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.5);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:93: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:101: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.49);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:102: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:110: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(5.9);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:111: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:119: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(0.0);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:120: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:128: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(-2.5);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:129: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:137: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(-2.6);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:138: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:146: error: no suitable method found for thenReturn(double)
+    Mockito.when(mockRandomData.nextHypergeometric(Mockito.anyInt(), Mockito.anyInt(), Mockito.anyInt())).thenReturn(-2.3);
+                                                                                                         ^
+    method OngoingStubbing.thenReturn(Integer) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+    method OngoingStubbing.thenReturn(Integer,Integer...) is not applicable
+      (argument mismatch; double cannot be converted to Integer)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-2_C1/org/apache/commons/math3/distribution/deepseek_Math_2_C1_Test.java:147: error: incompatible types: int cannot be converted to RandomGenerator
+    HypergeometricDistribution distribution = new HypergeometricDistribution(100, 10, 20, mockRandomData);
+                                                                             ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+16 errors

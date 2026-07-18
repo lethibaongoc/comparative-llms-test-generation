@@ -1,0 +1,16 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-27_C2/org/apache/commons/math3/fraction/gpt_5_5_instant_Math_27_C2_Test.java:15: error: cannot find symbol
+    Fraction fraction = Fraction.getFraction(1, 2);
+                                ^
+  symbol:   method getFraction(int,int)
+  location: class Fraction
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-27_C2/org/apache/commons/math3/fraction/gpt_5_5_instant_Math_27_C2_Test.java:21: error: cannot find symbol
+    Fraction fraction = Fraction.getFraction(1, 1);
+                                ^
+  symbol:   method getFraction(int,int)
+  location: class Fraction
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-27_C2/org/apache/commons/math3/fraction/gpt_5_5_instant_Math_27_C2_Test.java:27: error: cannot find symbol
+    Fraction fraction = Fraction.getFraction(-1, 4);
+                                ^
+  symbol:   method getFraction(int,int)
+  location: class Fraction
+3 errors

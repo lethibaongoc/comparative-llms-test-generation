@@ -446,3 +446,55 @@
 
   `FastDatePrinter`. Worth a line in the report rather than a fix.
 
+
+- 2026-07-19: **Stage 2 — ran the 240 tests for execution validity and
+
+  Defects4J bug detection.** New harness `scripts/measure_execution.py` +
+
+  `run_execution.sh` (sibling of the compile harness; imports it for the
+
+  scaffold/full-unit builders so tests run on identical code). Checks out both
+
+  the fixed `f` and buggy `b` trees, compiles+runs each file on both, and
+
+  scores two things: **valid** = compiles on f, runs >=1 test, 0 failures;
+
+  **detected** = valid AND compiles on b AND >=1 failure on b (the standard
+
+  Defects4J fault-revealing criterion: pass on fixed, fail on buggy). Runs in
+
+  both lenient and strict import modes; 90s/file timeout; headless AWT for the
+
+  JFreeChart subjects. Results in `results/execution/` and
+
+  `results/execution-strict/` (per-file CSV + summary + per-run logs).
+
+  Headline (lenient) bug-detection rate: gemini 35.0%, gpt-5.5-instant 35.0%,
+
+  llama 18.3%, deepseek 11.7%. Compiles(f) reproduces the Stage-1 lenient
+
+  compile counts exactly (25/38/46/35), which is the key cross-check. Few-shot
+
+  (C2) did not consistently beat zero-shot (C1) on detection.
+
+  Three harness traps, all fixed and worth a line in the report: (1) the
+
+  console-standalone Vintage engine aborts the whole run because Defects4J
+
+  ships junit 4.11 (<4.12) on cp.test -> restrict to `--include-engine=
+
+  junit-jupiter`; (2) `--details=none` suppresses the very summary block we
+
+  parse -> use `--details=summary`; (3) project packages for lenient import
+
+  injection MUST be scanned per checkout, never cached per project (the
+
+  compiled-test packages differ per bug and between f/b; a shared list injects
+
+  imports for absent packages and fails files on `package_does_not_exist` --
+
+  this briefly collapsed compiles from 144 to 23 before being caught against
+
+  the Stage-1 numbers). The script checkpoints its CSV per file and resumes,
+
+  so the long sweep survives the environment killing background runs.

@@ -1,0 +1,25 @@
+
+Failures (1):
+  JUnit Jupiter:PiePlotTest:testGetMaximumExplodePercent_NullDataset()
+    MethodSource [className = 'org.jfree.chart.plot.PiePlotTest', methodName = 'testGetMaximumExplodePercent_NullDataset', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.jfree.chart.plot.PiePlot.getMaximumExplodePercent(PiePlot.java:1379)
+       org.jfree.chart.plot.PiePlotTest.testGetMaximumExplodePercent_NullDataset(PiePlotTest.java:77)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 973 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         1 tests failed          ]
+

@@ -1,0 +1,71 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:16: error: cannot find symbol
+    CategoryAxis axis = new CategoryAxis("Test Axis");
+    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:16: error: cannot find symbol
+    CategoryAxis axis = new CategoryAxis("Test Axis");
+                            ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:25: error: cannot find symbol
+    CategoryAxis axis1 = new CategoryAxis("Axis 1");
+    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:25: error: cannot find symbol
+    CategoryAxis axis1 = new CategoryAxis("Axis 1");
+                             ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:26: error: cannot find symbol
+    CategoryAxis axis2 = new CategoryAxis("Axis 2");
+    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:26: error: cannot find symbol
+    CategoryAxis axis2 = new CategoryAxis("Axis 2");
+                             ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:27: error: cannot find symbol
+    CategoryAxis axis3 = new CategoryAxis("Axis 3");
+    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:27: error: cannot find symbol
+    CategoryAxis axis3 = new CategoryAxis("Axis 3");
+                             ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:38: error: cannot find symbol
+    CategoryAxis existingAxis = new CategoryAxis("Existing");
+    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:38: error: cannot find symbol
+    CategoryAxis existingAxis = new CategoryAxis("Existing");
+                                    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:39: error: cannot find symbol
+    CategoryAxis nonExistingAxis = new CategoryAxis("Non-Existing");
+    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:39: error: cannot find symbol
+    CategoryAxis nonExistingAxis = new CategoryAxis("Non-Existing");
+                                       ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:47: error: cannot find symbol
+    CategoryAxis axis = new CategoryAxis("Any Axis");
+    ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-19_C1/org/jfree/chart/plot/deepseek_Chart_19_C1_Test.java:47: error: cannot find symbol
+    CategoryAxis axis = new CategoryAxis("Any Axis");
+                            ^
+  symbol:   class CategoryAxis
+  location: class deepseek_Chart_19_C1_Test
+14 errors

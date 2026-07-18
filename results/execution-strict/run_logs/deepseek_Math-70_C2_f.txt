@@ -1,0 +1,33 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:15: error: cannot find symbol
+    UnivariateRealFunction f = x -> x * x - 4;
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class deepseek_Math_70_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:15: error: lambda expression not expected here
+    UnivariateRealFunction f = x -> x * x - 4;
+                               ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:27: error: cannot find symbol
+    UnivariateRealFunction f = x -> x * x - 4;
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class deepseek_Math_70_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:27: error: lambda expression not expected here
+    UnivariateRealFunction f = x -> x * x - 4;
+                               ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:47: error: cannot find symbol
+    UnivariateRealFunction f = x -> x - 2;
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class deepseek_Math_70_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:47: error: lambda expression not expected here
+    UnivariateRealFunction f = x -> x - 2;
+                               ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:55: error: cannot find symbol
+    UnivariateRealFunction f = x -> x * x + 1;
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class deepseek_Math_70_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:55: error: lambda expression not expected here
+    UnivariateRealFunction f = x -> x * x + 1;
+                               ^
+8 errors

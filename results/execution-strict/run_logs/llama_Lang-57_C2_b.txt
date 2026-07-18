@@ -1,0 +1,33 @@
+
+Failures (2):
+  JUnit Jupiter:LocaleUtilsTest:testIsAvailableLocale_UnavailableLocale_ReturnsFalse()
+    MethodSource [className = 'org.apache.commons.lang.LocaleUtilsTest', methodName = 'testIsAvailableLocale_UnavailableLocale_ReturnsFalse', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.LocaleUtilsTest.testIsAvailableLocale_UnavailableLocale_ReturnsFalse(LocaleUtilsTest.java:18)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:LocaleUtilsTest:testIsAvailableLocale_AvailableLocale_ReturnsTrue()
+    MethodSource [className = 'org.apache.commons.lang.LocaleUtilsTest', methodName = 'testIsAvailableLocale_AvailableLocale_ReturnsTrue', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.LocaleUtilsTest.testIsAvailableLocale_AvailableLocale_ReturnsTrue(LocaleUtilsTest.java:12)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1096 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         2 tests failed          ]
+

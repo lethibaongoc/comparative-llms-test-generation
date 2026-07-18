@@ -1,0 +1,49 @@
+
+Failures (2):
+  JUnit Jupiter:gemini_Chart_22_C2_Test:testRemoveRowWithUnknownKeyThrowsException()
+    MethodSource [className = 'org.jfree.data.gemini_Chart_22_C2_Test', methodName = 'testRemoveRowWithUnknownKeyThrowsException', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <org.jfree.data.UnknownKeyException> but was: <java.lang.ArrayIndexOutOfBoundsException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.jfree.data.gemini_Chart_22_C2_Test.testRemoveRowWithUnknownKeyThrowsException(gemini_Chart_22_C2_Test.java:30)
+       [...]
+     Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+       java.util.ArrayList.elementData(ArrayList.java:424)
+       java.util.ArrayList.remove(ArrayList.java:501)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:330)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:345)
+       org.jfree.data.gemini_Chart_22_C2_Test.lambda$testRemoveRowWithUnknownKeyThrowsException$0(gemini_Chart_22_C2_Test.java:31)
+       [...]
+  JUnit Jupiter:gemini_Chart_22_C2_Test:testRemoveRowWithNullKeyThrowsException()
+    MethodSource [className = 'org.jfree.data.gemini_Chart_22_C2_Test', methodName = 'testRemoveRowWithNullKeyThrowsException', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <org.jfree.data.UnknownKeyException> but was: <java.lang.ArrayIndexOutOfBoundsException>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.jfree.data.gemini_Chart_22_C2_Test.testRemoveRowWithNullKeyThrowsException(gemini_Chart_22_C2_Test.java:39)
+       [...]
+     Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+       java.util.ArrayList.elementData(ArrayList.java:424)
+       java.util.ArrayList.remove(ArrayList.java:501)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:330)
+       org.jfree.data.KeyedObjects2D.removeRow(KeyedObjects2D.java:345)
+       org.jfree.data.gemini_Chart_22_C2_Test.lambda$testRemoveRowWithNullKeyThrowsException$1(gemini_Chart_22_C2_Test.java:40)
+       [...]
+
+Test run finished after 678 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         2 tests failed          ]
+

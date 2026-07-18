@@ -1,0 +1,59 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:78: error: reference to Vector is ambiguous
+    Vector zeroMock = mock(Vector.class);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:78: error: reference to Vector is ambiguous
+    Vector zeroMock = mock(Vector.class);
+                           ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:79: error: reference to Vector is ambiguous
+    Vector directionMock = mock(Vector.class);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:79: error: reference to Vector is ambiguous
+    Vector directionMock = mock(Vector.class);
+                                ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:80: error: reference to Vector is ambiguous
+    Vector subtractedDirectionMock = mock(Vector.class);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:80: error: reference to Vector is ambiguous
+    Vector subtractedDirectionMock = mock(Vector.class);
+                                          ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:91: error: cannot find symbol
+    assertEquals(zeroMock, reverted.getZero(), "The origin (zero) point should remain identical");
+                                   ^
+  symbol:   method getZero()
+  location: variable reverted of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:99: error: reference to Vector is ambiguous
+    Vector zeroMock = mock(Vector.class);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:99: error: reference to Vector is ambiguous
+    Vector zeroMock = mock(Vector.class);
+                           ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:100: error: reference to Vector is ambiguous
+    Vector directionMock = mock(Vector.class);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:100: error: reference to Vector is ambiguous
+    Vector directionMock = mock(Vector.class);
+                                ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:101: error: reference to Vector is ambiguous
+    Vector subtractedDirectionMock = mock(Vector.class);
+    ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:101: error: reference to Vector is ambiguous
+    Vector subtractedDirectionMock = mock(Vector.class);
+                                          ^
+  both interface org.apache.commons.math3.geometry.Vector in org.apache.commons.math3.geometry and class java.util.Vector in java.util match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:112: error: cannot find symbol
+    assertEquals(zeroMock, originalLine.getZero(), "Original line's zero point must remain unchanged");
+                                       ^
+  symbol:   method getZero()
+  location: variable originalLine of type Line
+14 errors

@@ -1,0 +1,16 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-8_C1/org/apache/commons/lang3/time/gemini_Lang_8_C1_Test.java:45: error: cannot find symbol
+    printer.appendTo(buffer, mockCalendar);
+           ^
+  symbol:   method appendTo(StringBuffer,Calendar)
+  location: variable printer of type FastDatePrinter
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-8_C1/org/apache/commons/lang3/time/gemini_Lang_8_C1_Test.java:69: error: cannot find symbol
+    printer.appendTo(buffer, mockCalendar);
+           ^
+  symbol:   method appendTo(StringBuffer,Calendar)
+  location: variable printer of type FastDatePrinter
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-8_C1/org/apache/commons/lang3/time/gemini_Lang_8_C1_Test.java:93: error: cannot find symbol
+    printer.appendTo(buffer, mockCalendar);
+           ^
+  symbol:   method appendTo(StringBuffer,Calendar)
+  location: variable printer of type FastDatePrinter
+3 errors

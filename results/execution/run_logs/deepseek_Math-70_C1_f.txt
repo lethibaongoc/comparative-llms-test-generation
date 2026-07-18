@@ -1,0 +1,26 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C1/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C1_Test.java:62: error: cannot find symbol
+    assertThat(result).isEqualTo(solver.solve(f, min, max));
+    ^
+  symbol:   method assertThat(double)
+  location: class deepseek_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C1/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C1_Test.java:75: error: cannot find symbol
+    assertThat(result).isEqualTo(3.0);
+    ^
+  symbol:   method assertThat(double)
+  location: class deepseek_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C1/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C1_Test.java:86: error: cannot find symbol
+    assertThatThrownBy(() -> solver.solve(f, min, max, initial))
+    ^
+  symbol:   method assertThatThrownBy(()->solver[...]tial))
+  location: class deepseek_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C1/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C1_Test.java:100: error: cannot find symbol
+    assertThat(result).isEqualTo(-5.0);
+    ^
+  symbol:   method assertThat(double)
+  location: class deepseek_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C1/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C1_Test.java:114: error: cannot find symbol
+    assertThat(result).isEqualTo(expected);
+    ^
+  symbol:   method assertThat(double)
+  location: class deepseek_Math_70_C1_Test
+5 errors

@@ -1,0 +1,22 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-1_C2/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:20: error: cannot find symbol
+            public LegendItem getLegendItem(int datasetIndex, int series) {
+                   ^
+  symbol: class LegendItem
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-1_C2/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:18: error: <anonymous org.jfree.chart.renderer.category.AbstractCategoryItemRendererTest$1> is not abstract and does not override abstract method drawItem(Graphics2D,CategoryItemRendererState,Rectangle2D,CategoryPlot,CategoryAxis,ValueAxis,CategoryDataset,int,int,boolean,int) in CategoryItemRenderer
+        renderer = new AbstractCategoryItemRenderer() {
+                                                      ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-1_C2/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:21: error: cannot find symbol
+                return new LegendItem("Series " + series);
+                           ^
+  symbol: class LegendItem
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-1_C2/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:49: error: cannot find symbol
+        plot.setRowRenderingOrder(SortOrder.ASCENDING);
+                                  ^
+  symbol:   variable SortOrder
+  location: class AbstractCategoryItemRendererTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-1_C2/org/jfree/chart/renderer/category/AbstractCategoryItemRendererTest.java:60: error: cannot find symbol
+        plot.setRowRenderingOrder(SortOrder.DESCENDING);
+                                  ^
+  symbol:   variable SortOrder
+  location: class AbstractCategoryItemRendererTest
+5 errors

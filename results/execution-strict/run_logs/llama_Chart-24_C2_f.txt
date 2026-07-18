@@ -1,0 +1,43 @@
+
+Failures (2):
+  JUnit Jupiter:GrayPaintScaleTest:testGetPaint_CustomBounds()
+    MethodSource [className = 'org.jfree.chart.renderer.GrayPaintScaleTest', methodName = 'testGetPaint_CustomBounds', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <java.awt.Color[r=128,g=128,b=128]> but was: <java.awt.Color[r=127,g=127,b=127]>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.renderer.GrayPaintScaleTest.testGetPaint_CustomBounds(GrayPaintScaleTest.java:55)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:GrayPaintScaleTest:testGetPaint_MiddleValue()
+    MethodSource [className = 'org.jfree.chart.renderer.GrayPaintScaleTest', methodName = 'testGetPaint_MiddleValue', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <java.awt.Color[r=128,g=128,b=128]> but was: <java.awt.Color[r=127,g=127,b=127]>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.renderer.GrayPaintScaleTest.testGetPaint_MiddleValue(GrayPaintScaleTest.java:31)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 644 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         4 tests successful      ]
+[         2 tests failed          ]
+

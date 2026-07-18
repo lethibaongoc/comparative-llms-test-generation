@@ -1,0 +1,13 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:59: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+    double expected = solver.solve(f, min, max);
+                                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:60: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+    double actual = solver.solve(f, min, max, initial);
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:72: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+    double result1 = solver.solve(f, min, max, initial1);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-70_C2/org/apache/commons/math/analysis/solvers/deepseek_Math_70_C2_Test.java:73: error: unreported exception MaxIterationsExceededException; must be caught or declared to be thrown
+    double result2 = solver.solve(f, min, max, initial2);
+                                 ^
+4 errors

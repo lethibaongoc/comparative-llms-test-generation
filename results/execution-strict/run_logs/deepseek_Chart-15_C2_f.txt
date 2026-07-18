@@ -1,0 +1,71 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:23: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:23: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:31: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:31: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:41: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:41: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:52: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:52: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:66: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:66: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:78: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:78: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:90: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-15_C2/org/jfree/chart/plot/deepseek_Chart_15_C2_Test.java:90: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class deepseek_Chart_15_C2_Test
+14 errors

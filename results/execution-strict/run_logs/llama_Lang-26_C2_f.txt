@@ -1,0 +1,31 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-26_C2/org/apache/commons/lang3/time/FastDateFormatTest.java:13: error: constructor FastDateFormat in class FastDateFormat cannot be applied to given types;
+        formatter = new FastDateFormat();
+                    ^
+  required: String,TimeZone,Locale
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-26_C2/org/apache/commons/lang3/time/FastDateFormatTest.java:25: error: reference to format is ambiguous
+        assertThrows(NullPointerException.class, () -> formatter.format(null));
+                                                                ^
+  both method format(Date) in FastDateFormat and method format(Calendar) in FastDateFormat match
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-26_C2/org/apache/commons/lang3/time/FastDateFormatTest.java:30: error: cannot find symbol
+        formatter = new FastDateFormat(TimeZone.getTimeZone("GMT"), Locale.getDefault(), 20);
+                                       ^
+  symbol:   variable TimeZone
+  location: class FastDateFormatTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-26_C2/org/apache/commons/lang3/time/FastDateFormatTest.java:30: error: cannot find symbol
+        formatter = new FastDateFormat(TimeZone.getTimeZone("GMT"), Locale.getDefault(), 20);
+                                                                    ^
+  symbol:   variable Locale
+  location: class FastDateFormatTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-26_C2/org/apache/commons/lang3/time/FastDateFormatTest.java:38: error: cannot find symbol
+        formatter = new FastDateFormat(TimeZone.getDefault(), Locale.US, 20);
+                                       ^
+  symbol:   variable TimeZone
+  location: class FastDateFormatTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-26_C2/org/apache/commons/lang3/time/FastDateFormatTest.java:38: error: cannot find symbol
+        formatter = new FastDateFormat(TimeZone.getDefault(), Locale.US, 20);
+                                                              ^
+  symbol:   variable Locale
+  location: class FastDateFormatTest
+6 errors

@@ -1,0 +1,40 @@
+
+Failures (2):
+  JUnit Jupiter:deepseek_Math_75_C2_Test:testGetPctWithNull()
+    MethodSource [className = 'org.apache.commons.math.stat.deepseek_Math_75_C2_Test', methodName = 'testGetPctWithNull', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <0.0> but was: <NaN>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)
+       org.apache.commons.math.stat.deepseek_Math_75_C2_Test.testGetPctWithNull(deepseek_Math_75_C2_Test.java:16)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Math_75_C2_Test:testGetPctWithMixedTypes()
+    MethodSource [className = 'org.apache.commons.math.stat.deepseek_Math_75_C2_Test', methodName = 'testGetPctWithMixedTypes', methodParameterTypes = '']
+    => org.apache.commons.math.MathRuntimeException$4: instance of class java.lang.Long not comparable to existing values
+       org.apache.commons.math.MathRuntimeException.createIllegalArgumentException(MathRuntimeException.java:305)
+       org.apache.commons.math.stat.Frequency.addValue(Frequency.java:146)
+       org.apache.commons.math.stat.Frequency.addValue(Frequency.java:158)
+       org.apache.commons.math.stat.deepseek_Math_75_C2_Test.testGetPctWithMixedTypes(deepseek_Math_75_C2_Test.java:58)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1114 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         4 tests successful      ]
+[         2 tests failed          ]
+

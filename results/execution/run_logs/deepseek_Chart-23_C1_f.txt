@@ -1,0 +1,41 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:98: error: cannot find symbol
+    renderer1.setPlotLines(true);
+             ^
+  symbol:   method setPlotLines(boolean)
+  location: variable renderer1 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:99: error: cannot find symbol
+    renderer2.setPlotLines(true);
+             ^
+  symbol:   method setPlotLines(boolean)
+  location: variable renderer2 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:107: error: cannot find symbol
+    renderer1.setPlotLines(true);
+             ^
+  symbol:   method setPlotLines(boolean)
+  location: variable renderer1 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:108: error: cannot find symbol
+    renderer2.setPlotLines(false);
+             ^
+  symbol:   method setPlotLines(boolean)
+  location: variable renderer2 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:116: error: cannot find symbol
+    renderer1.setGroupPaint(Color.RED);
+                            ^
+  symbol:   variable Color
+  location: class deepseek_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:117: error: cannot find symbol
+    renderer2.setGroupPaint(Color.BLUE);
+                            ^
+  symbol:   variable Color
+  location: class deepseek_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:125: error: cannot find symbol
+    renderer1.setGroupStroke(new BasicStroke(1.0f));
+                                 ^
+  symbol:   class BasicStroke
+  location: class deepseek_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-23_C1/org/jfree/chart/renderer/category/deepseek_Chart_23_C1_Test.java:126: error: cannot find symbol
+    renderer2.setGroupStroke(new BasicStroke(2.0f));
+                                 ^
+  symbol:   class BasicStroke
+  location: class deepseek_Chart_23_C1_Test
+8 errors

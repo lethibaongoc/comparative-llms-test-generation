@@ -1,0 +1,156 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:15: error: cannot find symbol
+  assertEquals(0, greatestCommonDivisor(0, 0));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:20: error: cannot find symbol
+  assertEquals(5, greatestCommonDivisor(0, 5));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:21: error: cannot find symbol
+  assertEquals(5, greatestCommonDivisor(5, 0));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:26: error: cannot find symbol
+  assertEquals(5, greatestCommonDivisor(0, -5));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:27: error: cannot find symbol
+  assertEquals(5, greatestCommonDivisor(-5, 0));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:32: error: cannot find symbol
+  assertThrows(ArithmeticException.class, () -> greatestCommonDivisor(0, Integer.MIN_VALUE));
+                                                ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:33: error: cannot find symbol
+  assertThrows(ArithmeticException.class, () -> greatestCommonDivisor(Integer.MIN_VALUE, 0));
+                                                ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:38: error: cannot find symbol
+  assertEquals(4, greatestCommonDivisor(12, 8));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:39: error: cannot find symbol
+  assertEquals(6, greatestCommonDivisor(18, 12));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:40: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(17, 13));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:45: error: cannot find symbol
+  assertEquals(4, greatestCommonDivisor(-12, -8));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:46: error: cannot find symbol
+  assertEquals(6, greatestCommonDivisor(-18, -12));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:47: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(-17, -13));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:52: error: cannot find symbol
+  assertEquals(4, greatestCommonDivisor(-12, 8));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:53: error: cannot find symbol
+  assertEquals(6, greatestCommonDivisor(18, -12));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:54: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(-17, 13));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:59: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(17, 19));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:60: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(23, 29));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:65: error: cannot find symbol
+  assertEquals(7, greatestCommonDivisor(7, 7));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:66: error: cannot find symbol
+  assertEquals(12, greatestCommonDivisor(12, 12));
+                   ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:71: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(1, 100));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:72: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(100, 1));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:73: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(-1, 100));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:78: error: cannot find symbol
+  assertThrows(ArithmeticException.class, () -> greatestCommonDivisor(Integer.MIN_VALUE, 2));
+                                                ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:83: error: cannot find symbol
+  assertThrows(ArithmeticException.class, () -> greatestCommonDivisor(Integer.MIN_VALUE, -2));
+                                                ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:88: error: cannot find symbol
+  assertThrows(ArithmeticException.class, () -> greatestCommonDivisor(Integer.MIN_VALUE, 3));
+                                                ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:93: error: cannot find symbol
+  assertEquals(1, greatestCommonDivisor(2147483647, 2147483646));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:94: error: cannot find symbol
+  assertEquals(2, greatestCommonDivisor(2147483646, 2147483644));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:99: error: cannot find symbol
+  assertEquals(4, greatestCommonDivisor(12, 8));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:100: error: cannot find symbol
+  assertEquals(16, greatestCommonDivisor(32, 16));
+                   ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-22_C1/org/apache/commons/lang3/math/deepseek_Lang_22_C1_Test.java:101: error: cannot find symbol
+  assertEquals(8, greatestCommonDivisor(64, 24));
+                  ^
+  symbol:   method greatestCommonDivisor(int,int)
+  location: class deepseek_Lang_22_C1_Test
+31 errors

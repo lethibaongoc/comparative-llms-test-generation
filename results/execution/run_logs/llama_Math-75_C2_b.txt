@@ -1,0 +1,39 @@
+
+Failures (2):
+  JUnit Jupiter:FrequencyTest:testGetPctDeprecatedNull()
+    MethodSource [className = 'org.apache.commons.math.stat.FrequencyTest', methodName = 'testGetPctDeprecatedNull', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Expected java.lang.ClassCastException to be thrown, but nothing was thrown.
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.apache.commons.math.stat.FrequencyTest.testGetPctDeprecatedNull(FrequencyTest.java:57)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:FrequencyTest:testGetPctDeprecatedDifferentType()
+    MethodSource [className = 'org.apache.commons.math.stat.FrequencyTest', methodName = 'testGetPctDeprecatedDifferentType', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: Expected java.lang.ClassCastException to be thrown, but nothing was thrown.
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:73)
+       org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+       org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+       org.apache.commons.math.stat.FrequencyTest.testGetPctDeprecatedDifferentType(FrequencyTest.java:64)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 875 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         2 tests failed          ]
+

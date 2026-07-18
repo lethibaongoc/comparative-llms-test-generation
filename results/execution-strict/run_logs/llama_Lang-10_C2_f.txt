@@ -1,0 +1,13 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-10_C2/org/apache/commons/lang3/time/FastDateParserTest.java:17: error: illegal escape character
+        assertEquals(regex.append("\$$"), method.invoke(null, regex, "[", false));
+                                    ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-10_C2/org/apache/commons/lang3/time/FastDateParserTest.java:18: error: illegal escape character
+        assertEquals(regex.append("\$$"), method.invoke(null, regex, "]", false));
+                                    ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-10_C2/org/apache/commons/lang3/time/FastDateParserTest.java:19: error: illegal escape character
+        assertEquals(regex.append("\$"), method.invoke(null, regex, "(", false));
+                                    ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-10_C2/org/apache/commons/lang3/time/FastDateParserTest.java:20: error: illegal escape character
+        assertEquals(regex.append("\$"), method.invoke(null, regex, ")", false));
+                                    ^
+4 errors

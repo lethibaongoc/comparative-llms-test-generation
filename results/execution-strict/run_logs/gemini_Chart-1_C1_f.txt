@@ -1,0 +1,66 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:22: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+    ^
+  symbol:   class LegendItemCollection
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:33: error: cannot find symbol
+    CategoryPlot mockPlot = mock(CategoryPlot.class);
+    ^
+  symbol:   class CategoryPlot
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:33: error: cannot find symbol
+    CategoryPlot mockPlot = mock(CategoryPlot.class);
+                                 ^
+  symbol:   class CategoryPlot
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:41: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+    ^
+  symbol:   class LegendItemCollection
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:53: error: cannot find symbol
+    CategoryPlot mockPlot = mock(CategoryPlot.class);
+    ^
+  symbol:   class CategoryPlot
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:53: error: cannot find symbol
+    CategoryPlot mockPlot = mock(CategoryPlot.class);
+                                 ^
+  symbol:   class CategoryPlot
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:54: error: cannot find symbol
+    CategoryDataset mockDataset = mock(CategoryDataset.class);
+    ^
+  symbol:   class CategoryDataset
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:54: error: cannot find symbol
+    CategoryDataset mockDataset = mock(CategoryDataset.class);
+                                       ^
+  symbol:   class CategoryDataset
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:68: error: cannot find symbol
+    LegendItem item0 = mock(LegendItem.class);
+    ^
+  symbol:   class LegendItem
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:68: error: cannot find symbol
+    LegendItem item0 = mock(LegendItem.class);
+                            ^
+  symbol:   class LegendItem
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:69: error: cannot find symbol
+    LegendItem item2 = mock(LegendItem.class);
+    ^
+  symbol:   class LegendItem
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:69: error: cannot find symbol
+    LegendItem item2 = mock(LegendItem.class);
+                            ^
+  symbol:   class LegendItem
+  location: class gemini_Chart_1_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Chart-1_C1/org/jfree/chart/renderer/category/gemini_Chart_1_C1_Test.java:77: error: cannot find symbol
+    LegendItemCollection result = renderer.getLegendItems();
+    ^
+  symbol:   class LegendItemCollection
+  location: class gemini_Chart_1_C1_Test
+13 errors

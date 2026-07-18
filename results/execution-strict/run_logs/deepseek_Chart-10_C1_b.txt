@@ -1,0 +1,69 @@
+
+Failures (4):
+  JUnit Jupiter:deepseek_Chart_10_C1_Test:Should generate a valid fragment for tooltip text with special characters
+    MethodSource [className = 'org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test', methodName = 'generateToolTipFragment_specialCharacters_returnsCorrectFragment', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: < title=Tool&tip with <special> "chars"! alt=> but was: < title="Tool&tip with <special> "chars"!" alt="">
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test.generateToolTipFragment_specialCharacters_returnsCorrectFragment(deepseek_Chart_10_C1_Test.java:50)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Chart_10_C1_Test:Should generate a valid fragment for a null tooltip text
+    MethodSource [className = 'org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test', methodName = 'generateToolTipFragment_nullText_returnsCorrectFragment', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: < title=null alt=> but was: < title="null" alt="">
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test.generateToolTipFragment_nullText_returnsCorrectFragment(deepseek_Chart_10_C1_Test.java:40)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Chart_10_C1_Test:Should generate a valid fragment for an empty tooltip text
+    MethodSource [className = 'org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test', methodName = 'generateToolTipFragment_emptyText_returnsCorrectFragment', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: < title= alt=> but was: < title="" alt="">
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test.generateToolTipFragment_emptyText_returnsCorrectFragment(deepseek_Chart_10_C1_Test.java:30)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Chart_10_C1_Test:Should generate a valid fragment for a standard tooltip text
+    MethodSource [className = 'org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test', methodName = 'generateToolTipFragment_standardText_returnsCorrectFragment', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: < title=This is a tooltip alt=> but was: < title="This is a tooltip" alt="">
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.jfree.chart.imagemap.deepseek_Chart_10_C1_Test.generateToolTipFragment_standardText_returnsCorrectFragment(deepseek_Chart_10_C1_Test.java:20)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 700 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         4 tests failed          ]
+

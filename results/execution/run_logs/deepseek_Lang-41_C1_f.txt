@@ -1,0 +1,5 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-41_C1/org/apache/commons/lang/deepseek_Lang_41_C1_Test.java:26: error: reference to getPackageName is ambiguous
+    assertEquals(StringUtils.EMPTY, ClassUtils.getPackageName(null));
+                                              ^
+  both method getPackageName(Class<?>) in ClassUtils and method getPackageName(String) in ClassUtils match
+1 error

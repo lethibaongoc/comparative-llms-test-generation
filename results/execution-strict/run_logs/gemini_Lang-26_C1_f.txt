@@ -1,0 +1,25 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-26_C1/org/apache/commons/lang3/time/gemini_Lang_26_C1_Test.java:16: error: cannot find symbol
+    FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss", mTimeZone, mLocale);
+                                                                                 ^
+  symbol:   variable mTimeZone
+  location: class gemini_Lang_26_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-26_C1/org/apache/commons/lang3/time/gemini_Lang_26_C1_Test.java:16: error: cannot find symbol
+    FastDateFormat formatter = FastDateFormat.getInstance("yyyy-MM-dd HH:mm:ss", mTimeZone, mLocale);
+                                                                                            ^
+  symbol:   variable mLocale
+  location: class gemini_Lang_26_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-26_C1/org/apache/commons/lang3/time/gemini_Lang_26_C1_Test.java:17: error: cannot find symbol
+    Calendar cal = new GregorianCalendar(mTimeZone, mLocale);
+                                         ^
+  symbol:   variable mTimeZone
+  location: class gemini_Lang_26_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-26_C1/org/apache/commons/lang3/time/gemini_Lang_26_C1_Test.java:17: error: cannot find symbol
+    Calendar cal = new GregorianCalendar(mTimeZone, mLocale);
+                                                    ^
+  symbol:   variable mLocale
+  location: class gemini_Lang_26_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Lang-26_C1/org/apache/commons/lang3/time/gemini_Lang_26_C1_Test.java:35: error: reference to format is ambiguous
+    assertThrows(NullPointerException.class, () -> formatter.format(null));
+                                                            ^
+  both method format(Date) in FastDateFormat and method format(Calendar) in FastDateFormat match
+5 errors

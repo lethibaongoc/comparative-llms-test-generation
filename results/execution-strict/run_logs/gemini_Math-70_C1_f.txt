@@ -1,0 +1,51 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:18: error: cannot find symbol
+    UnivariateRealFunction mockFunction = mock(UnivariateRealFunction.class);
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:18: error: cannot find symbol
+    UnivariateRealFunction mockFunction = mock(UnivariateRealFunction.class);
+                                               ^
+  symbol:   class UnivariateRealFunction
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:39: error: cannot find symbol
+    UnivariateRealFunction mockFunction = mock(UnivariateRealFunction.class);
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:39: error: cannot find symbol
+    UnivariateRealFunction mockFunction = mock(UnivariateRealFunction.class);
+                                               ^
+  symbol:   class UnivariateRealFunction
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:45: error: cannot find symbol
+    doThrow(new MaxIterationsExceededException(100))
+                ^
+  symbol:   class MaxIterationsExceededException
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:49: error: cannot find symbol
+    assertThrows(MaxIterationsExceededException.class, () -> {
+                 ^
+  symbol:   class MaxIterationsExceededException
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:57: error: cannot find symbol
+    UnivariateRealFunction mockFunction = mock(UnivariateRealFunction.class);
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:57: error: cannot find symbol
+    UnivariateRealFunction mockFunction = mock(UnivariateRealFunction.class);
+                                               ^
+  symbol:   class UnivariateRealFunction
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:63: error: cannot find symbol
+    doThrow(new FunctionEvaluationException(0.5))
+                ^
+  symbol:   class FunctionEvaluationException
+  location: class gemini_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-70_C1/org/apache/commons/math/analysis/solvers/gemini_Math_70_C1_Test.java:67: error: cannot find symbol
+    assertThrows(FunctionEvaluationException.class, () -> {
+                 ^
+  symbol:   class FunctionEvaluationException
+  location: class gemini_Math_70_C1_Test
+10 errors

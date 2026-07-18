@@ -1,0 +1,21 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-15_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_15_C2_Test.java:22: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class gpt_5_5_instant_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-15_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_15_C2_Test.java:22: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class gpt_5_5_instant_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-15_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_15_C2_Test.java:37: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+    ^
+  symbol:   class DefaultPieDataset
+  location: class gpt_5_5_instant_Chart_15_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-15_C2/org/jfree/chart/plot/gpt_5_5_instant_Chart_15_C2_Test.java:37: error: cannot find symbol
+    DefaultPieDataset dataset = new DefaultPieDataset();
+                                    ^
+  symbol:   class DefaultPieDataset
+  location: class gpt_5_5_instant_Chart_15_C2_Test
+4 errors

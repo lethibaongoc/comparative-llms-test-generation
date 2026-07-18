@@ -1,0 +1,28 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:24: error: cannot find symbol
+    when(zeroMock.subtract(directionMock)).thenReturn(subtractedDirectionMock);
+                 ^
+  symbol:   method subtract(Vector)
+  location: variable zeroMock of type Vector
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:26: error: incompatible types: Vector cannot be converted to Vector3D
+    Line line = new Line(zeroMock, directionMock);
+                         ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:33: error: cannot find symbol
+    assertEquals(zeroMock, reverted.getZero(), "The origin (zero) point should remain identical");
+                                   ^
+  symbol:   method getZero()
+  location: variable reverted of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:45: error: cannot find symbol
+    when(zeroMock.subtract(directionMock)).thenReturn(subtractedDirectionMock);
+                 ^
+  symbol:   method subtract(Vector)
+  location: variable zeroMock of type Vector
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:47: error: incompatible types: Vector cannot be converted to Vector3D
+    Line originalLine = new Line(zeroMock, directionMock);
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gemini_Math_9_C1_Test.java:54: error: cannot find symbol
+    assertEquals(zeroMock, originalLine.getZero(), "Original line's zero point must remain unchanged");
+                                       ^
+  symbol:   method getZero()
+  location: variable originalLine of type Line
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+6 errors

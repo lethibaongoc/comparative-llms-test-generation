@@ -1,0 +1,191 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:15: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:15: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, 1);
+                      ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:21: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:21: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, 1);
+                      ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:27: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:27: error: cannot find symbol
+    XYPlot plot = new XYPlot(10, 1);
+                      ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:34: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:34: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:35: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:35: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:41: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:41: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:42: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:42: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:48: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:48: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:49: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 2);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:49: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 2);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:55: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:55: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:56: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, 2);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:56: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(20, 2);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:62: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:62: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:63: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:63: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:70: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:70: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:71: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:71: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:72: error: cannot find symbol
+    XYPlot plot3 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:72: error: cannot find symbol
+    XYPlot plot3 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:80: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:80: error: cannot find symbol
+    XYPlot plot1 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:81: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:81: error: cannot find symbol
+    XYPlot plot2 = new XYPlot(10, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:82: error: cannot find symbol
+    XYPlot plot3 = new XYPlot(20, 1);
+    ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Chart-11_C2/org/jfree/chart/util/deepseek_Chart_11_C2_Test.java:82: error: cannot find symbol
+    XYPlot plot3 = new XYPlot(20, 1);
+                       ^
+  symbol:   class XYPlot
+  location: class deepseek_Chart_11_C2_Test
+38 errors

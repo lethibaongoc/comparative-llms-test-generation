@@ -1,0 +1,20 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:75: error: incompatible types: Vector2D cannot be converted to Vector3D
+    Line line = new Line(origin, second);
+                         ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:79: error: incompatible types: Vector3D cannot be converted to Vector<Euclidean2D>
+    assertEquals(origin.distance(line.getOrigin()), reverted.getOrigin().distance(origin), 1e-10);
+                                               ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:79: error: incompatible types: Vector2D cannot be converted to Vector<Euclidean3D>
+    assertEquals(origin.distance(line.getOrigin()), reverted.getOrigin().distance(origin), 1e-10);
+                                                                                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:80: error: incompatible types: Vector2D cannot be converted to Vector<Euclidean3D>
+    assertEquals(line.getOrigin().distance(second), reverted.getOrigin().distance(reverted.getOrigin().subtract(reverted.getDirection())), 1e-10);
+                                           ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:86: error: incompatible types: Vector2D cannot be converted to Vector3D
+    Line line = new Line(new Vector2D(0.0, 0.0), new Vector2D(5.0, 0.0));
+                         ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/gpt_5_5_instant_Math_9_C1_Test.java:96: error: incompatible types: Vector2D cannot be converted to Vector3D
+    Line line = new Line(new Vector2D(-2.0, 3.0), new Vector2D(1.0, 7.0));
+                         ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+6 errors

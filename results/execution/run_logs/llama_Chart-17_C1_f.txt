@@ -1,0 +1,268 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C1/org/jfree/data/time/TimeSeriesTest.java:91: error: cannot find symbol
+            TimeSeriesDataItem originalItem = original.getRawDataItem(i);
+                                                      ^
+  symbol:   method getRawDataItem(int)
+  location: variable original of type TimeSeries
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C1/org/jfree/data/time/TimeSeriesTest.java:92: error: cannot find symbol
+            TimeSeriesDataItem cloneItem = clone.getRawDataItem(i);
+                                                ^
+  symbol:   method getRawDataItem(int)
+  location: variable clone of type TimeSeries
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C1/org/jfree/data/time/TimeSeriesTest.java:94: error: no suitable method found for assertEquals(Number,Number,double)
+            assertEquals(originalItem.getValue(), cloneItem.getValue(), 0.0);
+            ^
+    method Assertions.assertEquals(Object,Object,Supplier<String>) is not applicable
+      (argument mismatch; double cannot be converted to Supplier<String>)
+    method Assertions.assertEquals(Object,Object,String) is not applicable
+      (argument mismatch; double cannot be converted to String)
+    method Assertions.assertEquals(Character,Character,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(Character,char,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(char,Character,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(char,char,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(Character,Character,String) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(Character,char,String) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(char,Character,String) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(char,char,String) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(double,double,double) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(Double,Double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(Double,double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(double,Double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(double,double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(Double,Double,String) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(Double,double,String) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(double,Double,String) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(double,double,String) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(float,float,float) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(Float,Float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(Float,float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(float,Float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(float,float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(Float,Float,String) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(Float,float,String) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(float,Float,String) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(float,float,String) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(Long,Long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(Long,long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(long,Long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(long,long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(Long,Long,String) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(Long,long,String) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(long,Long,String) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(long,long,String) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(Integer,Integer,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(Integer,int,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(int,Integer,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(int,int,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(Integer,Integer,String) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(Integer,int,String) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(int,Integer,String) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(int,int,String) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(Byte,Byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(Byte,byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(byte,Byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(byte,byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(Byte,Byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(Byte,byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(byte,Byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(byte,byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(Short,Short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(Short,short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(short,Short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+    method Assertions.assertEquals(short,short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+    method Assertions.assertEquals(Short,Short,String) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(Short,short,String) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(short,Short,String) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+    method Assertions.assertEquals(short,short,String) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C1/org/jfree/data/time/TimeSeriesTest.java:125: error: cannot find symbol
+        TimeSeriesDataItem originalItem = original.getRawDataItem(0);
+                                                  ^
+  symbol:   method getRawDataItem(int)
+  location: variable original of type TimeSeries
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C1/org/jfree/data/time/TimeSeriesTest.java:126: error: cannot find symbol
+        TimeSeriesDataItem cloneItem = clone.getRawDataItem(0);
+                                            ^
+  symbol:   method getRawDataItem(int)
+  location: variable clone of type TimeSeries
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C1/org/jfree/data/time/TimeSeriesTest.java:128: error: no suitable method found for assertEquals(Number,Number,double)
+        assertEquals(originalItem.getValue(), cloneItem.getValue(), 0.0);
+        ^
+    method Assertions.assertEquals(Object,Object,Supplier<String>) is not applicable
+      (argument mismatch; double cannot be converted to Supplier<String>)
+    method Assertions.assertEquals(Object,Object,String) is not applicable
+      (argument mismatch; double cannot be converted to String)
+    method Assertions.assertEquals(Character,Character,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(Character,char,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(char,Character,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(char,char,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(Character,Character,String) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(Character,char,String) is not applicable
+      (argument mismatch; Number cannot be converted to Character)
+    method Assertions.assertEquals(char,Character,String) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(char,char,String) is not applicable
+      (argument mismatch; Number cannot be converted to char)
+    method Assertions.assertEquals(double,double,double) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(Double,Double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(Double,double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(double,Double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(double,double,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(Double,Double,String) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(Double,double,String) is not applicable
+      (argument mismatch; Number cannot be converted to Double)
+    method Assertions.assertEquals(double,Double,String) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(double,double,String) is not applicable
+      (argument mismatch; Number cannot be converted to double)
+    method Assertions.assertEquals(float,float,float) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(Float,Float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(Float,float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(float,Float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(float,float,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(Float,Float,String) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(Float,float,String) is not applicable
+      (argument mismatch; Number cannot be converted to Float)
+    method Assertions.assertEquals(float,Float,String) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(float,float,String) is not applicable
+      (argument mismatch; Number cannot be converted to float)
+    method Assertions.assertEquals(Long,Long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(Long,long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(long,Long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(long,long,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(Long,Long,String) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(Long,long,String) is not applicable
+      (argument mismatch; Number cannot be converted to Long)
+    method Assertions.assertEquals(long,Long,String) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(long,long,String) is not applicable
+      (argument mismatch; Number cannot be converted to long)
+    method Assertions.assertEquals(Integer,Integer,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(Integer,int,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(int,Integer,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(int,int,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(Integer,Integer,String) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(Integer,int,String) is not applicable
+      (argument mismatch; Number cannot be converted to Integer)
+    method Assertions.assertEquals(int,Integer,String) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(int,int,String) is not applicable
+      (argument mismatch; Number cannot be converted to int)
+    method Assertions.assertEquals(Byte,Byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(Byte,byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(byte,Byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(byte,byte,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(Byte,Byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(Byte,byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to Byte)
+    method Assertions.assertEquals(byte,Byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(byte,byte,String) is not applicable
+      (argument mismatch; Number cannot be converted to byte)
+    method Assertions.assertEquals(Short,Short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(Short,short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(short,Short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+    method Assertions.assertEquals(short,short,Supplier<String>) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+    method Assertions.assertEquals(Short,Short,String) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(Short,short,String) is not applicable
+      (argument mismatch; Number cannot be converted to Short)
+    method Assertions.assertEquals(short,Short,String) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+    method Assertions.assertEquals(short,short,String) is not applicable
+      (argument mismatch; Number cannot be converted to short)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+6 errors

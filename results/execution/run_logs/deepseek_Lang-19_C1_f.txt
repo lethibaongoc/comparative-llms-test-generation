@@ -1,0 +1,96 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:30: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:39: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:48: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:57: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:66: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:75: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:84: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:93: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:102: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:111: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:120: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:129: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:138: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:147: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:156: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:165: error: cannot find symbol
+    int result = unescaper.translate(input, 3, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:174: error: cannot find symbol
+    int result = unescaper.translate(input, 7, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:183: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Lang-19_C1/org/apache/commons/lang3/text/translate/deepseek_Lang_19_C1_Test.java:192: error: cannot find symbol
+    int result = unescaper.translate(input, 0, writer);
+                 ^
+  symbol:   variable unescaper
+  location: class deepseek_Lang_19_C1_Test
+19 errors

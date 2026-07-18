@@ -1,0 +1,20 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C2/org/jfree/data/time/TimeSeriesTest.java:76: error: RegularTimePeriod is abstract; cannot be instantiated
+        original.add(new RegularTimePeriod(), 10.0);
+                     ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C2/org/jfree/data/time/TimeSeriesTest.java:77: error: RegularTimePeriod is abstract; cannot be instantiated
+        original.add(new RegularTimePeriod(), 20.0);
+                     ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C2/org/jfree/data/time/TimeSeriesTest.java:87: error: cannot find symbol
+            TimeSeriesDataItem originalItem = original.getRawDataItem(i);
+                                                      ^
+  symbol:   method getRawDataItem(int)
+  location: variable original of type TimeSeries
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C2/org/jfree/data/time/TimeSeriesTest.java:88: error: cannot find symbol
+            TimeSeriesDataItem cloneItem = clone.getRawDataItem(i);
+                                                ^
+  symbol:   method getRawDataItem(int)
+  location: variable clone of type TimeSeries
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-17_C2/org/jfree/data/time/TimeSeriesTest.java:93: error: RegularTimePeriod is abstract; cannot be instantiated
+        clone.add(new RegularTimePeriod(), 30.0);
+                  ^
+5 errors

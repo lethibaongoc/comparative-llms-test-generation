@@ -1,0 +1,30 @@
+
+Failures (1):
+  JUnit Jupiter:gemini_Chart_21_C2_Test:testUpdateBoundsWithEmptyDataset()
+    MethodSource [className = 'org.jfree.data.statistics.gemini_Chart_21_C2_Test', methodName = 'testUpdateBoundsWithEmptyDataset', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <NaN> but was: <0.0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:81)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1014)
+       org.jfree.data.statistics.gemini_Chart_21_C2_Test.testUpdateBoundsWithEmptyDataset(gemini_Chart_21_C2_Test.java:80)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 689 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         5 tests found           ]
+[         0 tests skipped         ]
+[         5 tests started         ]
+[         0 tests aborted         ]
+[         4 tests successful      ]
+[         1 tests failed          ]
+

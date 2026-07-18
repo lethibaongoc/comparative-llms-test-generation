@@ -1,0 +1,17 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:85: error: no suitable constructor found for FunctionEvaluationException(String)
+            throw new FunctionEvaluationException("Test exception");
+                  ^
+    constructor FunctionEvaluationException.FunctionEvaluationException(double) is not applicable
+      (argument mismatch; String cannot be converted to double)
+    constructor FunctionEvaluationException.FunctionEvaluationException(double[]) is not applicable
+      (argument mismatch; String cannot be converted to double[])
+    constructor FunctionEvaluationException.FunctionEvaluationException(double,String,Object...) is not applicable
+      (argument mismatch; String cannot be converted to double)
+    constructor FunctionEvaluationException.FunctionEvaluationException(double[],String,Object...) is not applicable
+      (argument mismatch; String cannot be converted to double[])
+    constructor FunctionEvaluationException.FunctionEvaluationException(Throwable,double,String,Object...) is not applicable
+      (argument mismatch; String cannot be converted to Throwable)
+    constructor FunctionEvaluationException.FunctionEvaluationException(Throwable,double[],String,Object...) is not applicable
+      (argument mismatch; String cannot be converted to Throwable)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error

@@ -1,0 +1,56 @@
+
+Failures (3):
+  JUnit Jupiter:gpt_5_5_instant_Lang_41_C1_Test:testGetPackageName_multiDimensionalObjectArrayDescriptor()
+    MethodSource [className = 'org.apache.commons.lang.gpt_5_5_instant_Lang_41_C1_Test', methodName = 'testGetPackageName_multiDimensionalObjectArrayDescriptor', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <java.lang> but was: <[[[Ljava.lang>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.apache.commons.lang.gpt_5_5_instant_Lang_41_C1_Test.testGetPackageName_multiDimensionalObjectArrayDescriptor(gpt_5_5_instant_Lang_41_C1_Test.java:40)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Lang_41_C1_Test:testGetPackageName_objectArrayDescriptor()
+    MethodSource [className = 'org.apache.commons.lang.gpt_5_5_instant_Lang_41_C1_Test', methodName = 'testGetPackageName_objectArrayDescriptor', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <java.lang> but was: <[Ljava.lang>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.apache.commons.lang.gpt_5_5_instant_Lang_41_C1_Test.testGetPackageName_objectArrayDescriptor(gpt_5_5_instant_Lang_41_C1_Test.java:35)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Lang_41_C1_Test:testGetPackageName_objectDescriptorWithoutArray()
+    MethodSource [className = 'org.apache.commons.lang.gpt_5_5_instant_Lang_41_C1_Test', methodName = 'testGetPackageName_objectDescriptorWithoutArray', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <java.util> but was: <Ljava.util>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+       org.apache.commons.lang.gpt_5_5_instant_Lang_41_C1_Test.testGetPackageName_objectDescriptorWithoutArray(gpt_5_5_instant_Lang_41_C1_Test.java:55)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 977 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[        10 tests found           ]
+[         0 tests skipped         ]
+[        10 tests started         ]
+[         0 tests aborted         ]
+[         7 tests successful      ]
+[         3 tests failed          ]
+

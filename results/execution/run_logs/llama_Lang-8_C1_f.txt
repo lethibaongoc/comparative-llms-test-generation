@@ -1,0 +1,19 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-8_C1/org/apache/commons/lang3/time/FastDatePrinterTest.java:36: error: TimeZoneNameRule has private access in FastDatePrinter
+        FastDatePrinter.TimeZoneNameRule rule = new FastDatePrinter.TimeZoneNameRule(TimeZone.getTimeZone("America/New_York"), Locale.US, 0);
+                       ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-8_C1/org/apache/commons/lang3/time/FastDatePrinterTest.java:36: error: TimeZoneNameRule has private access in FastDatePrinter
+        FastDatePrinter.TimeZoneNameRule rule = new FastDatePrinter.TimeZoneNameRule(TimeZone.getTimeZone("America/New_York"), Locale.US, 0);
+                                                                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-8_C1/org/apache/commons/lang3/time/FastDatePrinterTest.java:57: error: TimeZoneNameRule has private access in FastDatePrinter
+        FastDatePrinter.TimeZoneNameRule rule = new FastDatePrinter.TimeZoneNameRule(TimeZone.getTimeZone("America/New_York"), Locale.US, 0);
+                       ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-8_C1/org/apache/commons/lang3/time/FastDatePrinterTest.java:57: error: TimeZoneNameRule has private access in FastDatePrinter
+        FastDatePrinter.TimeZoneNameRule rule = new FastDatePrinter.TimeZoneNameRule(TimeZone.getTimeZone("America/New_York"), Locale.US, 0);
+                                                                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-8_C1/org/apache/commons/lang3/time/FastDatePrinterTest.java:78: error: TimeZoneNameRule has private access in FastDatePrinter
+        FastDatePrinter.TimeZoneNameRule rule = new FastDatePrinter.TimeZoneNameRule(TimeZone.getTimeZone("UTC"), Locale.US, 0);
+                       ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-8_C1/org/apache/commons/lang3/time/FastDatePrinterTest.java:78: error: TimeZoneNameRule has private access in FastDatePrinter
+        FastDatePrinter.TimeZoneNameRule rule = new FastDatePrinter.TimeZoneNameRule(TimeZone.getTimeZone("UTC"), Locale.US, 0);
+                                                                   ^
+6 errors

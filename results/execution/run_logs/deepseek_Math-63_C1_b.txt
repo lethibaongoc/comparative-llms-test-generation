@@ -1,0 +1,43 @@
+
+Failures (2):
+  JUnit Jupiter:deepseek_Math_63_C1_Test:testEqualsWithVerySmallDifference()
+    MethodSource [className = 'org.apache.commons.math.util.deepseek_Math_63_C1_Test', methodName = 'testEqualsWithVerySmallDifference', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+       org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+       org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+       org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
+       org.apache.commons.math.util.deepseek_Math_63_C1_Test.testEqualsWithVerySmallDifference(deepseek_Math_63_C1_Test.java:101)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Math_63_C1_Test:testEqualsWithNaN()
+    MethodSource [className = 'org.apache.commons.math.util.deepseek_Math_63_C1_Test', methodName = 'testEqualsWithNaN', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+       org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+       org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:31)
+       org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:231)
+       org.apache.commons.math.util.deepseek_Math_63_C1_Test.testEqualsWithNaN(deepseek_Math_63_C1_Test.java:86)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1241 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[        14 tests found           ]
+[         0 tests skipped         ]
+[        14 tests started         ]
+[         0 tests aborted         ]
+[        12 tests successful      ]
+[         2 tests failed          ]
+

@@ -1,0 +1,11 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-21_C2/org/jfree/data/statistics/gpt_5_5_instant_Chart_21_C2_Test.java:133: error: cannot find symbol
+    dataset.remove("R1", "C1");
+           ^
+  symbol:   method remove(String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-21_C2/org/jfree/data/statistics/gpt_5_5_instant_Chart_21_C2_Test.java:148: error: cannot find symbol
+    dataset.remove("R1", "C1");
+           ^
+  symbol:   method remove(String,String)
+  location: variable dataset of type DefaultBoxAndWhiskerCategoryDataset
+2 errors

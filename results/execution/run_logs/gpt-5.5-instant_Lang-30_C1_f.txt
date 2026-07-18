@@ -1,0 +1,5 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Lang-30_C1/org/apache/commons/lang3/gpt_5_5_instant_Lang_30_C1_Test.java:51: error: reference to containsAny is ambiguous
+    assertFalse(StringUtils.containsAny("hello", null));
+                           ^
+  both method containsAny(String,char[]) in StringUtils and method containsAny(String,String) in StringUtils match
+1 error

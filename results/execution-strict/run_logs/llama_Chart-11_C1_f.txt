@@ -1,0 +1,46 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:11: error: cannot find symbol
+        assertTrue(ShapeUtilities.equal(null, null));
+                   ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:12: error: cannot find symbol
+        assertFalse(ShapeUtilities.equal(null, new GeneralPath()));
+                    ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:13: error: cannot find symbol
+        assertFalse(ShapeUtilities.equal(new GeneralPath(), null));
+                    ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:22: error: cannot find symbol
+        assertFalse(ShapeUtilities.equal(p1, p2));
+                    ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:33: error: cannot find symbol
+        assertTrue(ShapeUtilities.equal(p1, p2));
+                   ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:44: error: cannot find symbol
+        assertFalse(ShapeUtilities.equal(p1, p2));
+                    ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:51: error: cannot find symbol
+        assertTrue(ShapeUtilities.equal(p1, p2));
+                   ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:64: error: cannot find symbol
+        assertTrue(ShapeUtilities.equal(p1, p2));
+                   ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Chart-11_C1/org/jfree/util/ShapeUtilitiesTest.java:77: error: cannot find symbol
+        assertFalse(ShapeUtilities.equal(p1, p2));
+                    ^
+  symbol:   variable ShapeUtilities
+  location: class ShapeUtilitiesTest
+9 errors

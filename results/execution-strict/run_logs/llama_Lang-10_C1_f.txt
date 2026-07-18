@@ -1,0 +1,7 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-10_C1/org/apache/commons/lang3/time/FastDateParserTest.java:32: error: illegal escape character
+        assertEquals("Hello\?World\$$", result.toString());
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Lang-10_C1/org/apache/commons/lang3/time/FastDateParserTest.java:32: error: illegal escape character
+        assertEquals("Hello\?World\$$", result.toString());
+                                   ^
+2 errors

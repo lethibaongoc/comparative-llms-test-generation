@@ -1,0 +1,61 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:10: error: cannot find symbol
+    public void testSolve() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                   ^
+  symbol:   class MaxIterationsExceededException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:10: error: cannot find symbol
+    public void testSolve() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                                                   ^
+  symbol:   class FunctionEvaluationException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:22: error: cannot find symbol
+    public void testSolveMinEqualsMax() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                               ^
+  symbol:   class MaxIterationsExceededException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:22: error: cannot find symbol
+    public void testSolveMinEqualsMax() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                                                               ^
+  symbol:   class FunctionEvaluationException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:32: error: cannot find symbol
+    public void testSolveMinGreaterThanMax() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                                    ^
+  symbol:   class MaxIterationsExceededException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:32: error: cannot find symbol
+    public void testSolveMinGreaterThanMax() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                                                                    ^
+  symbol:   class FunctionEvaluationException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:42: error: cannot find symbol
+    public void testSolveFunctionEvaluationException() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                                              ^
+  symbol:   class MaxIterationsExceededException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:42: error: cannot find symbol
+    public void testSolveFunctionEvaluationException() throws MaxIterationsExceededException, FunctionEvaluationException {
+                                                                                              ^
+  symbol:   class FunctionEvaluationException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:28: error: cannot find symbol
+        assertThrows(MaxIterationsExceededException.class, () -> solver.solve(f, min, max, initial));
+                     ^
+  symbol:   class MaxIterationsExceededException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:38: error: cannot find symbol
+        assertThrows(MaxIterationsExceededException.class, () -> solver.solve(f, min, max, initial));
+                     ^
+  symbol:   class MaxIterationsExceededException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:45: error: cannot find symbol
+            throw new FunctionEvaluationException("Test exception");
+                      ^
+  symbol:   class FunctionEvaluationException
+  location: class BisectionSolverTest
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/llama/Math-70_C1/org/apache/commons/math/analysis/solvers/BisectionSolverTest.java:50: error: cannot find symbol
+        assertThrows(FunctionEvaluationException.class, () -> solver.solve(f, min, max, initial));
+                     ^
+  symbol:   class FunctionEvaluationException
+  location: class BisectionSolverTest
+12 errors

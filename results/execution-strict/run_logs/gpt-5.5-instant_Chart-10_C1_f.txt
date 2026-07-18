@@ -1,0 +1,26 @@
+
+Failures (1):
+  JUnit Jupiter:gpt_5_5_instant_Chart_10_C1_Test:testGenerateToolTipFragment_nullInput()
+    MethodSource [className = 'org.jfree.chart.imagemap.gpt_5_5_instant_Chart_10_C1_Test', methodName = 'testGenerateToolTipFragment_nullInput', methodParameterTypes = '']
+    => java.lang.IllegalArgumentException: Null 'input' argument.
+       org.jfree.chart.imagemap.ImageMapUtilities.htmlEscape(ImageMapUtilities.java:214)
+       org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator.generateToolTipFragment(StandardToolTipTagFragmentGenerator.java:65)
+       org.jfree.chart.imagemap.gpt_5_5_instant_Chart_10_C1_Test.testGenerateToolTipFragment_nullInput(gpt_5_5_instant_Chart_10_C1_Test.java:44)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 600 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         3 tests successful      ]
+[         1 tests failed          ]
+

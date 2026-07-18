@@ -1,0 +1,38 @@
+
+Failures (2):
+  JUnit Jupiter:gpt_5_5_instant_Chart_1_C1_Test:testGetLegendItems_nullDatasetReturnsEmptyCollection()
+    MethodSource [className = 'org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C1_Test', methodName = 'testGetLegendItems_nullDatasetReturnsEmptyCollection', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems(AbstractCategoryItemRenderer.java:1800)
+       org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C1_Test.testGetLegendItems_nullDatasetReturnsEmptyCollection(gpt_5_5_instant_Chart_1_C1_Test.java:102)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Chart_1_C1_Test:testGetLegendItems_addsOnlyVisibleSeries()
+    MethodSource [className = 'org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C1_Test', methodName = 'testGetLegendItems_addsOnlyVisibleSeries', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+       org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C1_Test.testGetLegendItems_addsOnlyVisibleSeries(gpt_5_5_instant_Chart_1_C1_Test.java:129)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 7349 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         2 tests successful      ]
+[         2 tests failed          ]
+

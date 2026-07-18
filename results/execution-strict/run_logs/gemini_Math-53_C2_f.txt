@@ -1,0 +1,6 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gemini/Math-53_C2/org/apache/commons/math/complex/gemini_Math_53_C2_Test.java:33: error: cannot find symbol
+    assertThrows(NullArgumentException.class, () -> c.add(null));
+                 ^
+  symbol:   class NullArgumentException
+  location: class gemini_Math_53_C2_Test
+1 error

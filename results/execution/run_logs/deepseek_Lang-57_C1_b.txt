@@ -1,0 +1,65 @@
+
+Failures (6):
+  JUnit Jupiter:deepseek_Lang_57_C1_Test:shouldReturnTrueWhenLocaleIsAvailable()
+    MethodSource [className = 'org.apache.commons.lang.deepseek_Lang_57_C1_Test', methodName = 'shouldReturnTrueWhenLocaleIsAvailable', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.deepseek_Lang_57_C1_Test.shouldReturnTrueWhenLocaleIsAvailable(deepseek_Lang_57_C1_Test.java:24)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_57_C1_Test:shouldReturnFalseForNullLocale()
+    MethodSource [className = 'org.apache.commons.lang.deepseek_Lang_57_C1_Test', methodName = 'shouldReturnFalseForNullLocale', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.deepseek_Lang_57_C1_Test.shouldReturnFalseForNullLocale(deepseek_Lang_57_C1_Test.java:35)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_57_C1_Test:shouldReturnFalseForCustomVariantLocaleNotInstalled()
+    MethodSource [className = 'org.apache.commons.lang.deepseek_Lang_57_C1_Test', methodName = 'shouldReturnFalseForCustomVariantLocaleNotInstalled', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.deepseek_Lang_57_C1_Test.shouldReturnFalseForCustomVariantLocaleNotInstalled(deepseek_Lang_57_C1_Test.java:55)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_57_C1_Test:shouldReturnTrueForAllInstalledLocales()
+    MethodSource [className = 'org.apache.commons.lang.deepseek_Lang_57_C1_Test', methodName = 'shouldReturnTrueForAllInstalledLocales', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.deepseek_Lang_57_C1_Test.shouldReturnTrueForAllInstalledLocales(deepseek_Lang_57_C1_Test.java:48)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_57_C1_Test:shouldReturnTrueForDefaultLocaleIfAvailable()
+    MethodSource [className = 'org.apache.commons.lang.deepseek_Lang_57_C1_Test', methodName = 'shouldReturnTrueForDefaultLocaleIfAvailable', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.deepseek_Lang_57_C1_Test.shouldReturnTrueForDefaultLocaleIfAvailable(deepseek_Lang_57_C1_Test.java:41)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:deepseek_Lang_57_C1_Test:shouldReturnFalseWhenLocaleIsNotAvailable()
+    MethodSource [className = 'org.apache.commons.lang.deepseek_Lang_57_C1_Test', methodName = 'shouldReturnFalseWhenLocaleIsNotAvailable', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.apache.commons.lang.LocaleUtils.isAvailableLocale(LocaleUtils.java:223)
+       org.apache.commons.lang.deepseek_Lang_57_C1_Test.shouldReturnFalseWhenLocaleIsNotAvailable(deepseek_Lang_57_C1_Test.java:30)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 854 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         0 tests successful      ]
+[         6 tests failed          ]
+

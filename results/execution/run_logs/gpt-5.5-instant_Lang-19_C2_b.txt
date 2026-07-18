@@ -1,0 +1,27 @@
+
+Failures (1):
+  JUnit Jupiter:gpt_5_5_instant_Lang_19_C2_Test:testTranslateEntityWithoutSemicolon()
+    MethodSource [className = 'org.apache.commons.lang3.text.translate.gpt_5_5_instant_Lang_19_C2_Test', methodName = 'testTranslateEntityWithoutSemicolon', methodParameterTypes = '']
+    => java.lang.StringIndexOutOfBoundsException: String index out of range: 8
+       java.lang.String.charAt(String.java:658)
+       org.apache.commons.lang3.text.translate.NumericEntityUnescaper.translate(NumericEntityUnescaper.java:54)
+       org.apache.commons.lang3.text.translate.gpt_5_5_instant_Lang_19_C2_Test.testTranslateEntityWithoutSemicolon(gpt_5_5_instant_Lang_19_C2_Test.java:58)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 873 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         1 tests failed          ]
+
+FAIL: [3][3]

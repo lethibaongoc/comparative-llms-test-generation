@@ -1,0 +1,33 @@
+
+Failures (2):
+  JUnit Jupiter:gpt_5_5_instant_Chart_1_C2_Test:testGetLegendItemsIncludesOnlySeriesVisibleInLegend()
+    MethodSource [className = 'org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C2_Test', methodName = 'testGetLegendItemsIncludesOnlySeriesVisibleInLegend', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.jfree.chart.renderer.AbstractRenderer.isSeriesVisibleInLegend(AbstractRenderer.java:624)
+       org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C2_Test.testGetLegendItemsIncludesOnlySeriesVisibleInLegend(gpt_5_5_instant_Chart_1_C2_Test.java:121)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:gpt_5_5_instant_Chart_1_C2_Test:testGetLegendItemsWithNullDatasetReturnsEmptyCollection()
+    MethodSource [className = 'org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C2_Test', methodName = 'testGetLegendItemsWithNullDatasetReturnsEmptyCollection', methodParameterTypes = '']
+    => java.lang.NullPointerException
+       org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems(AbstractCategoryItemRenderer.java:1800)
+       org.jfree.chart.renderer.category.gpt_5_5_instant_Chart_1_C2_Test.testGetLegendItemsWithNullDatasetReturnsEmptyCollection(gpt_5_5_instant_Chart_1_C2_Test.java:102)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 6835 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         3 tests found           ]
+[         0 tests skipped         ]
+[         3 tests started         ]
+[         0 tests aborted         ]
+[         1 tests successful      ]
+[         2 tests failed          ]
+

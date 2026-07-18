@@ -1,0 +1,31 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-70_C1/org/apache/commons/math/analysis/solvers/gpt_5_5_instant_Math_70_C1_Test.java:16: error: cannot find symbol
+    UnivariateRealFunction f = new UnivariateRealFunction() {
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class gpt_5_5_instant_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-70_C1/org/apache/commons/math/analysis/solvers/gpt_5_5_instant_Math_70_C1_Test.java:16: error: cannot find symbol
+    UnivariateRealFunction f = new UnivariateRealFunction() {
+                                   ^
+  symbol:   class UnivariateRealFunction
+  location: class gpt_5_5_instant_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-70_C1/org/apache/commons/math/analysis/solvers/gpt_5_5_instant_Math_70_C1_Test.java:31: error: cannot find symbol
+    UnivariateRealFunction f = new UnivariateRealFunction() {
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class gpt_5_5_instant_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-70_C1/org/apache/commons/math/analysis/solvers/gpt_5_5_instant_Math_70_C1_Test.java:31: error: cannot find symbol
+    UnivariateRealFunction f = new UnivariateRealFunction() {
+                                   ^
+  symbol:   class UnivariateRealFunction
+  location: class gpt_5_5_instant_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-70_C1/org/apache/commons/math/analysis/solvers/gpt_5_5_instant_Math_70_C1_Test.java:47: error: cannot find symbol
+    UnivariateRealFunction f = new UnivariateRealFunction() {
+    ^
+  symbol:   class UnivariateRealFunction
+  location: class gpt_5_5_instant_Math_70_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Math-70_C1/org/apache/commons/math/analysis/solvers/gpt_5_5_instant_Math_70_C1_Test.java:47: error: cannot find symbol
+    UnivariateRealFunction f = new UnivariateRealFunction() {
+                                   ^
+  symbol:   class UnivariateRealFunction
+  location: class gpt_5_5_instant_Math_70_C1_Test
+6 errors

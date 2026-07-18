@@ -1,0 +1,43 @@
+
+Failures (2):
+  JUnit Jupiter:FastMathTest:testMax_Negative()
+    MethodSource [className = 'org.apache.commons.math.util.FastMathTest', methodName = 'testMax_Negative', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <-1.0> but was: <-2.0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:102)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:97)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:735)
+       org.apache.commons.math.util.FastMathTest.testMax_Negative(FastMathTest.java:70)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+  JUnit Jupiter:FastMathTest:testMax_Normal()
+    MethodSource [className = 'org.apache.commons.math.util.FastMathTest', methodName = 'testMax_Normal', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <2.0> but was: <1.0>
+       org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+       org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:102)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:97)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:735)
+       org.apache.commons.math.util.FastMathTest.testMax_Normal(FastMathTest.java:58)
+       java.lang.reflect.Method.invoke(Method.java:498)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+       java.util.ArrayList.forEach(ArrayList.java:1259)
+
+Test run finished after 1057 ms
+[         2 containers found      ]
+[         0 containers skipped    ]
+[         2 containers started    ]
+[         0 containers aborted    ]
+[         2 containers successful ]
+[         0 containers failed     ]
+[         4 tests found           ]
+[         0 tests skipped         ]
+[         4 tests started         ]
+[         0 tests aborted         ]
+[         2 tests successful      ]
+[         2 tests failed          ]
+

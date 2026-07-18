@@ -1,0 +1,154 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:61: error: x has private access in Vector3D
+    assertEquals(-3.0, result.x, DELTA, "X component incorrect for (1,2,3) x (4,5,6)");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:62: error: y has private access in Vector3D
+    assertEquals(6.0, result.y, DELTA, "Y component incorrect for (1,2,3) x (4,5,6)");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:63: error: z has private access in Vector3D
+    assertEquals(-3.0, result.z, DELTA, "Z component incorrect for (1,2,3) x (4,5,6)");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:75: error: x has private access in Vector3D
+    assertEquals(k.x, result_ixj.x, DELTA, "i x j X component");
+                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:75: error: x has private access in Vector3D
+    assertEquals(k.x, result_ixj.x, DELTA, "i x j X component");
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:76: error: y has private access in Vector3D
+    assertEquals(k.y, result_ixj.y, DELTA, "i x j Y component");
+                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:76: error: y has private access in Vector3D
+    assertEquals(k.y, result_ixj.y, DELTA, "i x j Y component");
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:77: error: z has private access in Vector3D
+    assertEquals(k.z, result_ixj.z, DELTA, "i x j Z component");
+                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:77: error: z has private access in Vector3D
+    assertEquals(k.z, result_ixj.z, DELTA, "i x j Z component");
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:80: error: x has private access in Vector3D
+    assertEquals(-k.x, result_jxi.x, DELTA, "j x i X component");
+                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:80: error: x has private access in Vector3D
+    assertEquals(-k.x, result_jxi.x, DELTA, "j x i X component");
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:81: error: y has private access in Vector3D
+    assertEquals(-k.y, result_jxi.y, DELTA, "j x i Y component");
+                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:81: error: y has private access in Vector3D
+    assertEquals(-k.y, result_jxi.y, DELTA, "j x i Y component");
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:82: error: z has private access in Vector3D
+    assertEquals(-k.z, result_jxi.z, DELTA, "j x i Z component");
+                   ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:82: error: z has private access in Vector3D
+    assertEquals(-k.z, result_jxi.z, DELTA, "j x i Z component");
+                                 ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:85: error: x has private access in Vector3D
+    assertEquals(i.x, result_jxk.x, DELTA, "j x k X component");
+                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:85: error: x has private access in Vector3D
+    assertEquals(i.x, result_jxk.x, DELTA, "j x k X component");
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:86: error: y has private access in Vector3D
+    assertEquals(i.y, result_jxk.y, DELTA, "j x k Y component");
+                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:86: error: y has private access in Vector3D
+    assertEquals(i.y, result_jxk.y, DELTA, "j x k Y component");
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:87: error: z has private access in Vector3D
+    assertEquals(i.z, result_jxk.z, DELTA, "j x k Z component");
+                  ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:87: error: z has private access in Vector3D
+    assertEquals(i.z, result_jxk.z, DELTA, "j x k Z component");
+                                ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:97: error: x has private access in Vector3D
+    assertEquals(0.0, result1.x, DELTA, "v x 0 X component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:98: error: y has private access in Vector3D
+    assertEquals(0.0, result1.y, DELTA, "v x 0 Y component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:99: error: z has private access in Vector3D
+    assertEquals(0.0, result1.z, DELTA, "v x 0 Z component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:102: error: x has private access in Vector3D
+    assertEquals(0.0, result2.x, DELTA, "0 x v X component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:103: error: y has private access in Vector3D
+    assertEquals(0.0, result2.y, DELTA, "0 x v Y component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:104: error: z has private access in Vector3D
+    assertEquals(0.0, result2.z, DELTA, "0 x v Z component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:107: error: x has private access in Vector3D
+    assertEquals(0.0, result3.x, DELTA, "0 x 0 X component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:108: error: y has private access in Vector3D
+    assertEquals(0.0, result3.y, DELTA, "0 x 0 Y component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:109: error: z has private access in Vector3D
+    assertEquals(0.0, result3.z, DELTA, "0 x 0 Z component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:120: error: x has private access in Vector3D
+    assertEquals(0.0, result1.x, DELTA, "Parallel vectors (v1 x 2v1) X component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:121: error: y has private access in Vector3D
+    assertEquals(0.0, result1.y, DELTA, "Parallel vectors (v1 x 2v1) Y component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:122: error: z has private access in Vector3D
+    assertEquals(0.0, result1.z, DELTA, "Parallel vectors (v1 x 2v1) Z component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:125: error: x has private access in Vector3D
+    assertEquals(0.0, result2.x, DELTA, "Anti-parallel vectors (v1 x -3v1) X component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:126: error: y has private access in Vector3D
+    assertEquals(0.0, result2.y, DELTA, "Anti-parallel vectors (v1 x -3v1) Y component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:127: error: z has private access in Vector3D
+    assertEquals(0.0, result2.z, DELTA, "Anti-parallel vectors (v1 x -3v1) Z component");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:136: error: x has private access in Vector3D
+    assertEquals(0.0, result.x, DELTA, "Self cross product X component");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:137: error: y has private access in Vector3D
+    assertEquals(0.0, result.y, DELTA, "Self cross product Y component");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:138: error: z has private access in Vector3D
+    assertEquals(0.0, result.z, DELTA, "Self cross product Z component");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:150: error: x has private access in Vector3D
+    assertEquals(v1_cross_v2.x, -v2_cross_v1.x, DELTA, "Anti-commutativity X component");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:150: error: x has private access in Vector3D
+    assertEquals(v1_cross_v2.x, -v2_cross_v1.x, DELTA, "Anti-commutativity X component");
+                                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:151: error: y has private access in Vector3D
+    assertEquals(v1_cross_v2.y, -v2_cross_v1.y, DELTA, "Anti-commutativity Y component");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:151: error: y has private access in Vector3D
+    assertEquals(v1_cross_v2.y, -v2_cross_v1.y, DELTA, "Anti-commutativity Y component");
+                                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:152: error: z has private access in Vector3D
+    assertEquals(v1_cross_v2.z, -v2_cross_v1.z, DELTA, "Anti-commutativity Z component");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:152: error: z has private access in Vector3D
+    assertEquals(v1_cross_v2.z, -v2_cross_v1.z, DELTA, "Anti-commutativity Z component");
+                                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:162: error: x has private access in Vector3D
+    assertEquals(-3.0, result.x, DELTA, "X component incorrect for (-1,2,-3) x (4,-5,6)");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:163: error: y has private access in Vector3D
+    assertEquals(-6.0, result.y, DELTA, "Y component incorrect for (-1,2,-3) x (4,-5,6)");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:164: error: z has private access in Vector3D
+    assertEquals(-3.0, result.z, DELTA, "Z component incorrect for (-1,2,-3) x (4,-5,6)");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:174: error: x has private access in Vector3D
+    assertEquals(-6.0, result.x, DELTA, "X component incorrect for (1,0,2) x (0,3,0)");
+                             ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:175: error: y has private access in Vector3D
+    assertEquals(0.0, result.y, DELTA, "Y component incorrect for (1,0,2) x (0,3,0)");
+                            ^
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-55_C1/org/apache/commons/math/geometry/deepseek_Math_55_C1_Test.java:176: error: z has private access in Vector3D
+    assertEquals(3.0, result.z, DELTA, "Z component incorrect for (1,0,2) x (0,3,0)");
+                            ^
+51 errors

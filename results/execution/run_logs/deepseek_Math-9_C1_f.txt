@@ -1,0 +1,236 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:73: error: cannot find symbol
+    Point zero = new Point(0, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:73: error: cannot find symbol
+    Point zero = new Point(0, 0);
+                     ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:74: error: cannot find symbol
+    Point direction = new Point(1, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:74: error: cannot find symbol
+    Point direction = new Point(1, 0);
+                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:80: error: cannot find symbol
+    assertEquals(zero, revertedLine.getZero(), "The 'zero' point of the reverted line should be unchanged");
+                                   ^
+  symbol:   method getZero()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:82: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(-1, 0); 
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:82: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(-1, 0); 
+                                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:88: error: cannot find symbol
+    Point zero = new Point(1, 1);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:88: error: cannot find symbol
+    Point zero = new Point(1, 1);
+                     ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:89: error: cannot find symbol
+    Point direction = new Point(2, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:89: error: cannot find symbol
+    Point direction = new Point(2, 0);
+                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:95: error: cannot find symbol
+    assertEquals(zero, revertedLine.getZero(), "The 'zero' point of the reverted line should be unchanged");
+                                   ^
+  symbol:   method getZero()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:97: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(-1, 1);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:97: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(-1, 1);
+                                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:103: error: cannot find symbol
+    Point zero = new Point(0, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:103: error: cannot find symbol
+    Point zero = new Point(0, 0);
+                     ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:104: error: cannot find symbol
+    Point direction = new Point(-1, -1);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:104: error: cannot find symbol
+    Point direction = new Point(-1, -1);
+                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:110: error: cannot find symbol
+    assertEquals(zero, revertedLine.getZero(), "The 'zero' point of the reverted line should be unchanged");
+                                   ^
+  symbol:   method getZero()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:112: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(1, 1);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:112: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(1, 1);
+                                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:118: error: cannot find symbol
+    Point zero = new Point(2, -3);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:118: error: cannot find symbol
+    Point zero = new Point(2, -3);
+                     ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:119: error: cannot find symbol
+    Point direction = new Point(-1, 4);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:119: error: cannot find symbol
+    Point direction = new Point(-1, 4);
+                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:125: error: cannot find symbol
+    assertEquals(zero, revertedLine.getZero(), "The 'zero' point of the reverted line should be unchanged");
+                                   ^
+  symbol:   method getZero()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:127: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(3, -7);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:127: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(3, -7);
+                                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:133: error: cannot find symbol
+    Point zero = new Point(5, 5);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:133: error: cannot find symbol
+    Point zero = new Point(5, 5);
+                     ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:134: error: cannot find symbol
+    Point direction = new Point(0, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:134: error: cannot find symbol
+    Point direction = new Point(0, 0);
+                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:140: error: cannot find symbol
+    assertEquals(zero, revertedLine.getZero(), "The 'zero' point of the reverted line should be unchanged");
+                                   ^
+  symbol:   method getZero()
+  location: variable revertedLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:142: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(5, 5);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:142: error: cannot find symbol
+    Point expectedRevertedDirection = new Point(5, 5);
+                                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:148: error: cannot find symbol
+    Point zero = new Point(0, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:148: error: cannot find symbol
+    Point zero = new Point(0, 0);
+                     ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:149: error: cannot find symbol
+    Point direction = new Point(1, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:149: error: cannot find symbol
+    Point direction = new Point(1, 0);
+                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:160: error: cannot find symbol
+    Point zero = new Point(0, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:160: error: cannot find symbol
+    Point zero = new Point(0, 0);
+                     ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:161: error: cannot find symbol
+    Point direction = new Point(1, 0);
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:161: error: cannot find symbol
+    Point direction = new Point(1, 0);
+                          ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:164: error: cannot find symbol
+    Point originalZero = originalLine.getZero();
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:164: error: cannot find symbol
+    Point originalZero = originalLine.getZero();
+                                     ^
+  symbol:   method getZero()
+  location: variable originalLine of type Line
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:165: error: cannot find symbol
+    Point originalDirection = originalLine.getDirection();
+    ^
+  symbol:   class Point
+  location: class deepseek_Math_9_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/deepseek/Math-9_C1/org/apache/commons/math3/geometry/euclidean/threed/deepseek_Math_9_C1_Test.java:169: error: cannot find symbol
+    assertEquals(originalZero, originalLine.getZero(), "Original line's zero point should not be modified after revert");
+                                           ^
+  symbol:   method getZero()
+  location: variable originalLine of type Line
+47 errors

@@ -1,0 +1,61 @@
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:111: error: cannot find symbol
+    r1.setPlotLines(true);
+      ^
+  symbol:   method setPlotLines(boolean)
+  location: variable r1 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:112: error: cannot find symbol
+    r2.setPlotLines(false);
+      ^
+  symbol:   method setPlotLines(boolean)
+  location: variable r2 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:123: error: cannot find symbol
+    r1.setGroupPaint(Color.RED);
+                     ^
+  symbol:   variable Color
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:124: error: cannot find symbol
+    r2.setGroupPaint(Color.BLUE);
+                     ^
+  symbol:   variable Color
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:135: error: cannot find symbol
+    r1.setGroupStroke(new BasicStroke(1.0f));
+                          ^
+  symbol:   class BasicStroke
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:136: error: cannot find symbol
+    r2.setGroupStroke(new BasicStroke(2.0f));
+                          ^
+  symbol:   class BasicStroke
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:147: error: cannot find symbol
+    r1.setPlotLines(false);
+      ^
+  symbol:   method setPlotLines(boolean)
+  location: variable r1 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:148: error: cannot find symbol
+    r2.setPlotLines(false);
+      ^
+  symbol:   method setPlotLines(boolean)
+  location: variable r2 of type MinMaxCategoryRenderer
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:149: error: cannot find symbol
+    r1.setGroupPaint(Color.GREEN);
+                     ^
+  symbol:   variable Color
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:150: error: cannot find symbol
+    r2.setGroupPaint(Color.GREEN);
+                     ^
+  symbol:   variable Color
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:151: error: cannot find symbol
+    BasicStroke stroke = new BasicStroke(3.0f);
+    ^
+  symbol:   class BasicStroke
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+/mnt/d/semester5/swt301/research/comparative-llms-test-generation/_d4j_work/_exec/f/gpt-5.5-instant/Chart-23_C1/org/jfree/chart/renderer/category/gpt_5_5_instant_Chart_23_C1_Test.java:151: error: cannot find symbol
+    BasicStroke stroke = new BasicStroke(3.0f);
+                             ^
+  symbol:   class BasicStroke
+  location: class gpt_5_5_instant_Chart_23_C1_Test
+12 errors
