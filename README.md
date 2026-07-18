@@ -48,7 +48,62 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 
 - ✅ Repo initialized, dataset README and project notes committed
 - ✅ **Gate E3 passed** — API connectivity verified end-to-end (`scripts/test_api.py`, tested via Groq-hosted Llama-3.3-70B as a pipeline smoke test before wiring in the four target models)
-- ⏳ Pilot run and full experiment (240 calls: 30 methods × 2 prompts × 4 LLMs) — in progress
+- ✅ **Generation complete** — all 240 tests (30 methods × 2 prompts × 4 LLMs) in `data/generated/`
+- ✅ **Stage 1 — compilability** measured against real Defects4J v2.0.0 (`results/compilability/`)
+- ✅ **Stage 2 — execution + bug detection** measured on fixed and buggy trees (`results/execution/`, `results/execution-strict/`)
+- ⏳ RQ1–RQ3 coverage (JaCoCo) and test-smell (tsDetect) analysis — next
+
+## Results so far
+
+All 240 generated tests were compiled and run against the **real Defects4J
+v2.0.0** checkouts (javac/JUnit 8, headless). Two stages are complete;
+coverage and test-smell metrics (RQ1–RQ3) are still to come.
+
+### Stage 1 — Compilability (lenient, auto project imports)
+
+| Model | Compilable | Rate |
+|---|---|---|
+| gpt-5.5-instant | 46/60 | **76.7%** |
+| gemini | 38/60 | 63.3% |
+| llama | 35/60 | 58.3% |
+| deepseek | 25/60 | 41.7% |
+
+Detail: `results/compilability/compilability_summary.md` (+ per-file CSV and
+per-failure logs). Failures are auto-classified into bug-pattern buckets
+(protected/invented constructor, abstract instantiation, missing symbol, …).
+
+### Stage 2 — Execution + bug detection
+
+A test is **valid** if it compiles on the fixed program, runs ≥1 test, and has
+0 failures; it **detects** the bug if it is valid *and* fails on the buggy
+program (the standard Defects4J fault-revealing criterion: pass on fixed, fail
+on buggy). Lenient import mode shown as headline; strict in parentheses.
+
+| Model | Valid (pass on fixed) | Bugs detected /60 | Detection rate |
+|---|---|---|---|
+| gpt-5.5-instant | 35 | 21 | **35.0%** (strict 26.7%) |
+| gemini | 28 | 21 | **35.0%** (strict 26.7%) |
+| llama | 15 | 11 | 18.3% (strict 18.3%) |
+| deepseek | 15 | 7 | 11.7% (strict 6.7%) |
+
+Detail: `results/execution/` and `results/execution-strict/`
+(`execution_summary.md` + per-file CSV + per-run logs).
+
+### RQ4 preview — few-shot (C2) vs zero-shot (C1)
+
+Bugs detected per condition (out of 30 each), lenient:
+
+| Model | C1 zero-shot | C2 few-shot |
+|---|---|---|
+| gemini | 12/30 | 9/30 |
+| gpt-5.5-instant | 11/30 | 10/30 |
+| llama | 5/30 | 6/30 |
+| deepseek | 4/30 | 3/30 |
+
+Few-shot (k=2) did **not** consistently beat zero-shot on fault detection — it
+helped llama slightly but lowered gemini/gpt/deepseek. A recurring failure
+mode across models is inventing null-argument exceptions (NPE/CCE) the real
+methods don't throw; see `results/PILOT_RESULTS.md` for per-method oracle notes.
 
 ## Running the Demo
 
@@ -67,18 +122,22 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── raw/
 │   │   ├── README.md            # dataset provenance and focal method list
 │   │   └── methods/methods.json # focal method source + metadata
-│   └── generated/
-│       ├── gemini/                     # gemini-2.5-flash outputs, {Project}-{Bug}_{C1|C2}.java
-│       └── llama/                      # Groq llama-3.3-70b-versatile outputs, {Project}-{Bug}_{C1|C2}.java
-│       # (llama-4-scout-openrouter/ may also appear if scripts/generate_tests.py's
-│       #  experimental OpenRouter path is ever run — not part of the 4-model lineup)
+│   └── generated/                # {model}/{Project}-{Bug}_{C1|C2}.java, 4 models × 60 files
+│       ├── gemini/  deepseek/  gpt-5.5-instant/  llama/
 ├── results/
-│   ├── PILOT_RESULTS.md          # pilot run report
+│   ├── compilability/            # Stage 1: summary + per-file CSV + per-failure logs
+│   ├── execution/                # Stage 2 (lenient): summary + CSV + per-run logs
+│   ├── execution-strict/         # Stage 2 (strict import mode)
+│   ├── PILOT_RESULTS.md          # Llama pilot report (per-method oracle notes)
 │   └── archive/                  # superseded/failed run artifacts
 ├── figures/                      # RQ1-4 charts (populated during analysis)
 ├── scripts/
 │   ├── generate_tests.py         # Gemini test generation (+ experimental OpenRouter Llama path)
 │   ├── run_pilot_groq.py         # Groq Llama-3.3-70B pilot run
+│   ├── measure_compilability.py  # Stage 1: compile against Defects4J, classify failures
+│   ├── measure_execution.py      # Stage 2: run on fixed+buggy, score valid/detected
+│   ├── run_compile.sh            # one-command wrapper for Stage 1 (WSL)
+│   ├── run_execution.sh          # one-command wrapper for Stage 2 (WSL)
 │   └── test_api.py               # Gate E3 API connectivity check
 ├── requirements.txt
 ├── .env.example
