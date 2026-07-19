@@ -202,6 +202,8 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── PILOT_RESULTS.md          # Llama pilot report (per-method oracle notes)
 │   └── archive/                  # superseded/failed run artifacts
 ├── figures/                      # RQ1-4 charts (populated during analysis)
+├── report/
+│   └── results-discussion.md     # draft Results + Discussion + Threats to Validity
 ├── scripts/
 │   ├── generate_tests.py         # Gemini test generation (+ experimental OpenRouter Llama path)
 │   ├── run_pilot_groq.py         # Groq Llama-3.3-70B pilot run
