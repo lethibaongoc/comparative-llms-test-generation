@@ -538,3 +538,45 @@
   summary + raw JaCoCo XML). Next: RQ3 test smells (tsDetect) and the RQ1-4
 
   statistics + figures.
+
+- 2026-07-19: **Stage 4 — RQ3 test-smell density via tsDetect**
+
+  (TestSmellDetector). New harness `scripts/measure_smells.py` +
+
+  `run_smells.sh`. tsDetect only needs the test to *parse*, not compile, so
+
+  smells are measured on all 240 files: each is materialised as a parseable
+
+  unit (full_class as-is, fragments wrapped in a minimal scaffold — imports do
+
+  not matter for parsing) with the real focal class pointed to as the
+
+  production file. tsDetect (numerical granularity = smell counts) is run
+
+  **one file at a time**: its Main does not catch per-file JavaParser errors,
+
+  so one lexical error (llama Lang-10 uses an illegal `\?` escape) aborts a
+
+  whole batch — per-file runs isolate the 2 unparseable files (llama Lang-10
+
+  C1/C2) and analyse the other 238.
+
+  IMPORTANT correction: tsDetect flags every non-`public` `@Test` method as
+
+  IgnoredTest, a JUnit-4 rule that misfires on these JUnit-5 tests (fires on
+
+  153/154 bare-`void` files vs 0/86 `public void` files — it tracks style, not
+
+  a smell). IgnoredTest is kept as a column but EXCLUDED from totals/density.
+
+  Results (excl. IgnoredTest), mean smells/test: gpt-5.5-instant 10.3, llama
+
+  8.2, deepseek 1.7, gemini 0.0. Top real smells: Lazy Test (553), Magic
+
+  Number Test (334), Eager Test (108), Assertion Roulette (80). Few-shot (C2)
+
+  sharply cut smells (gpt 20.6->0.0, llama 16.0->0.5) — cleaner idiomatic
+
+  tests. gemini writes minimal tests that trip no smell thresholds. Results in
+
+  `results/smells/`. Remaining: RQ1-4 statistics + figures.

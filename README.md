@@ -52,7 +52,8 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 - ✅ **Stage 1 — compilability** measured against real Defects4J v2.0.0 (`results/compilability/`)
 - ✅ **Stage 2 — execution + bug detection** measured on fixed and buggy trees (`results/execution/`, `results/execution-strict/`)
 - ✅ **Stage 3 — coverage (JaCoCo)** — RQ1 line + RQ2 branch coverage of the focal class (`results/coverage/`, `results/coverage-strict/`)
-- ⏳ RQ3 test-smell (tsDetect) analysis and RQ1–4 statistics/figures — next
+- ✅ **Stage 4 — test smells (tsDetect)** — RQ3 test-smell density over all 240 tests (`results/smells/`)
+- ⏳ RQ1–4 statistics (Kruskal-Wallis, Wilcoxon, Cliff's delta) and figures — next
 
 ## Results so far
 
@@ -110,6 +111,29 @@ differ because weaker models compile fewer runnable tests. For coverage, few-sho
 unlike its mixed effect on bug detection. Detail: `results/coverage/` and
 `results/coverage-strict/`.
 
+### Stage 4 — Test-smell density (RQ3)
+
+tsDetect over all 240 generated tests (test smells only need the file to parse,
+not compile). Mean smell instances per test class, **excluding IgnoredTest** —
+tsDetect flags any non-`public` `@Test` method as ignored, which is a JUnit-4
+rule that misfires on these JUnit-5 tests (verified: it fires on 153/154
+bare-`void` files and 0/86 `public void` files, i.e. it tracks style, not a
+real smell).
+
+| Model | Mean smells/test | Mean distinct smell types |
+|---|---|---|
+| gpt-5.5-instant | 10.3 | 1.6 |
+| llama | 8.2 | 1.6 |
+| deepseek | 1.7 | 0.3 |
+| gemini | 0.0 | 0.0 |
+
+The most common real smells are Lazy Test (553 instances), Magic Number Test
+(334), Eager Test (108) and Assertion Roulette (80). gemini's minimal tests trip
+no smell thresholds at all; gpt and llama are the smelliest. **Few-shot (C2)
+sharply reduces smells**: gpt 20.6→0.0 and llama 16.0→0.5 smells/test from C1 to
+C2 — the exemplars push the models toward cleaner, more idiomatic tests. Detail:
+`results/smells/` (`smells_summary.md` + per-file CSV + raw tsDetect output).
+
 ### RQ4 preview — few-shot (C2) vs zero-shot (C1)
 
 Bugs detected per condition (out of 30 each), lenient:
@@ -151,6 +175,7 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── execution-strict/         # Stage 2 (strict import mode)
 │   ├── coverage/                 # Stage 3 (lenient): JaCoCo line/branch + XML
 │   ├── coverage-strict/          # Stage 3 (strict import mode)
+│   ├── smells/                   # Stage 4: tsDetect test-smell counts (RQ3)
 │   ├── PILOT_RESULTS.md          # Llama pilot report (per-method oracle notes)
 │   └── archive/                  # superseded/failed run artifacts
 ├── figures/                      # RQ1-4 charts (populated during analysis)
@@ -160,9 +185,11 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── measure_compilability.py  # Stage 1: compile against Defects4J, classify failures
 │   ├── measure_execution.py      # Stage 2: run on fixed+buggy, score valid/detected
 │   ├── measure_coverage.py       # Stage 3: JaCoCo line/branch of the focal class
+│   ├── measure_smells.py         # Stage 4: tsDetect test-smell counts (RQ3)
 │   ├── run_compile.sh            # one-command wrapper for Stage 1 (WSL)
 │   ├── run_execution.sh          # one-command wrapper for Stage 2 (WSL)
 │   ├── run_coverage.sh           # one-command wrapper for Stage 3 (WSL)
+│   ├── run_smells.sh             # one-command wrapper for Stage 4 (WSL)
 │   └── test_api.py               # Gate E3 API connectivity check
 ├── requirements.txt
 ├── .env.example
