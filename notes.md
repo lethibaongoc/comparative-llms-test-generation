@@ -580,3 +580,39 @@
   tests. gemini writes minimal tests that trip no smell thresholds. Results in
 
   `results/smells/`. Remaining: RQ1-4 statistics + figures.
+
+- 2026-07-19: **Stage 5 — statistics + figures (RQ1-RQ4).**
+
+  `scripts/analyze_stats.py` merges the four stages into one per-file table
+
+  (`results/stats/unified.csv`: compiles, valid, detected, line_cov,
+
+  branch_cov, smells) and runs the study design: Kruskal-Wallis across the 4
+
+  models, Dunn post-hoc (Bonferroni) and Cliff's delta for RQ1-3; Wilcoxon
+
+  signed-rank (30 bug-paired) for RQ4. Coverage/smells scored over all 60
+
+  files/model (0 when the test did not run) = effectiveness view; ran-only
+
+  means also reported. Needs pandas/scipy/matplotlib/scikit-posthocs
+
+  (`scripts/requirements-analysis.txt`; ran in a WSL venv `~/.venv-stats`).
+
+  Findings: RQ1 line coverage differs across models (H=17.1, p=7e-4) but only
+
+  gpt>deepseek survives Bonferroni (Cliff's d=0.42, medium); RQ2 branch same
+
+  shape (gpt>deepseek, d=0.40). RQ3 smells is the strongest (H=57.4, p=2e-12):
+
+  gpt/llama significantly smellier than gemini/deepseek. RQ4: few-shot
+
+  significantly cuts smells for gpt (p=3e-6) and llama (p=8e-6), pooled
+
+  p=1e-9; coverage effect not significant except a small deepseek gain.
+
+  `scripts/make_figures.py` writes 4 report PNGs to `figures/` (effectiveness,
+
+  coverage, smells, few-shot) using a colourblind-validated categorical
+
+  palette. The core study (compilability, detection, RQ1-4) is now complete.

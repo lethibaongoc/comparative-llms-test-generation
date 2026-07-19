@@ -1,0 +1,5 @@
+model,compile_rate,valid_rate,detection_rate,line_cov_all,branch_cov_all,line_cov_ran,branch_cov_ran,smells_mean
+gpt-5.5-instant,76.7,58.3,35.0,21.11,12.78,27.53,16.66,10.32
+gemini,63.3,46.7,35.0,15.96,9.4,25.2,14.84,0.0
+llama,58.3,25.0,18.3,15.45,8.04,26.49,13.78,7.97
+deepseek,41.7,25.0,11.7,9.21,4.04,22.11,9.69,1.65

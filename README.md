@@ -53,7 +53,7 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 - ✅ **Stage 2 — execution + bug detection** measured on fixed and buggy trees (`results/execution/`, `results/execution-strict/`)
 - ✅ **Stage 3 — coverage (JaCoCo)** — RQ1 line + RQ2 branch coverage of the focal class (`results/coverage/`, `results/coverage-strict/`)
 - ✅ **Stage 4 — test smells (tsDetect)** — RQ3 test-smell density over all 240 tests (`results/smells/`)
-- ⏳ RQ1–4 statistics (Kruskal-Wallis, Wilcoxon, Cliff's delta) and figures — next
+- ✅ **Stage 5 — statistics + figures** — Kruskal-Wallis/Dunn/Cliff's delta (RQ1–3), Wilcoxon (RQ4); `results/stats/`, `figures/`
 
 ## Results so far
 
@@ -150,6 +150,28 @@ helped llama slightly but lowered gemini/gpt/deepseek. A recurring failure
 mode across models is inventing null-argument exceptions (NPE/CCE) the real
 methods don't throw; see `results/PILOT_RESULTS.md` for per-method oracle notes.
 
+### Statistical tests (α = 0.05) — `results/stats/`
+
+Per-file data (n = 60/model), coverage/smells scored over all 60 files (0 when a
+test didn't run). Kruskal-Wallis across the four models, Dunn's post-hoc
+(Bonferroni) and Cliff's delta for RQ1–3; Wilcoxon signed-rank (30 bug-paired)
+for RQ4.
+
+- **RQ1 line coverage** — models differ (H = 17.1, p = 0.0007). Only
+  gpt-5.5-instant > deepseek survives Bonferroni (p = 0.0002, Cliff's δ = 0.42,
+  medium); other pairs are small/negligible.
+- **RQ2 branch coverage** — models differ (H = 16.3, p = 0.001); again
+  gpt-5.5-instant > deepseek is the one significant pair (δ = 0.40, medium).
+- **RQ3 test smells** — strongest effect (H = 57.4, p = 2×10⁻¹²). gpt and llama
+  are significantly smellier than gemini and deepseek (e.g. gpt vs gemini
+  δ = 0.48, large).
+- **RQ4 few-shot vs zero-shot** — Wilcoxon: few-shot **significantly reduces
+  smells** for gpt (p = 3×10⁻⁶) and llama (p = 8×10⁻⁶), pooled p = 1×10⁻⁹; its
+  effect on coverage is not significant except a small gain for deepseek.
+
+Figures for the report are in `figures/` (`fig1_effectiveness`,
+`fig2_coverage`, `fig3_smells`, `fig4_fewshot_smells`).
+
 ## Running the Demo
 
 ```bash
@@ -176,6 +198,7 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── coverage/                 # Stage 3 (lenient): JaCoCo line/branch + XML
 │   ├── coverage-strict/          # Stage 3 (strict import mode)
 │   ├── smells/                   # Stage 4: tsDetect test-smell counts (RQ3)
+│   ├── stats/                    # Stage 5: unified table + KW/Dunn/Cliff/Wilcoxon
 │   ├── PILOT_RESULTS.md          # Llama pilot report (per-method oracle notes)
 │   └── archive/                  # superseded/failed run artifacts
 ├── figures/                      # RQ1-4 charts (populated during analysis)
@@ -186,6 +209,9 @@ This exercises the full call → retry-on-rate-limit → structured-result pipel
 │   ├── measure_execution.py      # Stage 2: run on fixed+buggy, score valid/detected
 │   ├── measure_coverage.py       # Stage 3: JaCoCo line/branch of the focal class
 │   ├── measure_smells.py         # Stage 4: tsDetect test-smell counts (RQ3)
+│   ├── analyze_stats.py          # Stage 5: KW/Dunn/Cliff/Wilcoxon over the merged data
+│   ├── make_figures.py           # Stage 5: RQ1-4 report figures
+│   ├── requirements-analysis.txt # pandas/scipy/matplotlib/scikit-posthocs
 │   ├── run_compile.sh            # one-command wrapper for Stage 1 (WSL)
 │   ├── run_execution.sh          # one-command wrapper for Stage 2 (WSL)
 │   ├── run_coverage.sh           # one-command wrapper for Stage 3 (WSL)
