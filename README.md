@@ -2,7 +2,7 @@
 
 **Topic:** RT-SWT-007  
 **Môn:** SWT301 – Research-Based Learning  
-**Nhóm:** G7 (lớp SE1944) – Summer 2026  
+**Nhóm:** G7 (lớp SE1944) – SU26  
 **Thành viên:** Lê Thị Bảo Ngọc (PL), Đặng Trần Phúc, Phùng Thanh Nhân  
 **GV hướng dẫn:** L.T.Q.Chi
 
