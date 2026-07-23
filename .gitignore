@@ -217,27 +217,41 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Secrets / credentials -- never commit real API keys.
-# .env.example is the tracked placeholder and must stay tracked.
+# ---------------------------------------------------------------------------
+# SWT301 RBL -- required rules (per course setup guide)
+# ---------------------------------------------------------------------------
+
+# API keys & secrets -- TUYET DOI khong commit
 .env
+*.env
 .env.*
+# .env.example is the tracked placeholder (empty values) -- must stay tracked
 !.env.example
+secrets.json
 api_key.txt
+config.py
+credentials.json
 *.pem
 *.key
-credentials.json
-secrets.json
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
 
 # OS files
 .DS_Store
+desktop.ini
 Thumbs.db
 ehthumbs.db
-desktop.ini
 $RECYCLE.BIN/
+
+# Large files (them neu data > 100MB)
+# data/raw/ stays tracked here -- it is only 24 KB (methods.json + README)
+# data/raw/
 
 # Compilability measurement (scripts/run_compile.sh) -- both regenerable,
 # several GB. results/compilability/ IS tracked; these two are not.

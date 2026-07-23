@@ -1,16 +1,27 @@
 # Comparative Evaluation of Free LLMs for Automated Java Unit Test Case Generation
 
-Empirical study comparing four LLMs on automated Java unit test generation, benchmarked on **Defects4J v2.0.0**.
+**Topic:** RT-SWT-007  
+**Môn:** SWT301 – Research-Based Learning  
+**Nhóm:** G7 (lớp SE1944) – Summer 2026  
+**Thành viên:** Lê Thị Bảo Ngọc (PL), Đặng Trần Phúc, Phùng Thanh Nhân  
+**GV hướng dẫn:** L.T.Q.Chi
 
-**Course:** SE1944 — Group 7 (G7)
+## Tiến độ
+
+- [x] RBL-1: Tìm paper (Tuần 3–4)
+- [x] RBL-2: Phân tích GAP (Tuần 5)
+- [x] RBL-3: Proposal (Tuần 5–6)
+- [x] RBL-4: Thực nghiệm (Tuần 7–8)
+- [ ] RBL-5: Báo cáo & Trình bày (Tuần 9–10)
+
+Empirical study comparing four LLMs on automated Java unit test generation, benchmarked on **Defects4J v2.0.0**.
 
 ## Team
 
 | Name | Student ID | Role |
 |---|---|---|
-| Lê Thị Bảo Ngọc | SE190619 | Project Lead + Report Writer |
+| Lê Thị Bảo Ngọc | SE190619 | Project Lead (PL) — toàn bộ thực nghiệm + Report Writer |
 | Đặng Trần Phúc | SE196673 | Data & Ground Truth + Report Writer |
-| Lý Minh Khôi | SE196632 | LLM Runner |
 | Phùng Thanh Nhân | SE183107 | Metrics & Stats + Report Writer |
 
 ## Research Questions
@@ -230,12 +241,29 @@ number; strict is reported in parentheses). To regenerate the tests themselves
 instead of reusing the committed ones, use `scripts/generate_tests.py` (Gemini)
 and `scripts/run_pilot_groq.py` (Groq Llama).
 
-## Contributing
+## Quy tắc commit
 
-Commit messages use the prefix format `[RBL-<student-id>] <imperative summary>`,
-where `<student-id>` identifies the team member making the change — e.g.
-`[RBL-SE190619] Add Stage 6 mutation-score harness`. The convention applies to
-new commits; earlier history predates it and is left as-is.
+| Khi nào | Format message |
+|---|---|
+| Xong một bước trong RBL | `[RBL-1A] add evidence-table - le-thi-bao-ngoc` |
+| Cuối mỗi tuần | `[Week 4] merge evidence tables + gap assignment` |
+| Sau pilot | `[RBL-4] pilot done - N=50, IAA=0.82` |
+| Sau full experiment | `[RBL-4] full experiment - N=500, p=0.003` |
+| Sửa lỗi nhỏ | `fix: correct typo in proposal §4` |
+
+Commit thường xuyên — không đợi "xong hẳn" mới commit. Lịch sử commit là bằng
+chứng ai làm gì khi nào. Quy tắc này áp dụng từ nay; lịch sử trước đó có từ
+trước khi chốt convention nên giữ nguyên.
+
+## Nguyên tắc không được vi phạm
+
+| # | Nguyên tắc | Áp dụng trong repo này |
+|---|---|---|
+| 1 | **Evidence-based** — mọi quyết định trỏ vào cột cụ thể trong evidence table | Số liệu RQ1–RQ4 đều truy được về `results/*/`+ CSV per-file |
+| 2 | **No HARKing** — RQ/metric/threshold chốt trong proposal, không đổi sau khi có data | RQ1–RQ4, α = 0.05, seed = 42 chốt từ đầu (`notes.md`) |
+| 3 | **Reproducibility** — ghi model version, hyperparameter, prompt nguyên văn | Model string + temperature = 0 + prompt C1/C2 trong `notes.md`; pipeline ở mục Reproduction |
+| 4 | **Pilot bắt buộc** — chạy thử 10–20% trước khi scale | Llama pilot trước full run — `results/PILOT_RESULTS.md` |
+| 5 | **Empty response = invalid** — không tự điền kết quả khi API lỗi | File lỗi/rỗng bị đánh invalid, không suy đoán; log ở `results/*/run_logs/` |
 
 ## Project Structure
 
