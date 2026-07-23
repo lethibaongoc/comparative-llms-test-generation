@@ -58,8 +58,9 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 ## Results so far
 
 All 240 generated tests were compiled and run against the **real Defects4J
-v2.0.0** checkouts (javac/JUnit 8, headless). Two stages are complete;
-coverage and test-smell metrics (RQ1–RQ3) are still to come.
+v2.0.0** checkouts (javac/JUnit 8, headless). All five stages are complete —
+compilability, execution/bug detection, coverage (RQ1–RQ2), test smells (RQ3)
+and the statistics/figures (RQ1–RQ4).
 
 ### Stage 1 — Compilability (lenient, auto project imports)
 
@@ -172,7 +173,32 @@ for RQ4.
 Figures for the report are in `figures/` (`fig1_effectiveness`,
 `fig2_coverage`, `fig3_smells`, `fig4_fewshot_smells`).
 
-## Running the Demo
+## Reproduction
+
+### Prerequisites
+
+| Requirement | Notes |
+|---|---|
+| Python 3.9+ | `pip install -r requirements.txt` (generation) and `pip install -r scripts/requirements-analysis.txt` (Stage 5 stats/figures) |
+| **Java 8 JDK** | Defects4J v2.0.0 requires it; `javac`/`java` must be Java 8 |
+| Maven | only for Stage 4 — `run_smells.sh` builds tsDetect from source once |
+| [Defects4J v2.0.0](https://github.com/rjust/defects4j) | `defects4j` must be on `PATH` (`export PATH=$PATH:$HOME/defects4j/framework/bin`) |
+| Bash | Stages 1–4 are driven by the `scripts/run_*.sh` wrappers; on Windows run them from WSL |
+
+The wrappers download JUnit 5 + Mockito into `tools/` and materialize the
+Defects4J checkouts under `_d4j_work/` on first run. Both directories are
+git-ignored and regenerable (several GB).
+
+### API keys
+
+Copy `.env.example` to `.env` and fill in the keys you need — `.env` is
+git-ignored and must never be committed.
+
+```bash
+cp .env.example .env    # then edit: GEMINI_API_KEY, DEEPSEEK_API_KEY, GROQ_API_KEY, ...
+```
+
+### Smoke test (Gate E3)
 
 ```bash
 pip install openai
@@ -181,6 +207,35 @@ python scripts/test_api.py
 ```
 
 This exercises the full call → retry-on-rate-limit → structured-result pipeline that the full experiment reuses for all four models.
+
+### Full pipeline
+
+Generation is already committed under `data/generated/` (240 files), so the
+measurement stages can be re-run without spending API quota. Run in order —
+each stage reuses the checkouts the previous one created:
+
+```bash
+bash scripts/run_compile.sh              # Stage 1 -> results/compilability/
+bash scripts/run_execution.sh            # Stage 2 -> results/execution/
+bash scripts/run_coverage.sh             # Stage 3 -> results/coverage/   (RQ1, RQ2)
+bash scripts/run_smells.sh               # Stage 4 -> results/smells/     (RQ3)
+
+python scripts/analyze_stats.py --repo .  # Stage 5 -> results/stats/     (RQ1-RQ4)
+python scripts/make_figures.py  --repo .  # Stage 5 -> figures/
+```
+
+Stages 1–3 also accept `--strict` to re-run in strict import mode, writing to
+the parallel `results/*-strict/` directories (the lenient run is the headline
+number; strict is reported in parentheses). To regenerate the tests themselves
+instead of reusing the committed ones, use `scripts/generate_tests.py` (Gemini)
+and `scripts/run_pilot_groq.py` (Groq Llama).
+
+## Contributing
+
+Commit messages use the prefix format `[RBL-<student-id>] <imperative summary>`,
+where `<student-id>` identifies the team member making the change — e.g.
+`[RBL-SE190619] Add Stage 6 mutation-score harness`. The convention applies to
+new commits; earlier history predates it and is left as-is.
 
 ## Project Structure
 

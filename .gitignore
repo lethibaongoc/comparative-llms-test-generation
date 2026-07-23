@@ -217,11 +217,27 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# Secrets / credentials -- never commit real API keys.
+# .env.example is the tracked placeholder and must stay tracked.
 .env
+.env.*
+!.env.example
 api_key.txt
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Python cache
 __pycache__/
-.DS_Store
 *.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
 
 # Compilability measurement (scripts/run_compile.sh) -- both regenerable,
 # several GB. results/compilability/ IS tracked; these two are not.
