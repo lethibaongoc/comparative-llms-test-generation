@@ -259,7 +259,7 @@ trước khi chốt convention nên giữ nguyên.
 
 | # | Nguyên tắc | Áp dụng trong repo này |
 |---|---|---|
-| 1 | **Evidence-based** — mọi quyết định trỏ vào cột cụ thể trong evidence table | Số liệu RQ1–RQ4 đều truy được về `results/*/`+ CSV per-file |
+| 1 | **Evidence-based** — mọi quyết định trỏ vào cột cụ thể trong evidence table | Số liệu RQ1–RQ4 đều truy được về `results/*/` + CSV per-file |
 | 2 | **No HARKing** — RQ/metric/threshold chốt trong proposal, không đổi sau khi có data | RQ1–RQ4, α = 0.05, seed = 42 chốt từ đầu (`notes.md`) |
 | 3 | **Reproducibility** — ghi model version, hyperparameter, prompt nguyên văn | Model string + temperature = 0 + prompt C1/C2 trong `notes.md`; pipeline ở mục Reproduction |
 | 4 | **Pilot bắt buộc** — chạy thử 10–20% trước khi scale | Llama pilot trước full run — `results/PILOT_RESULTS.md` |
