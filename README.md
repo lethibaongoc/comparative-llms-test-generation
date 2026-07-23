@@ -12,7 +12,7 @@
 - [x] RBL-2: Phân tích GAP (Tuần 5)
 - [x] RBL-3: Proposal (Tuần 5–6)
 - [x] RBL-4: Thực nghiệm (Tuần 7–8)
-- [ ] RBL-5: Báo cáo & Trình bày (Tuần 9–10)
+- [x] RBL-5: Báo cáo & Trình bày (Tuần 9–10)
 
 Empirical study comparing four LLMs on automated Java unit test generation, benchmarked on **Defects4J v2.0.0**.
 
@@ -286,7 +286,7 @@ trước khi chốt convention nên giữ nguyên.
 │   └── archive/                  # superseded/failed run artifacts
 ├── figures/                      # RQ1-4 charts (populated during analysis)
 ├── report/
-│   └── results-discussion.md     # draft Results + Discussion + Threats to Validity
+│   └── results-discussion.md     # Results + Discussion + Threats to Validity
 ├── scripts/
 │   ├── generate_tests.py         # Gemini test generation (+ experimental OpenRouter Llama path)
 │   ├── run_pilot_groq.py         # Groq Llama-3.3-70B pilot run
