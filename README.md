@@ -20,9 +20,9 @@ Empirical study comparing four LLMs on automated Java unit test generation, benc
 
 | Name | Student ID | Role |
 |---|---|---|
-| Lê Thị Bảo Ngọc | SE190619 | Project Lead (PL) — toàn bộ thực nghiệm + Report Writer |
-| Đặng Trần Phúc | SE196673 | Data & Ground Truth + Report Writer |
-| Phùng Thanh Nhân | SE183107 | Metrics & Stats + Report Writer |
+| Lê Thị Bảo Ngọc | SE190619 | Project Lead (PL) — all experiment + Data & Ground Truth +  Metrics & Stats + Report Writer |
+| Đặng Trần Phúc | SE196673 | Report Writer |
+| Phùng Thanh Nhân | SE183107 | Report Writer |
 
 ## Research Questions
 
